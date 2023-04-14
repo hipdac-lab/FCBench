@@ -1,0 +1,1756 @@
+2022-09-25T23:11:59.754235915-07:00 - input args["target/release/comp_profiler", "./data/randomwalkdatasample1k-1k", "buff-simd", "10000", "1.1509"]
+2022-09-25T23:11:59.788909918-07:00 - original size:4000000
+2022-09-25T23:11:59.788944143-07:00 - compressed size:1437520
+2022-09-27T10:53:06.413678534-07:00 - input args["target/release/comp_profiler", "./data/randomwalkdatasample1k-1k", "buff-simd", "10000", "1.1509"]
+2022-09-27T10:53:06.461070506-07:00 - original size:4000000
+2022-09-27T10:53:06.461098935-07:00 - compressed size:1437520
+2022-09-27T11:05:09.535223579-07:00 - input args["target/release/comp_profiler", "./data/randomwalkdatasample1k-1k", "buff", "10000", "1.1509"]
+2022-09-27T11:05:09.571155548-07:00 - original size:4000000
+2022-09-27T11:05:09.571196294-07:00 - compressed size:1437520
+2022-09-27T11:53:19.394691388-07:00 - input args["target/release/comp_profiler", "./data/randomwalkdatasample1k-1k", "buff", "10000", "1.1509"]
+2022-09-27T11:53:19.429426086-07:00 - original size:4000000
+2022-09-27T11:53:19.429460842-07:00 - compressed size:1437520
+2022-09-27T13:03:06.859651888-07:00 - input args["target/release/comp_profiler", "./data/randomwalkdatasample1k-1k", "buff", "10000", "1.1509"]
+2022-09-27T13:03:06.897718222-07:00 - original size:4000000
+2022-09-27T13:03:06.897751918-07:00 - compressed size:1437520
+2022-09-27T13:08:20.880296256-07:00 - input args["target/release/comp_profiler", "./data/randomwalkdatasample1k-1k", "buff", "10000", "1.1509"]
+2022-09-27T13:08:20.918026893-07:00 - original size:4000000
+2022-09-27T13:08:20.918058625-07:00 - compressed size:1437520
+2022-09-27T13:10:15.541795582-07:00 - input args["target/release/comp_profiler", "./data/randomwalkdatasample1k-1k", "buff", "10000", "1.1509"]
+2022-09-27T13:10:15.576350676-07:00 - original size:4000000
+2022-09-27T13:10:15.576383819-07:00 - compressed size:1437520
+2022-09-27T13:11:58.965388875-07:00 - input args["target/release/comp_profiler", "./data/randomwalkdatasample1k-1k", "buff", "10000", "1.1509"]
+2022-09-27T13:11:59.000014909-07:00 - original size:4000000
+2022-09-27T13:11:59.000057528-07:00 - compressed size:1437520
+2022-09-27T13:17:27.311251565-07:00 - input args["target/release/comp_profiler", "./data/randomwalkdatasample1k-1k", "buff", "10000", "1.1509"]
+2022-09-27T13:17:27.345891156-07:00 - original size:4000000
+2022-09-27T13:17:27.345918502-07:00 - compressed size:1437520
+2022-09-27T13:19:05.582965844-07:00 - input args["target/release/comp_profiler", "./data/randomwalkdatasample1k-1k", "buff", "10000", "1.1509"]
+2022-09-27T13:19:05.617845847-07:00 - original size:4000000
+2022-09-27T13:19:05.617879074-07:00 - compressed size:1437520
+2022-09-27T13:22:25.547799448-07:00 - input args["target/release/comp_profiler", "./data/randomwalkdatasample1k-1k", "buff", "10000", "1.1509"]
+2022-09-27T13:22:25.584342480-07:00 - original size:4000000
+2022-09-27T13:22:25.584368387-07:00 - compressed size:1437520
+2022-09-27T13:24:33.149012775-07:00 - input args["target/release/comp_profiler", "./data/randomwalkdatasample1k-1k", "buff", "10000", "1.1509"]
+2022-09-27T13:24:33.185330469-07:00 - original size:4000000
+2022-09-27T13:24:33.185354687-07:00 - compressed size:1437520
+2022-09-27T13:25:23.168350465-07:00 - input args["target/release/comp_profiler", "./data/randomwalkdatasample1k-1k", "buff", "10000", "1.1509"]
+2022-09-27T13:25:23.204319620-07:00 - original size:4000000
+2022-09-27T13:25:23.204342934-07:00 - compressed size:1437520
+2022-09-27T13:31:57.768706884-07:00 - input args["./target/release/comp_profiler", "./data/randomwalkdatasample1k-1k", "buff-simd", "10000", "1.1509"]
+2022-09-27T13:31:57.813703556-07:00 - original size:4000000
+2022-09-27T13:31:57.813735108-07:00 - compressed size:1437520
+2022-09-27T13:33:42.013889435-07:00 - input args["./target/release/comp_profiler", "./data/randomwalkdatasample1k-1k", "buff-simd", "10000", "1.1509"]
+2022-09-27T13:33:42.058052513-07:00 - original size:4000000
+2022-09-27T13:33:42.058082811-07:00 - compressed size:1437520
+2022-09-27T13:35:53.703057854-07:00 - input args["./target/release/comp_profiler", "./data/randomwalkdatasample1k-1k", "buff-simd", "10000", "1.1509"]
+2022-09-27T13:35:53.745417140-07:00 - original size:4000000
+2022-09-27T13:35:53.745448718-07:00 - compressed size:1437520
+2022-09-27T13:55:02.584970520-07:00 - input args["./target/release/comp_profiler", "./data/randomwalkdatasample1k-1k", "buff-simd", "10000", "1.1509"]
+2022-09-27T13:55:02.629921760-07:00 - original size:4000000
+2022-09-27T13:55:02.629956517-07:00 - compressed size:1437520
+2022-09-27T13:57:24.300877721-07:00 - input args["./target/release/comp_profiler", "./data/randomwalkdatasample1k-1k", "buff-simd", "10000", "1.1509"]
+2022-09-27T13:57:24.347990140-07:00 - original size:4000000
+2022-09-27T13:57:24.348029702-07:00 - compressed size:1437520
+2022-09-27T14:02:14.290912349-07:00 - input args["./target/release/comp_profiler", "./data/randomwalkdatasample1k-1k", "buff-simd", "10000", "1.1509"]
+2022-09-27T14:02:14.339463802-07:00 - original size:4000000
+2022-09-27T14:02:14.339496122-07:00 - compressed size:1437520
+2022-09-27T14:03:22.896837150-07:00 - input args["./target/release/comp_profiler", "./data/randomwalkdatasample1k-1k", "buff-simd", "10000", "1.1509"]
+2022-09-27T14:27:45.743657437-07:00 - input args["./target/release/comp_profiler", "./data/randomwalkdatasample1k-1k", "buff-simd", "10000", "1.1509"]
+2022-09-27T14:27:46.293435854-07:00 - original size:141840000
+2022-09-27T14:27:46.293462361-07:00 - compressed size:37676270
+2022-09-27T14:29:21.396918971-07:00 - input args["./target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/num_brain", "buff-simd", "10000", "1.1509"]
+2022-09-27T14:29:21.986123562-07:00 - original size:141840000
+2022-09-27T14:29:21.986159869-07:00 - compressed size:37676270
+2022-09-27T14:30:51.722462155-07:00 - input args["./target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/num_brain", "buff-simd", "10000", "1.1509"]
+2022-09-27T14:30:52.248585645-07:00 - original size:141840000
+2022-09-27T14:30:52.248614702-07:00 - compressed size:37676270
+2022-09-27T14:31:17.529933435-07:00 - input args["./target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/num_brain", "buff-simd", "1000", "1.1509"]
+2022-09-27T14:31:18.053437708-07:00 - original size:141840000
+2022-09-27T14:31:18.053464187-07:00 - compressed size:28811270
+2022-09-27T14:31:28.794353222-07:00 - input args["./target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/num_brain", "buff-simd", "100", "1.1509"]
+2022-09-27T14:31:29.290433843-07:00 - original size:141840000
+2022-09-27T14:31:29.290463254-07:00 - compressed size:22162520
+2022-09-27T14:32:02.853801781-07:00 - input args["./target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/num_brain", "buff-simd", "100000", "1.1509"]
+2022-09-27T14:32:03.402341940-07:00 - original size:141840000
+2022-09-27T14:32:03.402371997-07:00 - compressed size:44325020
+2022-09-27T14:32:10.987402506-07:00 - input args["./target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/num_brain", "buff-simd", "1000000", "1.1509"]
+2022-09-27T14:32:11.562987848-07:00 - original size:141840000
+2022-09-27T14:32:11.563014152-07:00 - compressed size:50973770
+2022-09-27T14:32:19.999309047-07:00 - input args["./target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/num_brain", "buff-simd", "1000000", "2.1509"]
+2022-09-27T14:32:20.573809031-07:00 - original size:141840000
+2022-09-27T14:32:20.573835218-07:00 - compressed size:50973770
+2022-09-27T14:37:36.425416-07:00 - input args["./target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/num_brain", "buff-simd64", "1000000", "1.15"]
+2022-09-27T14:37:37.010485265-07:00 - original size:141840000
+2022-09-27T14:37:37.010512320-07:00 - compressed size:50973770
+2022-09-27T14:38:35.201513916-07:00 - input args["./target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/h3d_temp", "buff-simd32", "1000000", "1.15"]
+2022-09-27T14:39:47.904881516-07:00 - input args["./target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/num_control", "buff-simd64", "1000000", "1.15"]
+2022-09-27T14:39:48.552701508-07:00 - original size:159504744
+2022-09-27T14:39:48.552731715-07:00 - compressed size:54829776
+2022-09-27T14:45:36.481973747-07:00 - input args["./target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/h3d_temp", "buff-simd32", "100", "1.15"]
+2022-09-27T14:45:46.928743469-07:00 - input args["./target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/h3d_temp", "buff-simd32", "1", "1.15"]
+2022-09-27T14:47:05.983310548-07:00 - input args["./target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/h3d_temp", "buff-simd64", "100", "1.15"]
+2022-09-27T14:52:12.172202211-07:00 - input args["./target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/num_control", "buff-simd64", "1000000", "1.15"]
+2022-09-27T14:52:12.820292983-07:00 - original size:159504744
+2022-09-27T14:52:12.820319611-07:00 - compressed size:54829776
+2022-09-27T17:24:48.909941573-07:00 - input args["./target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/h3d_temp", "buff-simd64", "1000000", "1.15"]
+2022-09-27T17:25:07.546569873-07:00 - input args["./target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/h3d_temp", "buff-simd32", "1000000", "1.15"]
+2022-09-27T17:25:39.087193419-07:00 - input args["./target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/h3d_temp", "buff-simd32", "100", "1.15"]
+2022-09-27T17:25:57.111321856-07:00 - input args["./target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/num_brain", "buff-simd32", "100", "1.15"]
+2022-09-27T17:26:07.352946989-07:00 - input args["./target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/num_brain", "buff-simd64", "100", "1.15"]
+2022-09-27T17:26:07.861282054-07:00 - original size:141840000
+2022-09-27T17:26:07.861310886-07:00 - compressed size:22162520
+2022-09-27T17:31:56.131211332-07:00 - input args["./target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/num_brain", "buff-simd64", "100", "1.15"]
+2022-09-27T17:31:56.630736240-07:00 - original size:141840000
+2022-09-27T17:31:56.630762143-07:00 - compressed size:22162520
+2022-09-27T17:32:03.301152471-07:00 - input args["./target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/h3d_temp", "buff-simd32", "100", "1.15"]
+2022-09-27T17:35:17.453797045-07:00 - input args["./target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/h3d_temp", "buff-simd32", "100", "1.15"]
+2022-09-27T17:36:00.872166767-07:00 - input args["./target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/ts_gas", "buff-simd32", "100", "1.15"]
+2022-09-27T17:36:03.026990956-07:00 - original size:307452800
+2022-09-27T17:36:03.027030272-07:00 - compressed size:240197520
+2022-09-27T17:43:43.934469641-07:00 - input args["./target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/ts_gas", "buff-simd32", "1000000000000000", "1.15"]
+2022-09-27T17:43:46.144621125-07:00 - original size:307452800
+2022-09-27T17:43:46.144661043-07:00 - compressed size:259413320
+2022-09-27T17:44:24.456745738-07:00 - input args["./target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/h3d_temp", "buff-simd32", "1000000000000000", "1.15"]
+2022-09-27T17:46:49.285364679-07:00 - input args["./target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/ts_gas", "buff-simd32", "100000", "1.15"]
+2022-09-27T17:46:51.671152499-07:00 - original size:307452800
+2022-09-27T17:46:51.671202271-07:00 - compressed size:336276520
+2022-09-27T17:47:06.490255927-07:00 - input args["./target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/ts_gas", "buff-simd32", "10000", "1.15"]
+2022-09-27T17:47:08.384563386-07:00 - original size:307452800
+2022-09-27T17:47:08.384603859-07:00 - compressed size:307452820
+2022-09-27T17:47:32.290985513-07:00 - input args["./target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/ts_gas", "buff-simd32", "100000", "1.15"]
+2022-09-27T17:47:34.669369898-07:00 - original size:307452800
+2022-09-27T17:47:34.669409550-07:00 - compressed size:336276520
+2022-09-27T17:47:40.605497125-07:00 - input args["./target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/ts_gas", "buff-simd32", "1000000", "1.15"]
+2022-09-27T17:47:43.098598373-07:00 - original size:307452800
+2022-09-27T17:47:43.098637022-07:00 - compressed size:365100220
+2022-09-27T17:47:52.976081265-07:00 - input args["./target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/ts_gas", "buff-simd32", "10000000", "1.15"]
+2022-09-27T17:47:55.479001848-07:00 - original size:307452800
+2022-09-27T17:47:55.479043234-07:00 - compressed size:403531820
+2022-09-27T17:48:03.830778859-07:00 - input args["./target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/ts_gas", "buff-simd32", "100000000", "1.15"]
+2022-09-27T17:48:06.455463097-07:00 - original size:307452800
+2022-09-27T17:48:06.455502755-07:00 - compressed size:432355520
+2022-09-27T17:48:19.973577943-07:00 - input args["./target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/ts_gas", "buff-simd32", "1000000000", "1.15"]
+2022-09-27T17:48:22.178766892-07:00 - original size:307452800
+2022-09-27T17:48:22.178808307-07:00 - compressed size:461179220
+2022-09-27T17:49:16.671533476-07:00 - input args["./target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/ts_gas", "buff-simd32", "10000000000", "1.15"]
+2022-09-27T17:49:19.399361317-07:00 - original size:307452800
+2022-09-27T17:49:19.399401067-07:00 - compressed size:499610820
+2022-09-27T17:49:29.234310642-07:00 - input args["./target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/ts_gas", "buff-simd32", "1000000000000000", "1.15"]
+2022-09-27T17:49:31.457128390-07:00 - original size:307452800
+2022-09-27T17:49:31.457168032-07:00 - compressed size:259413320
+2022-09-27T17:50:01.199114922-07:00 - input args["./target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/rsim_32", "buff-simd32", "1000000000000000", "1.15"]
+2022-09-27T17:50:11.424579294-07:00 - input args["./target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/rsim_f32", "buff-simd32", "1000000000000000", "1.15"]
+2022-09-27T17:50:23.507315373-07:00 - input args["./target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/rsim_f32", "buff-simd32", "100000", "1.15"]
+2022-09-27T17:50:24.139065931-07:00 - original size:94281728
+2022-09-27T17:50:24.139092843-07:00 - compressed size:117852180
+2022-09-27T17:50:41.535770010-07:00 - input args["./target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/rsim_f32", "buff-simd32", "10000000", "1.15"]
+2022-09-27T17:50:42.371870547-07:00 - original size:94281728
+2022-09-27T17:50:42.371901993-07:00 - compressed size:138476308
+2022-09-27T17:50:48.248428882-07:00 - input args["./target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/rsim_f32", "buff-simd32", "1000000000", "1.15"]
+2022-09-27T17:50:49.115193842-07:00 - original size:94281728
+2022-09-27T17:50:49.115225277-07:00 - compressed size:156154132
+2022-09-27T17:50:54.696050674-07:00 - input args["./target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/rsim_f32", "buff-simd32", "100000000000", "1.15"]
+2022-09-27T17:50:55.587386221-07:00 - original size:94281728
+2022-09-27T17:50:55.587417523-07:00 - compressed size:176778260
+2022-09-27T17:51:02.216209221-07:00 - input args["./target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/rsim_f32", "buff-simd32", "1000", "1.15"]
+2022-09-27T17:51:02.914129836-07:00 - original size:94281728
+2022-09-27T17:51:02.914156807-07:00 - compressed size:97228052
+2022-09-27T17:51:20.232411322-07:00 - input args["./target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/spitzer_irac", "buff-simd32", "1000", "1.15"]
+2022-09-27T17:51:27.233453464-07:00 - input args["./target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/spitzer_irac", "buff-simd32", "10000", "1.15"]
+2022-09-27T17:51:33.548899831-07:00 - input args["./target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/spitzer_irac", "buff-simd32", "1000000", "1.15"]
+2022-09-27T17:51:38.260642365-07:00 - input args["./target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/spitzer_irac", "buff-simd32", "100000000", "1.15"]
+2022-09-27T17:51:45.429455834-07:00 - input args["./target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/spitzer_irac", "buff-simd32", "10000000000", "1.15"]
+2022-09-27T17:51:52.140010482-07:00 - input args["./target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/spitzer_irac", "buff-simd32", "100", "1.15"]
+2022-09-27T17:52:12.872275899-07:00 - input args["./target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/astro_mhd_f64", "buff-simd64", "100", "1.15"]
+2022-09-27T17:52:15.016135529-07:00 - original size:548458560
+2022-09-27T17:52:15.016175581-07:00 - compressed size:188532650
+2022-09-27T17:52:28.002339535-07:00 - input args["./target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/astro_mhd_f64", "buff-simd64", "1000000000000", "1.15"]
+2022-09-27T17:52:39.906731879-07:00 - input args["./target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/astro_mhd_f64", "buff-simd64", "100000000", "1.15"]
+2022-09-27T17:52:42.329385253-07:00 - original size:548458560
+2022-09-27T17:52:42.329427001-07:00 - compressed size:359925950
+2022-09-27T17:53:05.098229407-07:00 - input args["./target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/astro_pt_f64", "buff-simd64", "100000000", "1.15"]
+2022-09-27T17:53:07.416017179-07:00 - original size:671088640
+2022-09-27T17:53:07.416060563-07:00 - compressed size:335544340
+2022-09-27T17:53:25.373255113-07:00 - input args["./target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/astro_pt_f64", "buff-simd64", "1000000000", "1.15"]
+2022-09-27T17:53:28.205244626-07:00 - original size:671088640
+2022-09-27T17:53:28.205285371-07:00 - compressed size:367001620
+2022-09-27T17:53:39.300203243-07:00 - input args["./target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/turbulence", "buff-simd64", "1000000000", "1.15"]
+2022-09-27T17:53:49.539991111-07:00 - input args["./target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/turbulence", "buff-simd64", "10000", "1.15"]
+2022-09-27T17:53:53.779823834-07:00 - input args["./target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/turbulence", "buff-simd64", "100", "1.15"]
+2022-09-27T17:53:54.139513146-07:00 - original size:67108864
+2022-09-27T17:53:54.139544904-07:00 - compressed size:61866004
+2022-09-27T17:54:08.996202612-07:00 - input args["./target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/turbulence", "buff-simd32", "100", "1.15"]
+2022-09-27T17:54:09.356559837-07:00 - original size:67108864
+2022-09-27T17:54:09.356587273-07:00 - compressed size:33554452
+2022-09-27T17:54:16.369335122-07:00 - input args["./target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/turbulence", "buff-simd32", "10000", "1.15"]
+2022-09-27T17:54:16.865495579-07:00 - original size:67108864
+2022-09-27T17:54:16.865522842-07:00 - compressed size:48234516
+2022-09-27T17:54:24.561657547-07:00 - input args["./target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/turbulence", "buff-simd32", "1000000", "1.15"]
+2022-09-27T17:54:25.078190698-07:00 - original size:67108864
+2022-09-27T17:54:25.078216599-07:00 - compressed size:60817428
+2022-09-27T17:54:28.868188692-07:00 - input args["./target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/turbulence", "buff-simd32", "100000000", "1.15"]
+2022-09-27T17:54:29.409410021-07:00 - original size:67108864
+2022-09-27T17:54:29.409436263-07:00 - compressed size:75497492
+2022-09-27T17:54:34.187856567-07:00 - input args["./target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/turbulence", "buff-simd32", "1000000000000", "1.15"]
+2022-09-27T17:54:34.818045820-07:00 - original size:67108864
+2022-09-27T17:54:34.818073201-07:00 - compressed size:121634836
+2022-09-27T17:54:56.276654050-07:00 - input args["./target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/turbulence", "buff-simd32", "1000000", "1.15"]
+2022-09-27T17:54:56.794040689-07:00 - original size:67108864
+2022-09-27T17:54:56.794068484-07:00 - compressed size:60817428
+2022-09-27T17:55:09.413855411-07:00 - input args["./target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/wave_f32", "buff-simd32", "1000000", "1.15"]
+2022-09-27T17:55:13.187298234-07:00 - original size:536870912
+2022-09-27T17:55:13.187341208-07:00 - compressed size:369098772
+2022-09-27T17:55:20.882659088-07:00 - input args["./target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/wave_f32", "buff-simd32", "10000000", "1.15"]
+2022-09-27T17:55:24.650729332-07:00 - original size:536870912
+2022-09-27T17:55:24.650770179-07:00 - compressed size:436207636
+2022-09-27T17:55:37.890367925-07:00 - input args["./target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/wave_f32", "buff-simd32", "100000000", "1.15"]
+2022-09-27T17:55:41.897214614-07:00 - original size:536870912
+2022-09-27T17:55:41.897250059-07:00 - compressed size:486539284
+2022-09-27T17:55:50.373844582-07:00 - input args["./target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/wave_f32", "buff-simd32", "1000000000", "1.15"]
+2022-09-27T17:55:53.673282993-07:00 - original size:536870912
+2022-09-27T17:55:53.673324156-07:00 - compressed size:536870932
+2022-09-27T17:56:08.192360149-07:00 - input args["./target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/citytemp_f32", "buff-simd32", "1000000000", "1.15"]
+2022-09-27T17:56:08.302090570-07:00 - original size:11625304
+2022-09-27T17:56:08.302120320-07:00 - compressed size:14168360
+2022-09-27T17:56:15.149982710-07:00 - input args["./target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/citytemp_f32", "buff-simd32", "10000000", "1.15"]
+2022-09-27T17:56:15.251005657-07:00 - original size:11625304
+2022-09-27T17:56:15.251033920-07:00 - compressed size:11988615
+2022-09-27T17:56:19.551035799-07:00 - input args["./target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/citytemp_f32", "buff-simd32", "100000", "1.15"]
+2022-09-27T17:56:19.645960419-07:00 - original size:11625304
+2022-09-27T17:56:19.645988181-07:00 - compressed size:9445580
+2022-09-27T17:56:24.167158805-07:00 - input args["./target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/citytemp_f32", "buff-simd32", "1000", "1.15"]
+2022-09-27T17:56:24.257722514-07:00 - original size:11625304
+2022-09-27T17:56:24.257750543-07:00 - compressed size:6902545
+2022-09-27T17:56:40.346700759-07:00 - input args["./target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/miranda3d", "buff-simd32", "1000", "1.15"]
+2022-09-27T17:57:07.899156071-07:00 - original size:0
+2022-09-27T17:57:07.899198962-07:00 - compressed size:1744830484
+2022-09-27T21:00:32.827466611-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/num_brain", "buff-simd64", "100", "1.1"]
+2022-09-27T21:00:33.317822246-07:00 - original size:141840000
+2022-09-27T21:00:33.317847802-07:00 - compressed size:22162520
+2022-09-27T21:00:48.595249611-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/num_brain", "buff-simd64", "1000", "1.1"]
+2022-09-27T21:00:49.113388735-07:00 - original size:141840000
+2022-09-27T21:00:49.113415446-07:00 - compressed size:28811270
+2022-09-27T21:00:53.001012514-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/num_brain", "buff-simd64", "10000", "1.1"]
+2022-09-27T21:00:53.523677075-07:00 - original size:141840000
+2022-09-27T21:00:53.523720814-07:00 - compressed size:37676270
+2022-09-27T21:00:58.221557566-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/num_brain", "buff-simd64", "100000", "1.1"]
+2022-09-27T21:00:58.766052404-07:00 - original size:141840000
+2022-09-27T21:00:58.766078574-07:00 - compressed size:44325020
+2022-09-27T21:01:09.281237812-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/num_brain", "buff-simd64", "1000000", "1.1"]
+2022-09-27T21:01:09.854770441-07:00 - original size:141840000
+2022-09-27T21:01:09.854797031-07:00 - compressed size:50973770
+2022-09-27T21:01:18.295750224-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/num_brain", "buff-simd64", "10000000", "1.1"]
+2022-09-27T21:01:18.872985272-07:00 - original size:141840000
+2022-09-27T21:01:18.873010673-07:00 - compressed size:59838770
+2022-09-27T21:01:37.542754580-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/num_brain", "buff-simd64", "100000000", "1.1"]
+2022-09-27T21:01:38.143489077-07:00 - original size:141840000
+2022-09-27T21:01:38.143519883-07:00 - compressed size:66487520
+2022-09-27T21:01:55.474210903-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/num_control", "buff-simd64", "100000000", "1.1"]
+2022-09-27T21:01:56.141013172-07:00 - original size:159504744
+2022-09-27T21:01:56.141039608-07:00 - compressed size:72275608
+2022-09-27T21:02:24.209388165-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/msg_bt", "buff-simd64", "100000000", "1.1"]
+2022-09-27T21:02:25.602328473-07:00 - original size:266389432
+2022-09-27T21:02:25.602368645-07:00 - compressed size:258064783
+2022-09-27T21:02:50.258687343-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/msg_bt", "buff-simd64", "10000", "1.1"]
+2022-09-27T21:02:51.504692578-07:00 - original size:266389432
+2022-09-27T21:02:51.504730471-07:00 - compressed size:203954429
+2022-09-27T21:02:57.210035872-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/msg_bt", "buff-simd64", "100", "1.1"]
+2022-09-27T21:02:58.387561891-07:00 - original size:266389432
+2022-09-27T21:02:58.387598328-07:00 - compressed size:174818085
+2022-09-27T21:03:33.870272394-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/hdr_night", "buff-simd64", "100", "1.1"]
+2022-09-27T21:04:00.698212963-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/hdr_night", "buff-simd64", "10000", "1.1"]
+2022-09-30T13:45:52.987878694-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database//target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/hdr_night", "buff-simd64", "100", "1.15"]
+2022-09-30T13:46:38.866491728-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database//target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/h3d_temp", "buff-simd64", "100", "1.15"]
+2022-09-30T13:46:53.199543484-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database//target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/spitzer_irac", "buff-simd64", "100", "1.15"]
+2022-09-30T13:47:13.065777042-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database//target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/astro_mhd_f64", "buff-simd64", "100", "1.15"]
+2022-09-30T13:47:15.195200415-07:00 - original size:548458560
+2022-09-30T13:47:15.195239859-07:00 - compressed size:188532650
+2022-09-30T23:30:58.180185594-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database//target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/num_brain", "buff-simd64", "100", "1.15"]
+2022-09-30T23:30:58.673074641-07:00 - original size:141840000
+2022-09-30T23:30:58.673101858-07:00 - compressed size:22162520
+2022-09-30T23:32:27.323436543-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database//target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/num_brain", "buff-simd64", "100", "1.15"]
+2022-09-30T23:32:27.824500905-07:00 - original size:141840000
+2022-09-30T23:32:27.824528601-07:00 - compressed size:22162520
+2022-09-30T23:35:15.825411360-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/num_brain", "buff-simd64", "100", "1.15"]
+2022-09-30T23:35:16.326018621-07:00 - original size:141840000
+2022-09-30T23:35:16.326033126-07:00 - compressed size:22162520
+2022-09-30T23:35:16.560468163-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/num_brain", "buff-simd64", "10000000", "1.15"]
+2022-09-30T23:35:17.134256138-07:00 - original size:141840000
+2022-09-30T23:35:17.134270467-07:00 - compressed size:59838770
+2022-09-30T23:35:17.435304173-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/num_control", "buff-simd64", "100", "1.15"]
+2022-09-30T23:35:17.973501435-07:00 - original size:159504744
+2022-09-30T23:35:17.973515906-07:00 - compressed size:22430375
+2022-09-30T23:35:18.232480712-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/num_control", "buff-simd64", "100000000", "1.15"]
+2022-09-30T23:35:18.899187675-07:00 - original size:159504744
+2022-09-30T23:35:18.899200902-07:00 - compressed size:72275608
+2022-09-30T23:35:19.245191399-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/msg_bt", "buff-simd64", "100", "1.15"]
+2022-09-30T23:35:20.432753079-07:00 - original size:266389432
+2022-09-30T23:35:20.432777474-07:00 - compressed size:174818085
+2022-09-30T23:35:21.104867460-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/msg_bt", "buff-simd64", "10000", "1.15"]
+2022-09-30T23:35:22.365077533-07:00 - original size:266389432
+2022-09-30T23:35:22.365102215-07:00 - compressed size:203954429
+2022-09-30T23:35:23.090926720-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/msg_bt", "buff-simd64", "1000000", "1.15"]
+2022-09-30T23:35:24.443143203-07:00 - original size:266389432
+2022-09-30T23:35:24.443168271-07:00 - compressed size:228928439
+2022-09-30T23:35:25.209221701-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/msg_bt", "buff-simd64", "100000000", "1.15"]
+2022-09-30T23:35:26.605264020-07:00 - original size:266389432
+2022-09-30T23:35:26.605288992-07:00 - compressed size:258064783
+2022-09-30T23:35:27.426064533-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/hdr_night", "buff-simd64", "100", "1.15"]
+2022-09-30T23:35:27.498470226-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/h3d_temp", "buff-simd32", "100", "1.15"]
+2022-09-30T23:35:27.956122022-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/ts_gas", "buff-simd32", "100,", "1.15"]
+2022-09-30T23:35:27.958138299-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/ts_gas", "buff-simd32", "10000,", "1.15"]
+2022-09-30T23:35:27.962157126-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/ts_gas", "buff-simd32", "1000000,", "1.15"]
+2022-09-30T23:35:27.966069432-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/ts_gas", "buff-simd32", "100000000000000,", "1.15"]
+2022-09-30T23:35:27.970027590-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/rsim_f32", "buff-simd32", "100000", "1.15"]
+2022-09-30T23:35:28.600456455-07:00 - original size:94281728
+2022-09-30T23:35:28.600474756-07:00 - compressed size:117852180
+2022-09-30T23:35:28.928651898-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/rsim_f32", "buff-simd32", "1000", "1.15"]
+2022-09-30T23:35:29.616443698-07:00 - original size:94281728
+2022-09-30T23:35:29.616457944-07:00 - compressed size:97228052
+2022-09-30T23:35:30.044030208-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/spitzer_irac", "buff-simd32", "1000", "1.15"]
+2022-09-30T23:35:31.030046491-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/astro_mhd_f64", "buff-simd64", "100", "1.15"]
+2022-09-30T23:35:33.182200918-07:00 - original size:548458560
+2022-09-30T23:35:33.182226612-07:00 - compressed size:188532650
+2022-09-30T23:35:34.256689659-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/astro_mhd_f64", "buff-simd64", "10000000,", "1.15"]
+2022-09-30T23:35:34.258763416-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/astro_pt_f64", "buff-simd64", "100000000", "1.15"]
+2022-09-30T23:35:36.580953909-07:00 - original size:671088640
+2022-09-30T23:35:36.580989797-07:00 - compressed size:335544340
+2022-09-30T23:35:37.610666145-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/astro_pt_f64", "buff-simd64", "1000000000", "1.15"]
+2022-09-30T23:35:40.456465723-07:00 - original size:671088640
+2022-09-30T23:35:40.456491618-07:00 - compressed size:367001620
+2022-09-30T23:35:42.010992130-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/turbulence", "buff-simd32", "100", "1.15"]
+2022-09-30T23:35:42.364388919-07:00 - original size:67108864
+2022-09-30T23:35:42.364405757-07:00 - compressed size:33554452
+2022-09-30T23:35:42.509686553-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/turbulence", "buff-simd32", "10000", "1.15"]
+2022-09-30T23:35:42.993875388-07:00 - original size:67108864
+2022-09-30T23:35:42.993890187-07:00 - compressed size:48234516
+2022-09-30T23:35:43.259071555-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/turbulence", "buff-simd32", "1000000", "1.15"]
+2022-09-30T23:35:43.764843919-07:00 - original size:67108864
+2022-09-30T23:35:43.764858014-07:00 - compressed size:60817428
+2022-09-30T23:35:44.054159823-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/wave_f32", "buff-simd32", "1000000", "1.15"]
+2022-09-30T23:35:47.815360030-07:00 - original size:536870912
+2022-09-30T23:35:47.815386981-07:00 - compressed size:369098772
+2022-09-30T23:35:49.884243407-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/wave_f32", "buff-simd32", "10000000", "1.15"]
+2022-09-30T23:35:53.669274943-07:00 - original size:536870912
+2022-09-30T23:35:53.669300088-07:00 - compressed size:436207636
+2022-09-30T23:35:55.871179949-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/wave_f32", "buff-simd32", "1000000000", "1.15"]
+2022-09-30T23:35:59.162158744-07:00 - original size:536870912
+2022-09-30T23:35:59.162194009-07:00 - compressed size:536870932
+2022-09-30T23:36:00.781374677-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/citytemp_f32", "buff-simd32", "1000000000", "1.15"]
+2022-09-30T23:36:00.886484988-07:00 - original size:11625304
+2022-09-30T23:36:00.886498702-07:00 - compressed size:14168360
+2022-09-30T23:36:00.955991648-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/citytemp_f32", "buff-simd32", "10000000", "1.15"]
+2022-09-30T23:36:01.050017095-07:00 - original size:11625304
+2022-09-30T23:36:01.050032222-07:00 - compressed size:11988615
+2022-09-30T23:36:01.114943077-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/citytemp_f32", "buff-simd32", "100000", "1.15"]
+2022-09-30T23:36:01.204718944-07:00 - original size:11625304
+2022-09-30T23:36:01.204733605-07:00 - compressed size:9445580
+2022-09-30T23:36:01.264401370-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/citytemp_f32", "buff-simd32", "1000", "1.15"]
+2022-09-30T23:36:01.346422767-07:00 - original size:11625304
+2022-09-30T23:36:01.346436814-07:00 - compressed size:6902545
+2022-09-30T23:36:01.402616380-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/miranda3d", "buff-simd32", "1000", "1.15"]
+2022-09-30T23:36:28.859980168-07:00 - original size:0
+2022-09-30T23:36:28.860007327-07:00 - compressed size:1744830484
+2022-10-02T15:36:02.627706476-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/astro_mhd_f64", "buff-simd64", "100", "1.15"]
+2022-10-02T15:36:05.380305145-07:00 - original size:548458560
+2022-10-02T15:36:05.380331114-07:00 - compressed size:188532650
+2022-10-02T15:36:06.464518763-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/astro_mhd_f64", "buff-simd64", "10000000,", "1.15"]
+2022-10-02T15:36:06.468566165-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/astro_pt_f64", "buff-simd64", "100000000", "1.15"]
+2022-10-02T15:36:09.400373501-07:00 - original size:671088640
+2022-10-02T15:36:09.400424826-07:00 - compressed size:335544340
+2022-10-02T15:36:10.425361104-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/astro_pt_f64", "buff-simd64", "1000000000", "1.15"]
+2022-10-02T15:36:13.375500576-07:00 - original size:671088640
+2022-10-02T15:36:13.375527232-07:00 - compressed size:367001620
+2022-10-02T15:36:14.933845247-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/citytemp_f32", "buff-simd32", "1000000000", "1.15"]
+2022-10-02T15:36:15.043411054-07:00 - original size:11625304
+2022-10-02T15:36:15.043427554-07:00 - compressed size:14168360
+2022-10-02T15:36:15.112703645-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/citytemp_f32", "buff-simd32", "10000000", "1.15"]
+2022-10-02T15:36:15.210511946-07:00 - original size:11625304
+2022-10-02T15:36:15.210526027-07:00 - compressed size:11988615
+2022-10-02T15:36:15.275460259-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/citytemp_f32", "buff-simd32", "100000", "1.15"]
+2022-10-02T15:36:15.364336652-07:00 - original size:11625304
+2022-10-02T15:36:15.364351348-07:00 - compressed size:9445580
+2022-10-02T15:36:15.424124305-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/citytemp_f32", "buff-simd32", "1000", "1.15"]
+2022-10-02T15:36:15.506881712-07:00 - original size:11625304
+2022-10-02T15:36:15.506896452-07:00 - compressed size:6902545
+2022-10-02T15:36:15.561785263-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/h3d_temp", "buff-simd32", "100", "1.15"]
+2022-10-02T15:36:16.044186348-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/hdr_night", "buff-simd64", "100", "1.15"]
+2022-10-02T15:36:16.152799914-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/miranda3d", "buff-simd32", "1000", "1.15"]
+2022-10-02T15:36:45.216249220-07:00 - original size:0
+2022-10-02T15:36:45.216275373-07:00 - compressed size:1744830484
+2022-10-02T15:36:59.582275244-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/msg_bt", "buff-simd64", "100", "1.15"]
+2022-10-02T15:37:01.009529876-07:00 - original size:266389432
+2022-10-02T15:37:01.009554419-07:00 - compressed size:174818085
+2022-10-02T15:37:01.685525064-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/msg_bt", "buff-simd64", "10000", "1.15"]
+2022-10-02T15:37:02.945001004-07:00 - original size:266389432
+2022-10-02T15:37:02.945024869-07:00 - compressed size:203954429
+2022-10-02T15:37:03.672067699-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/msg_bt", "buff-simd64", "1000000", "1.15"]
+2022-10-02T15:37:05.024823116-07:00 - original size:266389432
+2022-10-02T15:37:05.024846047-07:00 - compressed size:228928439
+2022-10-02T15:37:05.793583272-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/msg_bt", "buff-simd64", "100000000", "1.15"]
+2022-10-02T15:37:07.186637356-07:00 - original size:266389432
+2022-10-02T15:37:07.186660763-07:00 - compressed size:258064783
+2022-10-02T15:37:08.006881124-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/num_brain", "buff-simd64", "100", "1.15"]
+2022-10-02T15:37:08.625822899-07:00 - original size:141840000
+2022-10-02T15:37:08.625837818-07:00 - compressed size:22162520
+2022-10-02T15:37:08.866514341-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/num_brain", "buff-simd64", "10000000", "1.15"]
+2022-10-02T15:37:09.440466724-07:00 - original size:141840000
+2022-10-02T15:37:09.440481414-07:00 - compressed size:59838770
+2022-10-02T15:37:09.742613195-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/num_control", "buff-simd64", "100", "1.15"]
+2022-10-02T15:37:10.425369362-07:00 - original size:159504744
+2022-10-02T15:37:10.425383476-07:00 - compressed size:22430375
+2022-10-02T15:37:10.691112265-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/num_control", "buff-simd64", "100000000", "1.15"]
+2022-10-02T15:37:11.363199334-07:00 - original size:159504744
+2022-10-02T15:37:11.363213119-07:00 - compressed size:72275608
+2022-10-02T15:37:11.709593912-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/rsim_f32", "buff-simd32", "100000", "1.15"]
+2022-10-02T15:37:12.371844892-07:00 - original size:94281728
+2022-10-02T15:37:12.371863412-07:00 - compressed size:117852180
+2022-10-02T15:37:12.702138602-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/rsim_f32", "buff-simd32", "1000", "1.15"]
+2022-10-02T15:37:13.399976216-07:00 - original size:94281728
+2022-10-02T15:37:13.399990561-07:00 - compressed size:97228052
+2022-10-02T15:37:13.827645589-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/spitzer_irac", "buff-simd32", "1000", "1.15"]
+2022-10-02T15:37:14.861549468-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/ts_gas", "buff-simd32", "100,", "1.15"]
+2022-10-02T15:37:14.865655499-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/ts_gas", "buff-simd32", "10000,", "1.15"]
+2022-10-02T15:37:14.867640341-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/ts_gas", "buff-simd32", "1000000,", "1.15"]
+2022-10-02T15:37:14.871492914-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/ts_gas", "buff-simd32", "100000000000000,", "1.15"]
+2022-10-02T15:37:14.874782247-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/turbulence", "buff-simd32", "100", "1.15"]
+2022-10-02T15:37:15.253487545-07:00 - original size:67108864
+2022-10-02T15:37:15.253504781-07:00 - compressed size:33554452
+2022-10-02T15:37:15.399970706-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/turbulence", "buff-simd32", "10000", "1.15"]
+2022-10-02T15:37:15.885578385-07:00 - original size:67108864
+2022-10-02T15:37:15.885591515-07:00 - compressed size:48234516
+2022-10-02T15:37:16.150583132-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/turbulence", "buff-simd32", "1000000", "1.15"]
+2022-10-02T15:37:16.657093064-07:00 - original size:67108864
+2022-10-02T15:37:16.657107951-07:00 - compressed size:60817428
+2022-10-02T15:37:16.947070307-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/wave_f32", "buff-simd32", "1000000", "1.15"]
+2022-10-02T15:37:20.857112678-07:00 - original size:536870912
+2022-10-02T15:37:20.857139441-07:00 - compressed size:369098772
+2022-10-02T15:37:22.922028046-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/wave_f32", "buff-simd32", "10000000", "1.15"]
+2022-10-02T15:37:26.715773342-07:00 - original size:536870912
+2022-10-02T15:37:26.715798981-07:00 - compressed size:436207636
+2022-10-02T15:37:28.914040464-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/wave_f32", "buff-simd32", "1000000000", "1.15"]
+2022-10-02T15:37:32.201655726-07:00 - original size:536870912
+2022-10-02T15:37:32.201693755-07:00 - compressed size:536870932
+2022-10-02T22:06:22.900340121-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/astro_mhd_f64", "buff-simd64", "1000000000,", "1.15"]
+2022-10-02T22:06:22.904705937-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/astro_pt_f64", "buff-simd64", "1000000000", "1.15"]
+2022-10-02T22:06:25.772196449-07:00 - original size:671088640
+2022-10-02T22:06:25.772222738-07:00 - compressed size:367001620
+2022-10-02T22:06:27.328106406-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/citytemp_f32", "buff-simd32", "1000000000", "1.15"]
+2022-10-02T22:06:27.424692787-07:00 - original size:11625304
+2022-10-02T22:06:27.424706451-07:00 - compressed size:14168360
+2022-10-02T22:06:27.493246279-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/h3d_temp", "buff-simd64", "1000000000", "1.15"]
+2022-10-02T22:06:27.771151195-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/hdr_night", "buff-simd64", "1000000000", "1.15"]
+2022-10-02T22:06:27.842891060-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/miranda3d", "buff-simd32", "1000000000", "1.15"]
+2022-10-02T22:07:00.008301573-07:00 - original size:0
+2022-10-02T22:07:00.008327666-07:00 - compressed size:4429185044
+2022-10-02T22:07:19.240109120-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/msg_bt", "buff-simd64", "1000000000", "1.15"]
+2022-10-02T22:07:20.648051016-07:00 - original size:266389432
+2022-10-02T22:07:20.648074474-07:00 - compressed size:262227118
+2022-10-02T22:07:21.472045672-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/num_brain", "buff-simd64", "1000000000", "1.15"]
+2022-10-02T22:07:22.071218397-07:00 - original size:141840000
+2022-10-02T22:07:22.071232293-07:00 - compressed size:73136270
+2022-10-02T22:07:22.396204515-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/num_control", "buff-simd64", "1000000000", "1.15"]
+2022-10-02T22:07:22.955308897-07:00 - original size:159504744
+2022-10-02T22:07:22.955326213-07:00 - compressed size:79752392
+2022-10-02T22:07:23.203254033-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/rsim_f32", "buff-simd32", "1000000000", "1.15"]
+2022-10-02T22:07:24.055003153-07:00 - original size:94281728
+2022-10-02T22:07:24.055017522-07:00 - compressed size:156154132
+2022-10-02T22:07:24.585094118-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/spitzer_irac", "buff-simd32", "1000000000", "1.15"]
+2022-10-02T22:07:25.559394873-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/turbulence", "buff-simd32", "1000000000", "1.15"]
+2022-10-02T22:07:26.120280636-07:00 - original size:67108864
+2022-10-02T22:07:26.120294565-07:00 - compressed size:81788948
+2022-10-02T22:07:26.444185646-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/wave_f32", "buff-simd32", "1000000000", "1.15"]
+2022-10-02T22:07:29.733608789-07:00 - original size:536870912
+2022-10-02T22:07:29.733643916-07:00 - compressed size:536870932
+2022-10-02T22:07:40.961668470-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/astro_mhd_f64", "buff-simd64", "1000000000", "1.15"]
+2022-10-02T22:07:43.529081247-07:00 - original size:548458560
+2022-10-02T22:07:43.529106651-07:00 - compressed size:385634945
+2022-10-02T22:07:44.949845823-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/astro_pt_f64", "buff-simd64", "1000000000", "1.15"]
+2022-10-02T22:07:47.814261008-07:00 - original size:671088640
+2022-10-02T22:07:47.814288113-07:00 - compressed size:367001620
+2022-10-02T22:07:49.373751865-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/citytemp_f32", "buff-simd32", "1000000000", "1.15"]
+2022-10-02T22:07:49.478759232-07:00 - original size:11625304
+2022-10-02T22:07:49.478774118-07:00 - compressed size:14168360
+2022-10-02T22:07:49.547171395-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/h3d_temp", "buff-simd64", "1000000000", "1.15"]
+2022-10-02T22:07:49.820994118-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/hdr_night", "buff-simd64", "1000000000", "1.15"]
+2022-10-02T22:07:49.890881685-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/miranda3d", "buff-simd32", "1000000000", "1.15"]
+2022-10-02T22:08:22.001579579-07:00 - original size:0
+2022-10-02T22:08:22.001606623-07:00 - compressed size:4429185044
+2022-10-02T22:08:41.260222650-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/msg_bt", "buff-simd64", "1000000000", "1.15"]
+2022-10-02T22:08:42.673017269-07:00 - original size:266389432
+2022-10-02T22:08:42.673042375-07:00 - compressed size:262227118
+2022-10-02T22:08:43.513791268-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/num_brain", "buff-simd64", "1000000000", "1.15"]
+2022-10-02T22:08:44.115919582-07:00 - original size:141840000
+2022-10-02T22:08:44.115934497-07:00 - compressed size:73136270
+2022-10-02T22:08:44.442668286-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/num_control", "buff-simd64", "1000000000", "1.15"]
+2022-10-02T22:08:45.000312738-07:00 - original size:159504744
+2022-10-02T22:08:45.000329334-07:00 - compressed size:79752392
+2022-10-02T22:08:45.247484406-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/rsim_f32", "buff-simd32", "1000000000", "1.15"]
+2022-10-02T22:08:46.099113828-07:00 - original size:94281728
+2022-10-02T22:08:46.099127476-07:00 - compressed size:156154132
+2022-10-02T22:08:46.629994756-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/spitzer_irac", "buff-simd32", "1000000000", "1.15"]
+2022-10-02T22:08:47.599672573-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/ts_gas", "buff-simd32", "1000000000", "1.15"]
+2022-10-02T22:08:49.990240746-07:00 - original size:307452800
+2022-10-02T22:08:49.990272678-07:00 - compressed size:461179220
+2022-10-02T22:08:51.203480243-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/turbulence", "buff-simd32", "1000000000", "1.15"]
+2022-10-02T22:08:51.760563149-07:00 - original size:67108864
+2022-10-02T22:08:51.760577544-07:00 - compressed size:81788948
+2022-10-02T22:08:52.085670820-07:00 - input args["/home/nextnet.com/xchen/Documents/code/FPSurvey/buff/database/target/release/comp_profiler", "/home/nextnet.com/xchen/Documents/data/FP/wave_f32", "buff-simd32", "1000000000", "1.15"]
+2022-10-02T22:08:55.376990305-07:00 - original size:536870912
+2022-10-02T22:08:55.377027835-07:00 - compressed size:536870932
+2022-10-03T20:20:45.810914715+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data/astro_mhd_f64", "buff-simd64", "1000000000", "1.15"]
+2022-10-03T20:20:48.801972479+00:00 - original size:548458560
+2022-10-03T20:20:48.802017031+00:00 - compressed size:385634945
+2022-10-04T05:01:38.475048740+00:00 - input args["./target/release/comp_profiler", "/home/cc/data/astro_mhd_f64", "buff-simd64", "1000000000", "1.15"]
+2022-10-04T05:01:41.565822104+00:00 - original size:548458560
+2022-10-04T05:01:41.565864403+00:00 - compressed size:385634945
+2022-10-04T05:24:41.337142376+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//astro_mhd_f64", "buff-simd64", "1000000000", "1.15"]
+2022-10-04T05:24:44.492929339+00:00 - original size:548458560
+2022-10-04T05:24:44.492965965+00:00 - compressed size:385634945
+2022-10-04T05:24:46.133280963+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//astro_pt_f64", "buff-simd64", "1000000000", "1.15"]
+2022-10-04T05:24:49.623599110+00:00 - original size:671088640
+2022-10-04T05:24:49.623634944+00:00 - compressed size:367001620
+2022-10-04T05:24:51.299399123+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//citytemp_f32", "buff-simd32", "1000000000", "1.15"]
+2022-10-04T05:24:51.428967013+00:00 - original size:11625304
+2022-10-04T05:24:51.428984428+00:00 - compressed size:14168360
+2022-10-04T05:24:51.509305427+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//h3d_temp", "buff-simd64", "1000000000", "1.15"]
+2022-10-04T05:24:51.864982196+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//hdr_night", "buff-simd64", "1000000000", "1.15"]
+2022-10-04T05:24:51.964691764+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//miranda3d", "buff-simd32", "1000000000", "1.15"]
+2022-10-04T05:25:30.767692758+00:00 - original size:0
+2022-10-04T05:25:30.767733499+00:00 - compressed size:4429185044
+2022-10-04T05:25:51.626423771+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//msg_bt", "buff-simd64", "1000000000", "1.15"]
+2022-10-04T05:25:53.371012434+00:00 - original size:266389432
+2022-10-04T05:25:53.371048113+00:00 - compressed size:262227118
+2022-10-04T05:25:54.310466923+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//num_brain", "buff-simd64", "1000000000", "1.15"]
+2022-10-04T05:25:55.038146877+00:00 - original size:141840000
+2022-10-04T05:25:55.038166906+00:00 - compressed size:73136270
+2022-10-04T05:25:55.401710804+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//num_control", "buff-simd64", "1000000000", "1.15"]
+2022-10-04T05:25:56.110736281+00:00 - original size:159504744
+2022-10-04T05:25:56.110756511+00:00 - compressed size:79752392
+2022-10-04T05:25:56.413756124+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//rsim_f32", "buff-simd32", "1000000000", "1.15"]
+2022-10-04T05:25:57.391880272+00:00 - original size:94281728
+2022-10-04T05:25:57.391899858+00:00 - compressed size:156154132
+2022-10-04T05:25:58.003549748+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//spitzer_irac", "buff-simd32", "1000000000", "1.15"]
+2022-10-04T05:25:58.898677971+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpch_lineitem_f32", "buff-simd32", "1000000000", "1.15"]
+2022-10-04T05:26:07.134372333+00:00 - original size:959776816
+2022-10-04T05:26:07.134414252+00:00 - compressed size:1439665244
+2022-10-04T05:26:11.341684026+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpch_order_f64", "buff-simd64", "1000000000", "1.15"]
+2022-10-04T05:26:12.046990632+00:00 - original size:120000000
+2022-10-04T05:26:12.047008177+00:00 - compressed size:95625020
+2022-10-04T05:26:12.412226612+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//ts_gas", "buff-simd32", "1000000000", "1.15"]
+2022-10-04T05:26:15.016317900+00:00 - original size:307452800
+2022-10-04T05:26:15.016358906+00:00 - compressed size:461179220
+2022-10-04T05:26:16.405818686+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//turbulence", "buff-simd32", "1000000000", "1.15"]
+2022-10-04T05:26:17.059958198+00:00 - original size:67108864
+2022-10-04T05:26:17.059974911+00:00 - compressed size:81788948
+2022-10-04T05:26:17.423244510+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//wave_f32", "buff-simd32", "1000000000", "1.15"]
+2022-10-04T05:26:21.452960635+00:00 - original size:536870912
+2022-10-04T05:26:21.453000301+00:00 - compressed size:536870932
+2022-10-04T16:43:39.901661207+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//astro_mhd_f64", "buff-simd64", "1000000000", "1.15"]
+2022-10-04T16:43:43.003281591+00:00 - original size:548458560
+2022-10-04T16:43:43.003320138+00:00 - compressed size:385634945
+2022-10-04T16:43:44.616804460+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//astro_pt_f64", "buff-simd64", "1000000000", "1.15"]
+2022-10-04T16:43:48.137883614+00:00 - original size:671088640
+2022-10-04T16:43:48.137918809+00:00 - compressed size:367001620
+2022-10-04T16:43:49.907812344+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//citytemp_f32", "buff-simd32", "1000000000", "1.15"]
+2022-10-04T16:43:50.034032774+00:00 - original size:11625304
+2022-10-04T16:43:50.034051476+00:00 - compressed size:14168360
+2022-10-04T16:43:50.108695760+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//h3d_temp", "buff-simd64", "1000000000", "1.15"]
+2022-10-04T16:43:50.461498100+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//hdr_night", "buff-simd64", "1000000000", "1.15"]
+2022-10-04T16:43:50.558729493+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//miranda3d", "buff-simd32", "1000000000", "1.15"]
+2022-10-04T16:44:29.362311130+00:00 - original size:0
+2022-10-04T16:44:29.362350561+00:00 - compressed size:4429185044
+2022-10-04T16:44:50.423148221+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//msg_bt", "buff-simd64", "1000000000", "1.15"]
+2022-10-04T16:44:52.122695150+00:00 - original size:266389432
+2022-10-04T16:44:52.122729100+00:00 - compressed size:262227118
+2022-10-04T16:44:53.028522949+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//num_brain", "buff-simd64", "1000000000", "1.15"]
+2022-10-04T16:44:53.788038327+00:00 - original size:141840000
+2022-10-04T16:44:53.788054649+00:00 - compressed size:73136270
+2022-10-04T16:44:54.169265111+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//num_control", "buff-simd64", "1000000000", "1.15"]
+2022-10-04T16:44:54.875425027+00:00 - original size:159504744
+2022-10-04T16:44:54.875449226+00:00 - compressed size:79752392
+2022-10-04T16:44:55.163745655+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//rsim_f32", "buff-simd32", "1000000000", "1.15"]
+2022-10-04T16:44:56.141359896+00:00 - original size:94281728
+2022-10-04T16:44:56.141375852+00:00 - compressed size:156154132
+2022-10-04T16:44:56.749483657+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//spitzer_irac", "buff-simd32", "1000000000", "1.15"]
+2022-10-04T16:44:57.629109429+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpch_lineitem_f32", "buff-simd32", "1000000000", "1.15"]
+2022-10-04T16:45:05.875493568+00:00 - original size:959776816
+2022-10-04T16:45:05.875532914+00:00 - compressed size:1439665244
+2022-10-04T16:45:10.074403368+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpch_order_f64", "buff-simd64", "1000000000", "1.15"]
+2022-10-04T16:45:10.762547185+00:00 - original size:120000000
+2022-10-04T16:45:10.762566414+00:00 - compressed size:95625020
+2022-10-04T16:45:11.131158946+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//ts_gas", "buff-simd32", "1000000000", "1.15"]
+2022-10-04T16:45:13.881156143+00:00 - original size:307452800
+2022-10-04T16:45:13.881187467+00:00 - compressed size:461179220
+2022-10-04T16:45:15.215280996+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//turbulence", "buff-simd32", "1000000000", "1.15"]
+2022-10-04T16:45:15.866154555+00:00 - original size:67108864
+2022-10-04T16:45:15.866174313+00:00 - compressed size:81788948
+2022-10-04T16:45:16.228921261+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//wave_f32", "buff-simd32", "1000000000", "1.15"]
+2022-10-04T16:45:20.425757944+00:00 - original size:536870912
+2022-10-04T16:45:20.425797076+00:00 - compressed size:536870932
+2022-10-04T17:50:53.903091738+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//astro_mhd_f64", "buff-simd64", "1000000000", "1.15"]
+2022-10-04T17:50:57.006143656+00:00 - original size:548458560
+2022-10-04T17:50:57.006177327+00:00 - compressed size:385634945
+2022-10-04T17:50:58.521736938+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//astro_pt_f64", "buff-simd64", "1000000000", "1.15"]
+2022-10-04T17:51:02.060653653+00:00 - original size:671088640
+2022-10-04T17:51:02.060690244+00:00 - compressed size:367001620
+2022-10-04T17:51:03.740068180+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//citytemp_f32", "buff-simd32", "1000000000", "1.15"]
+2022-10-04T17:51:03.866790207+00:00 - original size:11625304
+2022-10-04T17:51:03.866816404+00:00 - compressed size:14168360
+2022-10-04T17:51:03.942535458+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//h3d_temp", "buff-simd64", "1000000000", "1.15"]
+2022-10-04T17:51:04.287597038+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//hdr_night", "buff-simd64", "1000000000", "1.15"]
+2022-10-04T17:51:04.381927968+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//miranda3d", "buff-simd32", "1000000000", "1.15"]
+2022-10-04T17:51:43.165151533+00:00 - original size:0
+2022-10-04T17:51:43.165194713+00:00 - compressed size:4429185044
+2022-10-04T17:52:04.057122103+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//msg_bt", "buff-simd64", "1000000000", "1.15"]
+2022-10-04T17:52:05.777886441+00:00 - original size:266389432
+2022-10-04T17:52:05.777920624+00:00 - compressed size:262227118
+2022-10-04T17:52:06.698013604+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//num_brain", "buff-simd64", "1000000000", "1.15"]
+2022-10-04T17:52:07.420551857+00:00 - original size:141840000
+2022-10-04T17:52:07.420572240+00:00 - compressed size:73136270
+2022-10-04T17:52:07.781088763+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//num_control", "buff-simd64", "1000000000", "1.15"]
+2022-10-04T17:52:08.488309901+00:00 - original size:159504744
+2022-10-04T17:52:08.488332209+00:00 - compressed size:79752392
+2022-10-04T17:52:08.780268859+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//rsim_f32", "buff-simd32", "1000000000", "1.15"]
+2022-10-04T17:52:09.755860643+00:00 - original size:94281728
+2022-10-04T17:52:09.755882475+00:00 - compressed size:156154132
+2022-10-04T17:52:10.364044812+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//spitzer_irac", "buff-simd32", "1000000000", "1.15"]
+2022-10-04T17:52:11.231192412+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpch_lineitem_f32", "buff-simd32", "1000000000", "1.15"]
+2022-10-04T17:52:19.427153583+00:00 - original size:959776816
+2022-10-04T17:52:19.427198632+00:00 - compressed size:1439665244
+2022-10-04T17:52:23.658125837+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpch_order_f64", "buff-simd64", "1000000000", "1.15"]
+2022-10-04T17:52:24.352865374+00:00 - original size:120000000
+2022-10-04T17:52:24.352881627+00:00 - compressed size:95625020
+2022-10-04T17:52:24.706142348+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//ts_gas", "buff-simd32", "1000000000", "1.15"]
+2022-10-04T17:52:27.306126847+00:00 - original size:307452800
+2022-10-04T17:52:27.306165198+00:00 - compressed size:461179220
+2022-10-04T17:52:28.691972071+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//turbulence", "buff-simd32", "1000000000", "1.15"]
+2022-10-04T17:52:29.342914120+00:00 - original size:67108864
+2022-10-04T17:52:29.342931659+00:00 - compressed size:81788948
+2022-10-04T17:52:29.696409243+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//wave_f32", "buff-simd32", "1000000000", "1.15"]
+2022-10-04T17:52:33.898300386+00:00 - original size:536870912
+2022-10-04T17:52:33.898343934+00:00 - compressed size:536870932
+2022-10-04T21:57:46.344547002+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//astro_mhd_f64", "buff-simd64", "1000000000", "1.15"]
+2022-10-04T21:57:49.432105818+00:00 - original size:548458560
+2022-10-04T21:57:49.432143905+00:00 - compressed size:385634945
+2022-10-04T21:57:51.037636117+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//astro_pt_f64", "buff-simd64", "1000000000", "1.15"]
+2022-10-04T21:57:54.579339478+00:00 - original size:671088640
+2022-10-04T21:57:54.579382069+00:00 - compressed size:367001620
+2022-10-04T21:57:56.259147215+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//citytemp_f32", "buff-simd32", "1000000000", "1.15"]
+2022-10-04T21:57:56.383932741+00:00 - original size:11625304
+2022-10-04T21:57:56.383952801+00:00 - compressed size:14168360
+2022-10-04T21:57:56.458944541+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//h3d_temp", "buff-simd64", "1000000000", "1.15"]
+2022-10-04T21:57:56.811172408+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//hdr_night", "buff-simd64", "1000000000", "1.15"]
+2022-10-04T21:57:56.903613342+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//miranda3d", "buff-simd32", "1000000000", "1.15"]
+2022-10-04T21:58:35.789412820+00:00 - original size:0
+2022-10-04T21:58:35.789451149+00:00 - compressed size:4429185044
+2022-10-04T21:58:56.730052041+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//msg_bt", "buff-simd64", "1000000000", "1.15"]
+2022-10-04T21:58:58.442788449+00:00 - original size:266389432
+2022-10-04T21:58:58.442972166+00:00 - compressed size:262227118
+2022-10-04T21:58:59.360831111+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//num_brain", "buff-simd64", "1000000000", "1.15"]
+2022-10-04T21:59:00.087426619+00:00 - original size:141840000
+2022-10-04T21:59:00.087443042+00:00 - compressed size:73136270
+2022-10-04T21:59:00.449806524+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//num_control", "buff-simd64", "1000000000", "1.15"]
+2022-10-04T21:59:01.155163817+00:00 - original size:159504744
+2022-10-04T21:59:01.155185397+00:00 - compressed size:79752392
+2022-10-04T21:59:01.444730091+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//rsim_f32", "buff-simd32", "1000000000", "1.15"]
+2022-10-04T21:59:02.414899293+00:00 - original size:94281728
+2022-10-04T21:59:02.414917079+00:00 - compressed size:156154132
+2022-10-04T21:59:03.020666406+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//spitzer_irac", "buff-simd32", "1000000000", "1.15"]
+2022-10-04T21:59:03.892644947+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpch_lineitem_f32", "buff-simd32", "1000000000", "1.15"]
+2022-10-04T21:59:12.140459217+00:00 - original size:959776816
+2022-10-04T21:59:12.140497812+00:00 - compressed size:1439665244
+2022-10-04T21:59:16.347363504+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpch_order_f64", "buff-simd64", "1000000000", "1.15"]
+2022-10-04T21:59:17.038483279+00:00 - original size:120000000
+2022-10-04T21:59:17.038503023+00:00 - compressed size:95625020
+2022-10-04T21:59:17.391589982+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//ts_gas", "buff-simd32", "1000000000", "1.15"]
+2022-10-04T21:59:19.991738557+00:00 - original size:307452800
+2022-10-04T21:59:19.991775422+00:00 - compressed size:461179220
+2022-10-04T21:59:21.385220911+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//turbulence", "buff-simd32", "1000000000", "1.15"]
+2022-10-04T21:59:22.032309042+00:00 - original size:67108864
+2022-10-04T21:59:22.032327973+00:00 - compressed size:81788948
+2022-10-04T21:59:22.396174769+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//wave_f32", "buff-simd32", "1000000000", "1.15"]
+2022-10-04T21:59:26.595480296+00:00 - original size:536870912
+2022-10-04T21:59:26.595516905+00:00 - compressed size:536870932
+2022-10-05T06:14:06.599433772+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//astro_mhd_f64", "buff-simd64", "1000000000", "1.15"]
+2022-10-05T06:14:09.794275083+00:00 - original size:548458560
+2022-10-05T06:14:09.794308781+00:00 - compressed size:385634945
+2022-10-05T06:14:11.473051482+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//astro_pt_f64", "buff-simd64", "1000000000", "1.15"]
+2022-10-05T06:14:15.074108667+00:00 - original size:671088640
+2022-10-05T06:14:15.074144531+00:00 - compressed size:367001620
+2022-10-05T06:14:17.073556127+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//citytemp_f32", "buff-simd32", "1000000000", "1.15"]
+2022-10-05T06:14:17.201171170+00:00 - original size:11625304
+2022-10-05T06:14:17.201189298+00:00 - compressed size:14168360
+2022-10-05T06:14:17.280280219+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//h3d_temp", "buff-simd64", "1000000000", "1.15"]
+2022-10-05T06:14:17.638713367+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//hdr_night", "buff-simd64", "1000000000", "1.15"]
+2022-10-05T06:14:17.734634142+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//miranda3d", "buff-simd32", "1000000000", "1.15"]
+2022-10-05T06:14:57.180391078+00:00 - original size:0
+2022-10-05T06:14:57.180428723+00:00 - compressed size:4429185044
+2022-10-05T06:15:18.183557182+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//msg_bt", "buff-simd64", "1000000000", "1.15"]
+2022-10-05T06:15:19.909176671+00:00 - original size:266389432
+2022-10-05T06:15:19.909210377+00:00 - compressed size:262227118
+2022-10-05T06:15:20.830558457+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//num_brain", "buff-simd64", "1000000000", "1.15"]
+2022-10-05T06:15:21.579492047+00:00 - original size:141840000
+2022-10-05T06:15:21.579511985+00:00 - compressed size:73136270
+2022-10-05T06:15:21.972379495+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//num_control", "buff-simd64", "1000000000", "1.15"]
+2022-10-05T06:15:22.700729024+00:00 - original size:159504744
+2022-10-05T06:15:22.700751944+00:00 - compressed size:79752392
+2022-10-05T06:15:23.010707090+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//rsim_f32", "buff-simd32", "1000000000", "1.15"]
+2022-10-05T06:15:24.011837876+00:00 - original size:94281728
+2022-10-05T06:15:24.011867227+00:00 - compressed size:156154132
+2022-10-05T06:15:24.674874302+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//spitzer_irac", "buff-simd32", "1000000000", "1.15"]
+2022-10-05T06:15:25.582781531+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpch_lineitem_f32", "buff-simd32", "1000000000", "1.15"]
+2022-10-05T06:15:33.984464526+00:00 - original size:959776816
+2022-10-05T06:15:33.984501449+00:00 - compressed size:1439665244
+2022-10-05T06:15:38.224407696+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpch_order_f64", "buff-simd64", "1000000000", "1.15"]
+2022-10-05T06:15:38.937859107+00:00 - original size:120000000
+2022-10-05T06:15:38.937877454+00:00 - compressed size:95625020
+2022-10-05T06:15:39.310489143+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//ts_gas", "buff-simd32", "1000000000", "1.15"]
+2022-10-05T06:15:41.962191778+00:00 - original size:307452800
+2022-10-05T06:15:41.962223971+00:00 - compressed size:461179220
+2022-10-05T06:15:43.392300473+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//turbulence", "buff-simd32", "1000000000", "1.15"]
+2022-10-05T06:15:44.063841936+00:00 - original size:67108864
+2022-10-05T06:15:44.063862162+00:00 - compressed size:81788948
+2022-10-05T06:15:44.435862947+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//wave_f32", "buff-simd32", "1000000000", "1.15"]
+2022-10-05T06:15:48.718918497+00:00 - original size:536870912
+2022-10-05T06:15:48.718955996+00:00 - compressed size:536870932
+2022-10-05T17:28:24.177071164+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//astro_mhd_f64", "buff-simd64", "1000000000", "1.15"]
+2022-10-05T17:28:27.289751006+00:00 - original size:548458560
+2022-10-05T17:28:27.289783600+00:00 - compressed size:385634945
+2022-10-05T17:28:28.970059639+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//astro_pt_f64", "buff-simd64", "1000000000", "1.15"]
+2022-10-05T17:28:32.682698660+00:00 - original size:671088640
+2022-10-05T17:28:32.682758598+00:00 - compressed size:367001620
+2022-10-05T17:28:34.506790896+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//citytemp_f32", "buff-simd32", "1000000000", "1.15"]
+2022-10-05T17:28:34.633282407+00:00 - original size:11625304
+2022-10-05T17:28:34.633301038+00:00 - compressed size:14168360
+2022-10-05T17:28:34.710502499+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//h3d_temp", "buff-simd64", "1000000000", "1.15"]
+2022-10-05T17:28:35.059151158+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//hdr_night", "buff-simd64", "1000000000", "1.15"]
+2022-10-05T17:28:35.155237498+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//miranda3d", "buff-simd32", "1000000000", "1.15"]
+2022-10-05T17:29:13.410682719+00:00 - original size:0
+2022-10-05T17:29:13.410723144+00:00 - compressed size:4429185044
+2022-10-05T17:29:35.422497012+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//msg_bt", "buff-simd64", "1000000000", "1.15"]
+2022-10-05T17:29:37.133477858+00:00 - original size:266389432
+2022-10-05T17:29:37.133515289+00:00 - compressed size:262227118
+2022-10-05T17:29:38.115614972+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//num_brain", "buff-simd64", "1000000000", "1.15"]
+2022-10-05T17:29:38.839950786+00:00 - original size:141840000
+2022-10-05T17:29:38.839969452+00:00 - compressed size:73136270
+2022-10-05T17:29:39.201500111+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//num_control", "buff-simd64", "1000000000", "1.15"]
+2022-10-05T17:29:39.901862326+00:00 - original size:159504744
+2022-10-05T17:29:39.901884061+00:00 - compressed size:79752392
+2022-10-05T17:29:40.190054210+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//rsim_f32", "buff-simd32", "1000000000", "1.15"]
+2022-10-05T17:29:41.163886703+00:00 - original size:94281728
+2022-10-05T17:29:41.163906026+00:00 - compressed size:156154132
+2022-10-05T17:29:41.769929887+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//spitzer_irac", "buff-simd32", "1000000000", "1.15"]
+2022-10-05T17:29:42.646011565+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpch_lineitem_f32", "buff-simd32", "1000000000", "1.15"]
+2022-10-05T17:29:50.793686240+00:00 - original size:959776816
+2022-10-05T17:29:50.793734532+00:00 - compressed size:1439665244
+2022-10-05T17:29:55.345645460+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpch_order_f64", "buff-simd64", "1000000000", "1.15"]
+2022-10-05T17:29:56.035526183+00:00 - original size:120000000
+2022-10-05T17:29:56.035545386+00:00 - compressed size:95625020
+2022-10-05T17:29:56.388188952+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//ts_gas", "buff-simd32", "1000000000", "1.15"]
+2022-10-05T17:29:58.986845217+00:00 - original size:307452800
+2022-10-05T17:29:58.986885360+00:00 - compressed size:461179220
+2022-10-05T17:30:00.455386711+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//turbulence", "buff-simd32", "1000000000", "1.15"]
+2022-10-05T17:30:01.102259703+00:00 - original size:67108864
+2022-10-05T17:30:01.102277281+00:00 - compressed size:81788948
+2022-10-05T17:30:01.453523925+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//wave_f32", "buff-simd32", "1000000000", "1.15"]
+2022-10-05T17:30:05.659691017+00:00 - original size:536870912
+2022-10-05T17:30:05.659730595+00:00 - compressed size:536870932
+2023-01-30T21:28:04.740149045+00:00 - input args["target/release/comp_profiler", "./data/randomwalkdatasample1k-1k", "buff-simd", "10000", "1.1509"]
+2023-01-30T21:28:04.783179925+00:00 - original size:4000000
+2023-01-30T21:28:04.783194787+00:00 - compressed size:1437520
+2023-01-30T21:37:10.090060032+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//msg_bt_f64", "1000000000", "1.15"]
+2023-01-30T21:37:10.095725525+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//num_brain_f64", "1000000000", "1.15"]
+2023-01-30T21:37:10.100819920+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//num_control_f64", "1000000000", "1.15"]
+2023-01-30T21:37:10.105941715+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//rsim_f32", "1000000000", "1.15"]
+2023-01-30T21:37:10.111049577+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//astro_mhd_f64", "1000000000", "1.15"]
+2023-01-30T21:37:10.116148367+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//astro_pt_f64", "1000000000", "1.15"]
+2023-01-30T21:37:10.121191979+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//miranda3d_f32", "1000000000", "1.15"]
+2023-01-30T21:37:10.126317522+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//turbulence_f32", "1000000000", "1.15"]
+2023-01-30T21:37:10.131331745+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//wave_f32", "1000000000", "1.15"]
+2023-01-30T21:37:10.136452542+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//h3d_temp_f32", "1000000000", "1.15"]
+2023-01-30T21:37:10.141397009+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//citytemp_f32", "1000000000", "1.15"]
+2023-01-30T21:37:10.146463040+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//ts_gas_f32", "1000000000", "1.15"]
+2023-01-30T21:37:10.151496933+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//phone_gyro_f64", "1000000000", "1.15"]
+2023-01-30T21:37:10.156573831+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//wesad_chest_f64", "1000000000", "1.15"]
+2023-01-30T21:37:10.161538002+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//jane_street_f64", "1000000000", "1.15"]
+2023-01-30T21:37:10.166550644+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//nyc_taxi2015_f64", "1000000000", "1.15"]
+2023-01-30T21:37:10.171546163+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//spain_gas_price_f64", "1000000000", "1.15"]
+2023-01-30T21:37:10.176604701+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//solar_wind_f32", "1000000000", "1.15"]
+2023-01-30T21:37:10.181549188+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//acs_wht_f32", "1000000000", "1.15"]
+2023-01-30T21:37:10.186576057+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//hdr_night_f32", "1000000000", "1.15"]
+2023-01-30T21:37:10.191628696+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//hdr_palermo_f32", "1000000000", "1.15"]
+2023-01-30T21:37:10.196700600+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//hst_wfc3_uvis_f32", "1000000000", "1.15"]
+2023-01-30T21:37:10.201711872+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//hst_wfc3_ir_f32", "1000000000", "1.15"]
+2023-01-30T21:37:10.206749470+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//spitzer_irac_f32", "1000000000", "1.15"]
+2023-01-30T21:37:10.211754935+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//g24_78_usb2_f32", "1000000000", "1.15"]
+2023-01-30T21:37:10.216806147+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//jw_mirimage_f32", "1000000000", "1.15"]
+2023-01-30T21:37:10.221803904+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpch_order_f64", "1000000000", "1.15"]
+2023-01-30T21:37:10.226810910+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpcxbb_store_f64", "1000000000", "1.15"]
+2023-01-30T21:37:10.231829632+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpcxbb_web_f64", "1000000000", "1.15"]
+2023-01-30T21:37:10.236893832+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpch_lineitem_f32", "1000000000", "1.15"]
+2023-01-30T21:37:10.241898888+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpcds_catalog_f32", "1000000000", "1.15"]
+2023-01-30T21:37:10.246909036+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpcds_store_f32", "1000000000", "1.15"]
+2023-01-30T21:37:10.251906674+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpcds_web_f32", "1000000000", "1.15"]
+2023-01-30T21:57:50.694698608+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//msg_bt_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T21:57:52.280899296+00:00 - original size:266389432
+2023-01-30T21:57:52.280927333+00:00 - compressed size:258064783
+2023-01-30T21:57:53.183281048+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//num_brain_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T21:57:53.854921546+00:00 - original size:141840000
+2023-01-30T21:57:53.854937206+00:00 - compressed size:66487520
+2023-01-30T21:57:54.213775184+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//num_control_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T21:57:54.968045016+00:00 - original size:159504744
+2023-01-30T21:57:54.968059995+00:00 - compressed size:72275608
+2023-01-30T21:57:55.388585471+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//rsim_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T21:57:56.264901332+00:00 - original size:94281728
+2023-01-30T21:57:56.264919059+00:00 - compressed size:147315220
+2023-01-30T21:57:56.867015050+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//astro_mhd_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T21:57:59.600363163+00:00 - original size:548458560
+2023-01-30T21:57:59.600398409+00:00 - compressed size:359925950
+2023-01-30T21:58:01.233242678+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//astro_pt_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T21:58:03.861560706+00:00 - original size:671088640
+2023-01-30T21:58:03.861589814+00:00 - compressed size:335544340
+2023-01-30T21:58:05.149934618+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//miranda3d_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T21:58:40.059389354+00:00 - original size:0
+2023-01-30T21:58:40.059433680+00:00 - compressed size:4026531860
+2023-01-30T21:59:01.848953130+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//turbulence_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T21:59:02.421126493+00:00 - original size:67108864
+2023-01-30T21:59:02.421140841+00:00 - compressed size:75497492
+2023-01-30T21:59:02.780574737+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//wave_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T21:59:07.383099224+00:00 - original size:536870912
+2023-01-30T21:59:07.383131946+00:00 - compressed size:486539284
+2023-01-30T21:59:10.091784673+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//h3d_temp_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T21:59:10.579000723+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//citytemp_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T21:59:10.676554938+00:00 - original size:11625304
+2023-01-30T21:59:10.676570584+00:00 - compressed size:13078487
+2023-01-30T21:59:10.758991857+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//ts_gas_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T21:59:13.651449679+00:00 - original size:307452800
+2023-01-30T21:59:13.651479134+00:00 - compressed size:432355520
+2023-01-30T21:59:15.569356906+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//phone_gyro_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T21:59:17.175611161+00:00 - original size:334383168
+2023-01-30T21:59:17.175636521+00:00 - compressed size:172416341
+2023-01-30T21:59:18.042830304+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//wesad_chest_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T21:59:19.315604805+00:00 - original size:272339200
+2023-01-30T21:59:19.315634683+00:00 - compressed size:144680220
+2023-01-30T21:59:20.116215567+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//jane_street_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T21:59:27.749017960+00:00 - original size:1810997760
+2023-01-30T21:59:27.749057151+00:00 - compressed size:1131873620
+2023-01-30T21:59:31.459750667+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//nyc_taxi2015_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T21:59:35.452909825+00:00 - original size:713943216
+2023-01-30T21:59:35.452939377+00:00 - compressed size:580078883
+2023-01-30T21:59:37.681095211+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//spain_gas_price_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T21:59:41.834782386+00:00 - original size:886619664
+2023-01-30T21:59:41.834814411+00:00 - compressed size:415602988
+2023-01-30T21:59:44.265527528+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//solar_wind_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T21:59:48.541004301+00:00 - original size:423980536
+2023-01-30T21:59:48.541037746+00:00 - compressed size:675719000
+2023-01-30T21:59:51.443206866+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//acs_wht_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T21:59:53.516921789+00:00 - original size:225000000
+2023-01-30T21:59:53.516950646+00:00 - compressed size:309375020
+2023-01-30T21:59:54.970731109+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//hdr_night_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T22:00:00.245830668+00:00 - original size:536870912
+2023-01-30T22:00:00.245861507+00:00 - compressed size:788529172
+2023-01-30T22:00:03.780316715+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//hdr_palermo_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T22:00:09.570966889+00:00 - original size:843454592
+2023-01-30T22:00:09.571012955+00:00 - compressed size:843454612
+2023-01-30T22:00:12.577769238+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//hst_wfc3_uvis_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T22:00:13.532864253+00:00 - original size:108924760
+2023-01-30T22:00:13.532879301+00:00 - compressed size:132752072
+2023-01-30T22:00:14.160353725+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//hst_wfc3_ir_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T22:00:14.386826910+00:00 - original size:24015312
+2023-01-30T22:00:14.386840521+00:00 - compressed size:32270596
+2023-01-30T22:00:14.526308584+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//spitzer_irac_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T22:00:15.710293539+00:00 - original size:132974476
+2023-01-30T22:00:15.710317802+00:00 - compressed size:162062663
+2023-01-30T22:00:16.493058517+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//g24_78_usb2_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T22:00:25.267435985+00:00 - original size:1335668264
+2023-01-30T22:00:25.267475029+00:00 - compressed size:1335668284
+2023-01-30T22:00:30.146480056+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//jw_mirimage_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T22:00:31.750525387+00:00 - original size:169082880
+2023-01-30T22:00:31.750553668+00:00 - compressed size:274759700
+2023-01-30T22:00:32.837888177+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpch_order_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T22:00:33.380905114+00:00 - original size:120000000
+2023-01-30T22:00:33.380922783+00:00 - compressed size:90000020
+2023-01-30T22:00:33.658454703+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpcxbb_store_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T22:00:37.872800105+00:00 - original size:789920928
+2023-01-30T22:00:37.872834347+00:00 - compressed size:530728144
+2023-01-30T22:00:40.388432790+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpcxbb_web_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T22:00:45.477745589+00:00 - original size:986782680
+2023-01-30T22:00:45.477781630+00:00 - compressed size:678413113
+2023-01-30T22:00:48.274574498+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpch_lineitem_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T22:00:58.112793391+00:00 - original size:959776816
+2023-01-30T22:00:58.112823821+00:00 - compressed size:1349686168
+2023-01-30T22:01:03.754344275+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpcds_catalog_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T22:01:05.308560082+00:00 - original size:172115052
+2023-01-30T22:01:05.308589125+00:00 - compressed size:236658217
+2023-01-30T22:01:06.326362152+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpcds_store_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T22:01:08.721677329+00:00 - original size:264064200
+2023-01-30T22:01:08.721707973+00:00 - compressed size:354836289
+2023-01-30T22:01:10.290763448+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpcds_web_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T22:01:11.064984831+00:00 - original size:86337856
+2023-01-30T22:01:11.065000911+00:00 - compressed size:118714572
+2023-01-30T22:52:41.243988731+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//msg_bt_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T22:52:42.819137022+00:00 - original size:266389432
+2023-01-30T22:52:42.819160668+00:00 - compressed size:258064783
+2023-01-30T22:52:43.708221510+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//num_brain_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T22:52:44.379378946+00:00 - original size:141840000
+2023-01-30T22:52:44.379394812+00:00 - compressed size:66487520
+2023-01-30T22:52:44.738106891+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//num_control_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T22:52:45.490006472+00:00 - original size:159504744
+2023-01-30T22:52:45.490020693+00:00 - compressed size:72275608
+2023-01-30T22:52:45.907002832+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//rsim_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T22:52:46.781671576+00:00 - original size:94281728
+2023-01-30T22:52:46.781686939+00:00 - compressed size:147315220
+2023-01-30T22:52:47.380211956+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//astro_mhd_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T22:52:50.090382677+00:00 - original size:548458560
+2023-01-30T22:52:50.090416141+00:00 - compressed size:359925950
+2023-01-30T22:52:51.708796488+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//astro_pt_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T22:52:54.303141807+00:00 - original size:671088640
+2023-01-30T22:52:54.303178322+00:00 - compressed size:335544340
+2023-01-30T22:52:55.645456635+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//miranda3d_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T22:53:30.329951364+00:00 - original size:0
+2023-01-30T22:53:30.329985162+00:00 - compressed size:4026531860
+2023-01-30T22:53:51.892993700+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//turbulence_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T22:53:52.457744957+00:00 - original size:67108864
+2023-01-30T22:53:52.457761135+00:00 - compressed size:75497492
+2023-01-30T22:53:52.813070140+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//wave_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T22:53:57.393977702+00:00 - original size:536870912
+2023-01-30T22:53:57.394011681+00:00 - compressed size:486539284
+2023-01-30T22:54:00.088783284+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//citytemp_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T22:54:00.202809392+00:00 - original size:11625304
+2023-01-30T22:54:00.202823478+00:00 - compressed size:13078487
+2023-01-30T22:54:00.284079693+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//ts_gas_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T22:54:03.309858624+00:00 - original size:307452800
+2023-01-30T22:54:03.309892287+00:00 - compressed size:432355520
+2023-01-30T22:54:05.157861658+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//phone_gyro_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T22:54:06.757165700+00:00 - original size:334383168
+2023-01-30T22:54:06.757193509+00:00 - compressed size:172416341
+2023-01-30T22:54:07.622141881+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//wesad_chest_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T22:54:08.895053395+00:00 - original size:272339200
+2023-01-30T22:54:08.895081141+00:00 - compressed size:144680220
+2023-01-30T22:54:09.683447492+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//jane_street_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T22:54:17.326012704+00:00 - original size:1810997760
+2023-01-30T22:54:17.326055388+00:00 - compressed size:1131873620
+2023-01-30T22:54:21.013874872+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//nyc_taxi2015_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T22:54:24.966264481+00:00 - original size:713943216
+2023-01-30T22:54:24.966309893+00:00 - compressed size:580078883
+2023-01-30T22:54:27.150289209+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//spain_gas_price_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T22:54:31.318047243+00:00 - original size:886619664
+2023-01-30T22:54:31.318081689+00:00 - compressed size:415602988
+2023-01-30T22:54:33.569507626+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//solar_wind_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T22:54:37.732705844+00:00 - original size:423980536
+2023-01-30T22:54:37.732742170+00:00 - compressed size:675719000
+2023-01-30T22:54:40.619593826+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//acs_wht_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T22:54:42.689066139+00:00 - original size:225000000
+2023-01-30T22:54:42.689101565+00:00 - compressed size:309375020
+2023-01-30T22:54:44.136685180+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//hdr_night_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T22:54:49.388650293+00:00 - original size:536870912
+2023-01-30T22:54:49.388684340+00:00 - compressed size:788529172
+2023-01-30T22:54:52.897030591+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//hdr_palermo_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T22:54:58.713034450+00:00 - original size:843454592
+2023-01-30T22:54:58.713075218+00:00 - compressed size:843454612
+2023-01-30T22:55:01.703424060+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//hst_wfc3_uvis_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T22:55:02.658622778+00:00 - original size:108924760
+2023-01-30T22:55:02.658638624+00:00 - compressed size:132752072
+2023-01-30T22:55:03.295609979+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//hst_wfc3_ir_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T22:55:03.522798401+00:00 - original size:24015312
+2023-01-30T22:55:03.522813446+00:00 - compressed size:32270596
+2023-01-30T22:55:03.661981896+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//spitzer_irac_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T22:55:04.841307689+00:00 - original size:132974476
+2023-01-30T22:55:04.841332789+00:00 - compressed size:162062663
+2023-01-30T22:55:05.625225905+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//g24_78_usb2_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T22:55:14.296301243+00:00 - original size:1335668264
+2023-01-30T22:55:14.296341441+00:00 - compressed size:1335668284
+2023-01-30T22:55:19.186155304+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//jw_mirimage_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T22:55:20.779802617+00:00 - original size:169082880
+2023-01-30T22:55:20.779829929+00:00 - compressed size:274759700
+2023-01-30T22:55:21.856639282+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpch_order_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T22:55:22.393741485+00:00 - original size:120000000
+2023-01-30T22:55:22.393759939+00:00 - compressed size:90000020
+2023-01-30T22:55:22.668859025+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpcxbb_store_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T22:55:26.887598338+00:00 - original size:789920928
+2023-01-30T22:55:26.887632279+00:00 - compressed size:530728144
+2023-01-30T22:55:29.398331691+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpcxbb_web_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T22:55:35.019018146+00:00 - original size:986782680
+2023-01-30T22:55:35.019055984+00:00 - compressed size:678413113
+2023-01-30T22:55:37.783548790+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpch_lineitem_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T22:55:47.615097582+00:00 - original size:959776816
+2023-01-30T22:55:47.615129379+00:00 - compressed size:1349686168
+2023-01-30T22:55:53.236647305+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpcds_catalog_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T22:55:54.787802916+00:00 - original size:172115052
+2023-01-30T22:55:54.787832079+00:00 - compressed size:236658217
+2023-01-30T22:55:55.797416539+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpcds_store_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T22:55:58.188634855+00:00 - original size:264064200
+2023-01-30T22:55:58.188666078+00:00 - compressed size:354836289
+2023-01-30T22:55:59.751238487+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpcds_web_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T22:56:00.522811527+00:00 - original size:86337856
+2023-01-30T22:56:00.522827090+00:00 - compressed size:118714572
+2023-01-30T22:56:01.056439360+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//msg_bt_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T22:56:02.628383104+00:00 - original size:266389432
+2023-01-30T22:56:02.628410010+00:00 - compressed size:258064783
+2023-01-30T22:56:03.522923671+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//num_brain_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T22:56:04.195167446+00:00 - original size:141840000
+2023-01-30T22:56:04.195182638+00:00 - compressed size:66487520
+2023-01-30T22:56:04.553472604+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//num_control_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T22:56:05.306734515+00:00 - original size:159504744
+2023-01-30T22:56:05.306753809+00:00 - compressed size:72275608
+2023-01-30T22:56:05.725499644+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//rsim_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T22:56:06.599342287+00:00 - original size:94281728
+2023-01-30T22:56:06.599357521+00:00 - compressed size:147315220
+2023-01-30T22:56:07.197103191+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//astro_mhd_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T22:56:09.983727249+00:00 - original size:548458560
+2023-01-30T22:56:09.983752989+00:00 - compressed size:359925950
+2023-01-30T22:56:11.490253112+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//astro_pt_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T22:56:14.078494817+00:00 - original size:671088640
+2023-01-30T22:56:14.078530999+00:00 - compressed size:335544340
+2023-01-30T22:56:15.447078789+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//miranda3d_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T22:56:50.229933632+00:00 - original size:0
+2023-01-30T22:56:50.229967717+00:00 - compressed size:4026531860
+2023-01-30T22:57:11.865028058+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//turbulence_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T22:57:12.435395740+00:00 - original size:67108864
+2023-01-30T22:57:12.435411096+00:00 - compressed size:75497492
+2023-01-30T22:57:12.792696118+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//wave_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T22:57:17.387972912+00:00 - original size:536870912
+2023-01-30T22:57:17.388009274+00:00 - compressed size:486539284
+2023-01-30T22:57:20.096085754+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//citytemp_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T22:57:20.207152875+00:00 - original size:11625304
+2023-01-30T22:57:20.207176052+00:00 - compressed size:13078487
+2023-01-30T22:57:20.288339391+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//ts_gas_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T22:57:23.314953111+00:00 - original size:307452800
+2023-01-30T22:57:23.314989864+00:00 - compressed size:432355520
+2023-01-30T22:57:25.475566626+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//phone_gyro_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T22:57:27.074350100+00:00 - original size:334383168
+2023-01-30T22:57:27.074381187+00:00 - compressed size:172416341
+2023-01-30T22:57:27.938459985+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//wesad_chest_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T22:57:29.206336103+00:00 - original size:272339200
+2023-01-30T22:57:29.206367003+00:00 - compressed size:144680220
+2023-01-30T22:57:29.996809146+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//jane_street_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T22:57:37.627934916+00:00 - original size:1810997760
+2023-01-30T22:57:37.627975730+00:00 - compressed size:1131873620
+2023-01-30T22:57:41.308803629+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//nyc_taxi2015_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T22:57:45.247827034+00:00 - original size:713943216
+2023-01-30T22:57:45.247862794+00:00 - compressed size:580078883
+2023-01-30T22:57:47.419168624+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//spain_gas_price_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T22:57:51.582794293+00:00 - original size:886619664
+2023-01-30T22:57:51.582831602+00:00 - compressed size:415602988
+2023-01-30T22:57:53.827619899+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//solar_wind_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T22:57:57.971459930+00:00 - original size:423980536
+2023-01-30T22:57:57.971491579+00:00 - compressed size:675719000
+2023-01-30T22:58:00.849156463+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//acs_wht_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T22:58:02.865396526+00:00 - original size:225000000
+2023-01-30T22:58:02.865425902+00:00 - compressed size:309375020
+2023-01-30T22:58:04.164972218+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//hdr_night_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T22:58:09.409611001+00:00 - original size:536870912
+2023-01-30T22:58:09.409647982+00:00 - compressed size:788529172
+2023-01-30T22:58:12.908106200+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//hdr_palermo_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T22:58:18.722995136+00:00 - original size:843454592
+2023-01-30T22:58:18.723033561+00:00 - compressed size:843454612
+2023-01-30T22:58:21.713038101+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//hst_wfc3_uvis_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T22:58:22.665411067+00:00 - original size:108924760
+2023-01-30T22:58:22.665426640+00:00 - compressed size:132752072
+2023-01-30T22:58:23.303680062+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//hst_wfc3_ir_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T22:58:23.531181922+00:00 - original size:24015312
+2023-01-30T22:58:23.531198890+00:00 - compressed size:32270596
+2023-01-30T22:58:23.670952665+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//spitzer_irac_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T22:58:24.845102897+00:00 - original size:132974476
+2023-01-30T22:58:24.845128893+00:00 - compressed size:162062663
+2023-01-30T22:58:25.627091744+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//g24_78_usb2_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T22:58:34.418803330+00:00 - original size:1335668264
+2023-01-30T22:58:34.418844888+00:00 - compressed size:1335668284
+2023-01-30T22:58:39.213651720+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//jw_mirimage_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T22:58:40.801166112+00:00 - original size:169082880
+2023-01-30T22:58:40.801195146+00:00 - compressed size:274759700
+2023-01-30T22:58:41.882226157+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpch_order_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T22:58:42.423844391+00:00 - original size:120000000
+2023-01-30T22:58:42.423863601+00:00 - compressed size:90000020
+2023-01-30T22:58:42.699805695+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpcxbb_store_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T22:58:46.875554067+00:00 - original size:789920928
+2023-01-30T22:58:46.875586802+00:00 - compressed size:530728144
+2023-01-30T22:58:49.344002505+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpcxbb_web_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T22:58:55.008113266+00:00 - original size:986782680
+2023-01-30T22:58:55.008147337+00:00 - compressed size:678413113
+2023-01-30T22:58:57.759336779+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpch_lineitem_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T22:59:07.526494910+00:00 - original size:959776816
+2023-01-30T22:59:07.526523781+00:00 - compressed size:1349686168
+2023-01-30T22:59:13.073859502+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpcds_catalog_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T22:59:14.617948166+00:00 - original size:172115052
+2023-01-30T22:59:14.617977002+00:00 - compressed size:236658217
+2023-01-30T22:59:15.633210750+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpcds_store_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T22:59:18.127582183+00:00 - original size:264064200
+2023-01-30T22:59:18.127613789+00:00 - compressed size:354836289
+2023-01-30T22:59:19.813939523+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpcds_web_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T22:59:20.586724780+00:00 - original size:86337856
+2023-01-30T22:59:20.586740477+00:00 - compressed size:118714572
+2023-01-30T22:59:21.119215799+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//msg_bt_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T22:59:22.688843100+00:00 - original size:266389432
+2023-01-30T22:59:22.688869833+00:00 - compressed size:258064783
+2023-01-30T22:59:23.576201302+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//num_brain_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T22:59:24.247444436+00:00 - original size:141840000
+2023-01-30T22:59:24.247459336+00:00 - compressed size:66487520
+2023-01-30T22:59:24.605480495+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//num_control_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T22:59:25.358099400+00:00 - original size:159504744
+2023-01-30T22:59:25.358116426+00:00 - compressed size:72275608
+2023-01-30T22:59:25.775014254+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//rsim_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T22:59:26.649799859+00:00 - original size:94281728
+2023-01-30T22:59:26.649815326+00:00 - compressed size:147315220
+2023-01-30T22:59:27.248773610+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//astro_mhd_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T22:59:29.961554077+00:00 - original size:548458560
+2023-01-30T22:59:29.961595004+00:00 - compressed size:359925950
+2023-01-30T22:59:31.580794158+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//astro_pt_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T22:59:34.172194609+00:00 - original size:671088640
+2023-01-30T22:59:34.172231975+00:00 - compressed size:335544340
+2023-01-30T22:59:35.514696225+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//miranda3d_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:00:10.194663564+00:00 - original size:0
+2023-01-30T23:00:10.194700580+00:00 - compressed size:4026531860
+2023-01-30T23:00:31.801190237+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//turbulence_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:00:32.370301334+00:00 - original size:67108864
+2023-01-30T23:00:32.370316644+00:00 - compressed size:75497492
+2023-01-30T23:00:32.725127621+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//wave_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:00:37.250255065+00:00 - original size:536870912
+2023-01-30T23:00:37.250289771+00:00 - compressed size:486539284
+2023-01-30T23:00:39.950962486+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//citytemp_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:00:40.048698927+00:00 - original size:11625304
+2023-01-30T23:00:40.048714994+00:00 - compressed size:13078487
+2023-01-30T23:00:40.129884998+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//ts_gas_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:00:43.151524717+00:00 - original size:307452800
+2023-01-30T23:00:43.151559582+00:00 - compressed size:432355520
+2023-01-30T23:00:45.000607744+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//phone_gyro_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:00:46.592510542+00:00 - original size:334383168
+2023-01-30T23:00:46.592539812+00:00 - compressed size:172416341
+2023-01-30T23:00:47.457933055+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//wesad_chest_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:00:48.729606297+00:00 - original size:272339200
+2023-01-30T23:00:48.729637446+00:00 - compressed size:144680220
+2023-01-30T23:00:49.519335939+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//jane_street_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:00:57.095948563+00:00 - original size:1810997760
+2023-01-30T23:00:57.095993266+00:00 - compressed size:1131873620
+2023-01-30T23:01:00.908284412+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//nyc_taxi2015_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:01:04.855585038+00:00 - original size:713943216
+2023-01-30T23:01:04.855619156+00:00 - compressed size:580078883
+2023-01-30T23:01:07.035976462+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//spain_gas_price_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:01:11.171843691+00:00 - original size:886619664
+2023-01-30T23:01:11.171880696+00:00 - compressed size:415602988
+2023-01-30T23:01:13.435580991+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//solar_wind_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:01:17.586987049+00:00 - original size:423980536
+2023-01-30T23:01:17.587023770+00:00 - compressed size:675719000
+2023-01-30T23:01:20.468729087+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//acs_wht_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:01:22.532293906+00:00 - original size:225000000
+2023-01-30T23:01:22.532327054+00:00 - compressed size:309375020
+2023-01-30T23:01:23.972921035+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//hdr_night_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:01:29.222744344+00:00 - original size:536870912
+2023-01-30T23:01:29.222778406+00:00 - compressed size:788529172
+2023-01-30T23:01:32.733012795+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//hdr_palermo_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:01:38.477647603+00:00 - original size:843454592
+2023-01-30T23:01:38.477688507+00:00 - compressed size:843454612
+2023-01-30T23:01:41.457590060+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//hst_wfc3_uvis_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:01:42.410622990+00:00 - original size:108924760
+2023-01-30T23:01:42.410637477+00:00 - compressed size:132752072
+2023-01-30T23:01:43.048711467+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//hst_wfc3_ir_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:01:43.274936280+00:00 - original size:24015312
+2023-01-30T23:01:43.274952161+00:00 - compressed size:32270596
+2023-01-30T23:01:43.413869993+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//spitzer_irac_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:01:44.592117908+00:00 - original size:132974476
+2023-01-30T23:01:44.592145038+00:00 - compressed size:162062663
+2023-01-30T23:01:45.370839923+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//g24_78_usb2_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:01:54.097215318+00:00 - original size:1335668264
+2023-01-30T23:01:54.097256948+00:00 - compressed size:1335668284
+2023-01-30T23:01:58.975688636+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//jw_mirimage_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:02:00.563887240+00:00 - original size:169082880
+2023-01-30T23:02:00.563918975+00:00 - compressed size:274759700
+2023-01-30T23:02:01.637905941+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpch_order_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:02:02.174836101+00:00 - original size:120000000
+2023-01-30T23:02:02.174854430+00:00 - compressed size:90000020
+2023-01-30T23:02:02.450278688+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpcxbb_store_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:02:06.645964789+00:00 - original size:789920928
+2023-01-30T23:02:06.645998770+00:00 - compressed size:530728144
+2023-01-30T23:02:09.120588124+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpcxbb_web_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:02:14.668869383+00:00 - original size:986782680
+2023-01-30T23:02:14.668901132+00:00 - compressed size:678413113
+2023-01-30T23:02:17.407953075+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpch_lineitem_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:02:27.202613051+00:00 - original size:959776816
+2023-01-30T23:02:27.202645739+00:00 - compressed size:1349686168
+2023-01-30T23:02:32.793846795+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpcds_catalog_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:02:34.340574316+00:00 - original size:172115052
+2023-01-30T23:02:34.340604007+00:00 - compressed size:236658217
+2023-01-30T23:02:35.347981817+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpcds_store_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:02:37.965068826+00:00 - original size:264064200
+2023-01-30T23:02:37.965098616+00:00 - compressed size:354836289
+2023-01-30T23:02:39.650337545+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpcds_web_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:02:40.419976060+00:00 - original size:86337856
+2023-01-30T23:02:40.419992012+00:00 - compressed size:118714572
+2023-01-30T23:02:40.948808659+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//msg_bt_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:02:42.503509089+00:00 - original size:266389432
+2023-01-30T23:02:42.503537063+00:00 - compressed size:258064783
+2023-01-30T23:02:43.388165059+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//num_brain_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:02:44.058451186+00:00 - original size:141840000
+2023-01-30T23:02:44.058466222+00:00 - compressed size:66487520
+2023-01-30T23:02:44.417043705+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//num_control_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:02:45.171249235+00:00 - original size:159504744
+2023-01-30T23:02:45.171265610+00:00 - compressed size:72275608
+2023-01-30T23:02:45.590098604+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//rsim_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:02:46.462141621+00:00 - original size:94281728
+2023-01-30T23:02:46.462157422+00:00 - compressed size:147315220
+2023-01-30T23:02:47.059468004+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//astro_mhd_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:02:49.768992985+00:00 - original size:548458560
+2023-01-30T23:02:49.769032739+00:00 - compressed size:359925950
+2023-01-30T23:02:51.390958644+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//astro_pt_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:02:53.976525292+00:00 - original size:671088640
+2023-01-30T23:02:53.976564813+00:00 - compressed size:335544340
+2023-01-30T23:02:55.324659579+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//miranda3d_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:03:29.984995438+00:00 - original size:0
+2023-01-30T23:03:29.985027844+00:00 - compressed size:4026531860
+2023-01-30T23:03:51.561089942+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//turbulence_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:03:52.127598554+00:00 - original size:67108864
+2023-01-30T23:03:52.127613696+00:00 - compressed size:75497492
+2023-01-30T23:03:52.482597871+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//wave_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:03:57.063500156+00:00 - original size:536870912
+2023-01-30T23:03:57.063536201+00:00 - compressed size:486539284
+2023-01-30T23:03:59.757185204+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//citytemp_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:03:59.870604569+00:00 - original size:11625304
+2023-01-30T23:03:59.870620790+00:00 - compressed size:13078487
+2023-01-30T23:03:59.951704991+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//ts_gas_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:04:02.837753166+00:00 - original size:307452800
+2023-01-30T23:04:02.837788319+00:00 - compressed size:432355520
+2023-01-30T23:04:04.748344405+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//phone_gyro_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:04:06.333058438+00:00 - original size:334383168
+2023-01-30T23:04:06.333083462+00:00 - compressed size:172416341
+2023-01-30T23:04:07.196107272+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//wesad_chest_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:04:08.471325143+00:00 - original size:272339200
+2023-01-30T23:04:08.471356519+00:00 - compressed size:144680220
+2023-01-30T23:04:09.254813999+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//jane_street_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:04:16.758356322+00:00 - original size:1810997760
+2023-01-30T23:04:16.758392546+00:00 - compressed size:1131873620
+2023-01-30T23:04:20.608220764+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//nyc_taxi2015_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:04:24.572220275+00:00 - original size:713943216
+2023-01-30T23:04:24.572253810+00:00 - compressed size:580078883
+2023-01-30T23:04:26.762580745+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//spain_gas_price_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:04:30.903758684+00:00 - original size:886619664
+2023-01-30T23:04:30.903796114+00:00 - compressed size:415602988
+2023-01-30T23:04:33.167725200+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//solar_wind_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:04:37.325275964+00:00 - original size:423980536
+2023-01-30T23:04:37.325311592+00:00 - compressed size:675719000
+2023-01-30T23:04:40.204292032+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//acs_wht_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:04:42.267909291+00:00 - original size:225000000
+2023-01-30T23:04:42.267940596+00:00 - compressed size:309375020
+2023-01-30T23:04:43.708172204+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//hdr_night_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:04:48.957155605+00:00 - original size:536870912
+2023-01-30T23:04:48.957192381+00:00 - compressed size:788529172
+2023-01-30T23:04:52.482663940+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//hdr_palermo_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:04:58.220548689+00:00 - original size:843454592
+2023-01-30T23:04:58.220588453+00:00 - compressed size:843454612
+2023-01-30T23:05:01.202794250+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//hst_wfc3_uvis_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:05:02.155771511+00:00 - original size:108924760
+2023-01-30T23:05:02.155788103+00:00 - compressed size:132752072
+2023-01-30T23:05:02.780988845+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//hst_wfc3_ir_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:05:03.004171583+00:00 - original size:24015312
+2023-01-30T23:05:03.004188447+00:00 - compressed size:32270596
+2023-01-30T23:05:03.142654255+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//spitzer_irac_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:05:04.317381834+00:00 - original size:132974476
+2023-01-30T23:05:04.317409832+00:00 - compressed size:162062663
+2023-01-30T23:05:05.101381261+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//g24_78_usb2_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:05:13.862289075+00:00 - original size:1335668264
+2023-01-30T23:05:13.862333432+00:00 - compressed size:1335668284
+2023-01-30T23:05:18.694832385+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//jw_mirimage_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:05:20.275652959+00:00 - original size:169082880
+2023-01-30T23:05:20.275682837+00:00 - compressed size:274759700
+2023-01-30T23:05:21.339605785+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpch_order_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:05:21.877157338+00:00 - original size:120000000
+2023-01-30T23:05:21.877175753+00:00 - compressed size:90000020
+2023-01-30T23:05:22.153086449+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpcxbb_store_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:05:26.262085549+00:00 - original size:789920928
+2023-01-30T23:05:26.262120950+00:00 - compressed size:530728144
+2023-01-30T23:05:28.452172218+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpcxbb_web_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:05:34.046016327+00:00 - original size:986782680
+2023-01-30T23:05:34.046051445+00:00 - compressed size:678413113
+2023-01-30T23:05:36.798447337+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpch_lineitem_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:05:46.578166411+00:00 - original size:959776816
+2023-01-30T23:05:46.578196239+00:00 - compressed size:1349686168
+2023-01-30T23:05:52.145326789+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpcds_catalog_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:05:53.675695195+00:00 - original size:172115052
+2023-01-30T23:05:53.675723830+00:00 - compressed size:236658217
+2023-01-30T23:05:54.731951396+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpcds_store_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:05:57.117304342+00:00 - original size:264064200
+2023-01-30T23:05:57.117337700+00:00 - compressed size:354836289
+2023-01-30T23:05:58.675467919+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpcds_web_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:05:59.447606569+00:00 - original size:86337856
+2023-01-30T23:05:59.447622818+00:00 - compressed size:118714572
+2023-01-30T23:05:59.980164311+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//msg_bt_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:06:01.544344943+00:00 - original size:266389432
+2023-01-30T23:06:01.544372536+00:00 - compressed size:258064783
+2023-01-30T23:06:02.432258044+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//num_brain_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:06:03.105626937+00:00 - original size:141840000
+2023-01-30T23:06:03.105642104+00:00 - compressed size:66487520
+2023-01-30T23:06:03.463791560+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//num_control_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:06:04.212788233+00:00 - original size:159504744
+2023-01-30T23:06:04.212804012+00:00 - compressed size:72275608
+2023-01-30T23:06:04.631011857+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//rsim_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:06:05.504990675+00:00 - original size:94281728
+2023-01-30T23:06:05.505006850+00:00 - compressed size:147315220
+2023-01-30T23:06:06.103235113+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//astro_mhd_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:06:08.816004234+00:00 - original size:548458560
+2023-01-30T23:06:08.816036003+00:00 - compressed size:359925950
+2023-01-30T23:06:10.433083431+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//astro_pt_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:06:13.050786925+00:00 - original size:671088640
+2023-01-30T23:06:13.050817612+00:00 - compressed size:335544340
+2023-01-30T23:06:14.342610982+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//miranda3d_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:06:48.994390139+00:00 - original size:0
+2023-01-30T23:06:48.994425680+00:00 - compressed size:4026531860
+2023-01-30T23:07:10.584656415+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//turbulence_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:07:11.152566205+00:00 - original size:67108864
+2023-01-30T23:07:11.152581859+00:00 - compressed size:75497492
+2023-01-30T23:07:11.508074119+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//wave_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:07:16.087914383+00:00 - original size:536870912
+2023-01-30T23:07:16.087948311+00:00 - compressed size:486539284
+2023-01-30T23:07:18.783241427+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//citytemp_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:07:18.895535713+00:00 - original size:11625304
+2023-01-30T23:07:18.895549976+00:00 - compressed size:13078487
+2023-01-30T23:07:18.976516594+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//ts_gas_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:07:21.998434721+00:00 - original size:307452800
+2023-01-30T23:07:21.998469831+00:00 - compressed size:432355520
+2023-01-30T23:07:23.846865699+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//phone_gyro_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:07:25.435972063+00:00 - original size:334383168
+2023-01-30T23:07:25.436001742+00:00 - compressed size:172416341
+2023-01-30T23:07:26.301230405+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//wesad_chest_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:07:27.569937154+00:00 - original size:272339200
+2023-01-30T23:07:27.569968503+00:00 - compressed size:144680220
+2023-01-30T23:07:28.368476463+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//jane_street_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:07:35.967856746+00:00 - original size:1810997760
+2023-01-30T23:07:35.967899915+00:00 - compressed size:1131873620
+2023-01-30T23:07:39.626718419+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//nyc_taxi2015_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:07:43.593593875+00:00 - original size:713943216
+2023-01-30T23:07:43.593630804+00:00 - compressed size:580078883
+2023-01-30T23:07:45.785865116+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//spain_gas_price_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:07:49.928344911+00:00 - original size:886619664
+2023-01-30T23:07:49.928380070+00:00 - compressed size:415602988
+2023-01-30T23:07:52.183266588+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//solar_wind_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:07:56.332707792+00:00 - original size:423980536
+2023-01-30T23:07:56.332740922+00:00 - compressed size:675719000
+2023-01-30T23:07:59.213144237+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//acs_wht_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:08:01.214198948+00:00 - original size:225000000
+2023-01-30T23:08:01.214229249+00:00 - compressed size:309375020
+2023-01-30T23:08:02.550595631+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//hdr_night_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:08:07.800889871+00:00 - original size:536870912
+2023-01-30T23:08:07.800926948+00:00 - compressed size:788529172
+2023-01-30T23:08:11.307337386+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//hdr_palermo_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:08:17.075669958+00:00 - original size:843454592
+2023-01-30T23:08:17.075708780+00:00 - compressed size:843454612
+2023-01-30T23:08:20.060558385+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//hst_wfc3_uvis_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:08:21.014674480+00:00 - original size:108924760
+2023-01-30T23:08:21.014689660+00:00 - compressed size:132752072
+2023-01-30T23:08:21.654132516+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//hst_wfc3_ir_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:08:21.878544377+00:00 - original size:24015312
+2023-01-30T23:08:21.878568140+00:00 - compressed size:32270596
+2023-01-30T23:08:22.017891417+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//spitzer_irac_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:08:23.191251851+00:00 - original size:132974476
+2023-01-30T23:08:23.191277681+00:00 - compressed size:162062663
+2023-01-30T23:08:23.976525104+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//g24_78_usb2_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:08:32.738173474+00:00 - original size:1335668264
+2023-01-30T23:08:32.738216790+00:00 - compressed size:1335668284
+2023-01-30T23:08:37.580323758+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//jw_mirimage_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:08:39.169003626+00:00 - original size:169082880
+2023-01-30T23:08:39.169032643+00:00 - compressed size:274759700
+2023-01-30T23:08:40.240408238+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpch_order_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:08:40.777625337+00:00 - original size:120000000
+2023-01-30T23:08:40.777643491+00:00 - compressed size:90000020
+2023-01-30T23:08:41.051780046+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpcxbb_store_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:08:45.249023765+00:00 - original size:789920928
+2023-01-30T23:08:45.249057378+00:00 - compressed size:530728144
+2023-01-30T23:08:47.673422351+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpcxbb_web_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:08:53.239010879+00:00 - original size:986782680
+2023-01-30T23:08:53.239044140+00:00 - compressed size:678413113
+2023-01-30T23:08:55.983999176+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpch_lineitem_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:09:05.763971630+00:00 - original size:959776816
+2023-01-30T23:09:05.764003272+00:00 - compressed size:1349686168
+2023-01-30T23:09:11.431837930+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpcds_catalog_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:09:12.977003140+00:00 - original size:172115052
+2023-01-30T23:09:12.977032015+00:00 - compressed size:236658217
+2023-01-30T23:09:13.990688296+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpcds_store_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:09:16.378292575+00:00 - original size:264064200
+2023-01-30T23:09:16.378326259+00:00 - compressed size:354836289
+2023-01-30T23:09:17.923999032+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpcds_web_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:09:18.692017704+00:00 - original size:86337856
+2023-01-30T23:09:18.692034711+00:00 - compressed size:118714572
+2023-01-30T23:09:19.224603068+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//msg_bt_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:09:20.788434852+00:00 - original size:266389432
+2023-01-30T23:09:20.788459435+00:00 - compressed size:258064783
+2023-01-30T23:09:21.671357072+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//num_brain_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:09:22.328163381+00:00 - original size:141840000
+2023-01-30T23:09:22.328181833+00:00 - compressed size:66487520
+2023-01-30T23:09:22.686352848+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//num_control_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:09:23.435014422+00:00 - original size:159504744
+2023-01-30T23:09:23.435032999+00:00 - compressed size:72275608
+2023-01-30T23:09:23.852849241+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//rsim_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:09:24.727770233+00:00 - original size:94281728
+2023-01-30T23:09:24.727785815+00:00 - compressed size:147315220
+2023-01-30T23:09:25.323059192+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//astro_mhd_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:09:28.028029682+00:00 - original size:548458560
+2023-01-30T23:09:28.028065439+00:00 - compressed size:359925950
+2023-01-30T23:09:29.645871482+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//astro_pt_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:09:32.237420078+00:00 - original size:671088640
+2023-01-30T23:09:32.237457370+00:00 - compressed size:335544340
+2023-01-30T23:09:33.609040309+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//miranda3d_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:10:08.275268557+00:00 - original size:0
+2023-01-30T23:10:08.275303351+00:00 - compressed size:4026531860
+2023-01-30T23:10:29.841927639+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//turbulence_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:10:30.409701313+00:00 - original size:67108864
+2023-01-30T23:10:30.409716499+00:00 - compressed size:75497492
+2023-01-30T23:10:30.764319827+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//wave_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:10:35.345004945+00:00 - original size:536870912
+2023-01-30T23:10:35.345042226+00:00 - compressed size:486539284
+2023-01-30T23:10:38.035099314+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//citytemp_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:10:38.133160622+00:00 - original size:11625304
+2023-01-30T23:10:38.133176711+00:00 - compressed size:13078487
+2023-01-30T23:10:38.214287120+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//ts_gas_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:10:41.238226256+00:00 - original size:307452800
+2023-01-30T23:10:41.238261136+00:00 - compressed size:432355520
+2023-01-30T23:10:43.090231825+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//phone_gyro_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:10:44.675682575+00:00 - original size:334383168
+2023-01-30T23:10:44.675712630+00:00 - compressed size:172416341
+2023-01-30T23:10:45.538370911+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//wesad_chest_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:10:46.812050534+00:00 - original size:272339200
+2023-01-30T23:10:46.812077922+00:00 - compressed size:144680220
+2023-01-30T23:10:47.600129427+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//jane_street_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:10:55.193240354+00:00 - original size:1810997760
+2023-01-30T23:10:55.193281737+00:00 - compressed size:1131873620
+2023-01-30T23:10:58.856372827+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//nyc_taxi2015_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:11:02.807610817+00:00 - original size:713943216
+2023-01-30T23:11:02.807644352+00:00 - compressed size:580078883
+2023-01-30T23:11:04.993249255+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//spain_gas_price_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:11:09.119707117+00:00 - original size:886619664
+2023-01-30T23:11:09.119742846+00:00 - compressed size:415602988
+2023-01-30T23:11:11.540776733+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//solar_wind_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:11:15.693250401+00:00 - original size:423980536
+2023-01-30T23:11:15.693291916+00:00 - compressed size:675719000
+2023-01-30T23:11:18.571737140+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//acs_wht_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:11:20.634576713+00:00 - original size:225000000
+2023-01-30T23:11:20.634608769+00:00 - compressed size:309375020
+2023-01-30T23:11:22.075859483+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//hdr_night_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:11:27.328650610+00:00 - original size:536870912
+2023-01-30T23:11:27.328684493+00:00 - compressed size:788529172
+2023-01-30T23:11:30.841022576+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//hdr_palermo_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:11:36.609309406+00:00 - original size:843454592
+2023-01-30T23:11:36.609348101+00:00 - compressed size:843454612
+2023-01-30T23:11:39.586824542+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//hst_wfc3_uvis_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:11:40.525419900+00:00 - original size:108924760
+2023-01-30T23:11:40.525436239+00:00 - compressed size:132752072
+2023-01-30T23:11:41.170377088+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//hst_wfc3_ir_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:11:41.395354776+00:00 - original size:24015312
+2023-01-30T23:11:41.395368630+00:00 - compressed size:32270596
+2023-01-30T23:11:41.534334740+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//spitzer_irac_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:11:42.707772309+00:00 - original size:132974476
+2023-01-30T23:11:42.707799664+00:00 - compressed size:162062663
+2023-01-30T23:11:43.492161597+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//g24_78_usb2_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:11:52.247905907+00:00 - original size:1335668264
+2023-01-30T23:11:52.247947788+00:00 - compressed size:1335668284
+2023-01-30T23:11:57.089742467+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//jw_mirimage_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:11:58.680321614+00:00 - original size:169082880
+2023-01-30T23:11:58.680350386+00:00 - compressed size:274759700
+2023-01-30T23:11:59.750782417+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpch_order_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:12:00.289880426+00:00 - original size:120000000
+2023-01-30T23:12:00.289899451+00:00 - compressed size:90000020
+2023-01-30T23:12:00.564779061+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpcxbb_store_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:12:04.755373145+00:00 - original size:789920928
+2023-01-30T23:12:04.755409010+00:00 - compressed size:530728144
+2023-01-30T23:12:07.172448923+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpcxbb_web_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:12:12.731640336+00:00 - original size:986782680
+2023-01-30T23:12:12.731675269+00:00 - compressed size:678413113
+2023-01-30T23:12:15.478954486+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpch_lineitem_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:12:25.263047467+00:00 - original size:959776816
+2023-01-30T23:12:25.263075171+00:00 - compressed size:1349686168
+2023-01-30T23:12:30.847963257+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpcds_catalog_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:12:32.393330649+00:00 - original size:172115052
+2023-01-30T23:12:32.393358324+00:00 - compressed size:236658217
+2023-01-30T23:12:33.405441682+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpcds_store_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:12:35.793184021+00:00 - original size:264064200
+2023-01-30T23:12:35.793212919+00:00 - compressed size:354836289
+2023-01-30T23:12:37.350059079+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpcds_web_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:12:38.125356034+00:00 - original size:86337856
+2023-01-30T23:12:38.125376130+00:00 - compressed size:118714572
+2023-01-30T23:12:38.658408449+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//msg_bt_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:12:40.223019854+00:00 - original size:266389432
+2023-01-30T23:12:40.223048154+00:00 - compressed size:258064783
+2023-01-30T23:12:41.112668276+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//num_brain_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:12:41.783658246+00:00 - original size:141840000
+2023-01-30T23:12:41.783675642+00:00 - compressed size:66487520
+2023-01-30T23:12:42.142319925+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//num_control_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:12:42.889982235+00:00 - original size:159504744
+2023-01-30T23:12:42.889998218+00:00 - compressed size:72275608
+2023-01-30T23:12:43.307810952+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//rsim_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:12:44.182552647+00:00 - original size:94281728
+2023-01-30T23:12:44.182567369+00:00 - compressed size:147315220
+2023-01-30T23:12:44.781165426+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//astro_mhd_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:12:47.564344352+00:00 - original size:548458560
+2023-01-30T23:12:47.564372833+00:00 - compressed size:359925950
+2023-01-30T23:12:49.062872397+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//astro_pt_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:12:51.631456709+00:00 - original size:671088640
+2023-01-30T23:12:51.631495586+00:00 - compressed size:335544340
+2023-01-30T23:12:52.913116136+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//miranda3d_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:13:27.487883422+00:00 - original size:0
+2023-01-30T23:13:27.487916184+00:00 - compressed size:4026531860
+2023-01-30T23:13:49.033230490+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//turbulence_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:13:49.599796189+00:00 - original size:67108864
+2023-01-30T23:13:49.599811215+00:00 - compressed size:75497492
+2023-01-30T23:13:49.955559720+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//wave_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:13:54.535378269+00:00 - original size:536870912
+2023-01-30T23:13:54.535412009+00:00 - compressed size:486539284
+2023-01-30T23:13:57.227052022+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//citytemp_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:13:57.340880115+00:00 - original size:11625304
+2023-01-30T23:13:57.340895357+00:00 - compressed size:13078487
+2023-01-30T23:13:57.421193870+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//ts_gas_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:14:00.339557738+00:00 - original size:307452800
+2023-01-30T23:14:00.339592839+00:00 - compressed size:432355520
+2023-01-30T23:14:02.327536649+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//phone_gyro_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:14:03.920342425+00:00 - original size:334383168
+2023-01-30T23:14:03.920377928+00:00 - compressed size:172416341
+2023-01-30T23:14:04.778802092+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//wesad_chest_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:14:06.039543353+00:00 - original size:272339200
+2023-01-30T23:14:06.039571248+00:00 - compressed size:144680220
+2023-01-30T23:14:06.834926745+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//jane_street_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:14:14.335730492+00:00 - original size:1810997760
+2023-01-30T23:14:14.335773603+00:00 - compressed size:1131873620
+2023-01-30T23:14:18.646225456+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//nyc_taxi2015_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:14:22.593465828+00:00 - original size:713943216
+2023-01-30T23:14:22.593502382+00:00 - compressed size:580078883
+2023-01-30T23:14:24.778649023+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//spain_gas_price_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:14:28.918783003+00:00 - original size:886619664
+2023-01-30T23:14:28.918815349+00:00 - compressed size:415602988
+2023-01-30T23:14:31.175529727+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//solar_wind_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:14:35.330572996+00:00 - original size:423980536
+2023-01-30T23:14:35.330606864+00:00 - compressed size:675719000
+2023-01-30T23:14:38.219274432+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//acs_wht_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:14:40.280863071+00:00 - original size:225000000
+2023-01-30T23:14:40.280898640+00:00 - compressed size:309375020
+2023-01-30T23:14:41.720184115+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//hdr_night_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:14:46.965955472+00:00 - original size:536870912
+2023-01-30T23:14:46.965992321+00:00 - compressed size:788529172
+2023-01-30T23:14:50.475694330+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//hdr_palermo_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:14:56.233294752+00:00 - original size:843454592
+2023-01-30T23:14:56.233334701+00:00 - compressed size:843454612
+2023-01-30T23:14:59.216751604+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//hst_wfc3_uvis_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:15:00.171461044+00:00 - original size:108924760
+2023-01-30T23:15:00.171479234+00:00 - compressed size:132752072
+2023-01-30T23:15:00.796004550+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//hst_wfc3_ir_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:15:01.019667007+00:00 - original size:24015312
+2023-01-30T23:15:01.019681737+00:00 - compressed size:32270596
+2023-01-30T23:15:01.157900504+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//spitzer_irac_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:15:02.332891337+00:00 - original size:132974476
+2023-01-30T23:15:02.332920371+00:00 - compressed size:162062663
+2023-01-30T23:15:03.117310536+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//g24_78_usb2_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:15:11.793188365+00:00 - original size:1335668264
+2023-01-30T23:15:11.793229784+00:00 - compressed size:1335668284
+2023-01-30T23:15:16.674866695+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//jw_mirimage_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:15:18.245461484+00:00 - original size:169082880
+2023-01-30T23:15:18.245488059+00:00 - compressed size:274759700
+2023-01-30T23:15:19.310535379+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpch_order_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:15:19.851485991+00:00 - original size:120000000
+2023-01-30T23:15:19.851504145+00:00 - compressed size:90000020
+2023-01-30T23:15:20.126583148+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpcxbb_store_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:15:24.317573786+00:00 - original size:789920928
+2023-01-30T23:15:24.317613082+00:00 - compressed size:530728144
+2023-01-30T23:15:26.791067414+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpcxbb_web_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:15:32.322011844+00:00 - original size:986782680
+2023-01-30T23:15:32.322048534+00:00 - compressed size:678413113
+2023-01-30T23:15:35.066645058+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpch_lineitem_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:15:44.847101365+00:00 - original size:959776816
+2023-01-30T23:15:44.847134857+00:00 - compressed size:1349686168
+2023-01-30T23:15:50.418424082+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpcds_catalog_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:15:51.963219405+00:00 - original size:172115052
+2023-01-30T23:15:51.963249228+00:00 - compressed size:236658217
+2023-01-30T23:15:52.972001364+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpcds_store_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:15:55.355660710+00:00 - original size:264064200
+2023-01-30T23:15:55.355693153+00:00 - compressed size:354836289
+2023-01-30T23:15:56.916366685+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpcds_web_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:15:57.687307140+00:00 - original size:86337856
+2023-01-30T23:15:57.687322789+00:00 - compressed size:118714572
+2023-01-30T23:15:58.219762313+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//msg_bt_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:15:59.785472015+00:00 - original size:266389432
+2023-01-30T23:15:59.785495562+00:00 - compressed size:258064783
+2023-01-30T23:16:00.676595799+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//num_brain_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:16:01.348781673+00:00 - original size:141840000
+2023-01-30T23:16:01.348797327+00:00 - compressed size:66487520
+2023-01-30T23:16:01.708598611+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//num_control_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:16:02.454455644+00:00 - original size:159504744
+2023-01-30T23:16:02.454472030+00:00 - compressed size:72275608
+2023-01-30T23:16:02.872099420+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//rsim_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:16:03.747283427+00:00 - original size:94281728
+2023-01-30T23:16:03.747298770+00:00 - compressed size:147315220
+2023-01-30T23:16:04.346345220+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//astro_mhd_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:16:07.058544079+00:00 - original size:548458560
+2023-01-30T23:16:07.058581447+00:00 - compressed size:359925950
+2023-01-30T23:16:08.680400128+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//astro_pt_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:16:11.264824270+00:00 - original size:671088640
+2023-01-30T23:16:11.264861214+00:00 - compressed size:335544340
+2023-01-30T23:16:12.608428850+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//miranda3d_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:16:47.260838931+00:00 - original size:0
+2023-01-30T23:16:47.260874576+00:00 - compressed size:4026531860
+2023-01-30T23:17:08.899354554+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//turbulence_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:17:09.468072553+00:00 - original size:67108864
+2023-01-30T23:17:09.468087643+00:00 - compressed size:75497492
+2023-01-30T23:17:09.822666282+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//wave_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:17:14.403872677+00:00 - original size:536870912
+2023-01-30T23:17:14.403908617+00:00 - compressed size:486539284
+2023-01-30T23:17:17.099186670+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//citytemp_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:17:17.212969964+00:00 - original size:11625304
+2023-01-30T23:17:17.212989513+00:00 - compressed size:13078487
+2023-01-30T23:17:17.293902577+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//ts_gas_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:17:20.317810536+00:00 - original size:307452800
+2023-01-30T23:17:20.317843389+00:00 - compressed size:432355520
+2023-01-30T23:17:22.167468656+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//phone_gyro_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:17:23.756167373+00:00 - original size:334383168
+2023-01-30T23:17:23.756197801+00:00 - compressed size:172416341
+2023-01-30T23:17:24.618750905+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//wesad_chest_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:17:25.893268232+00:00 - original size:272339200
+2023-01-30T23:17:25.893296442+00:00 - compressed size:144680220
+2023-01-30T23:17:26.680855186+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//jane_street_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:17:34.257777217+00:00 - original size:1810997760
+2023-01-30T23:17:34.257816065+00:00 - compressed size:1131873620
+2023-01-30T23:17:37.915515137+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//nyc_taxi2015_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:17:41.884246502+00:00 - original size:713943216
+2023-01-30T23:17:41.884281986+00:00 - compressed size:580078883
+2023-01-30T23:17:44.080204933+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//spain_gas_price_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:17:48.222719060+00:00 - original size:886619664
+2023-01-30T23:17:48.222750912+00:00 - compressed size:415602988
+2023-01-30T23:17:50.483308269+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//solar_wind_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:17:54.637192754+00:00 - original size:423980536
+2023-01-30T23:17:54.637225121+00:00 - compressed size:675719000
+2023-01-30T23:17:57.522887306+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//acs_wht_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:17:59.590014915+00:00 - original size:225000000
+2023-01-30T23:17:59.590049191+00:00 - compressed size:309375020
+2023-01-30T23:18:01.030969480+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//hdr_night_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:18:06.289439428+00:00 - original size:536870912
+2023-01-30T23:18:06.289473938+00:00 - compressed size:788529172
+2023-01-30T23:18:09.795362324+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//hdr_palermo_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:18:15.565281685+00:00 - original size:843454592
+2023-01-30T23:18:15.565323072+00:00 - compressed size:843454612
+2023-01-30T23:18:18.540108489+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//hst_wfc3_uvis_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:18:19.494489186+00:00 - original size:108924760
+2023-01-30T23:18:19.494504958+00:00 - compressed size:132752072
+2023-01-30T23:18:20.118161632+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//hst_wfc3_ir_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:18:20.343933511+00:00 - original size:24015312
+2023-01-30T23:18:20.343947934+00:00 - compressed size:32270596
+2023-01-30T23:18:20.483123494+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//spitzer_irac_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:18:21.660013616+00:00 - original size:132974476
+2023-01-30T23:18:21.660038869+00:00 - compressed size:162062663
+2023-01-30T23:18:22.443894420+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//g24_78_usb2_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:18:31.200115991+00:00 - original size:1335668264
+2023-01-30T23:18:31.200158295+00:00 - compressed size:1335668284
+2023-01-30T23:18:36.038640755+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//jw_mirimage_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:18:37.625808471+00:00 - original size:169082880
+2023-01-30T23:18:37.625838692+00:00 - compressed size:274759700
+2023-01-30T23:18:38.706430607+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpch_order_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:18:39.245465550+00:00 - original size:120000000
+2023-01-30T23:18:39.245483265+00:00 - compressed size:90000020
+2023-01-30T23:18:39.519421449+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpcxbb_store_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:18:43.702762092+00:00 - original size:789920928
+2023-01-30T23:18:43.702796995+00:00 - compressed size:530728144
+2023-01-30T23:18:46.109828424+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpcxbb_web_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:18:51.727470726+00:00 - original size:986782680
+2023-01-30T23:18:51.727503302+00:00 - compressed size:678413113
+2023-01-30T23:18:54.482996125+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpch_lineitem_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:19:04.280970949+00:00 - original size:959776816
+2023-01-30T23:19:04.282966770+00:00 - compressed size:1349686168
+2023-01-30T23:19:10.158859954+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpcds_catalog_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:19:11.684407610+00:00 - original size:172115052
+2023-01-30T23:19:11.684436454+00:00 - compressed size:236658217
+2023-01-30T23:19:12.679861829+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpcds_store_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:19:15.066264608+00:00 - original size:264064200
+2023-01-30T23:19:15.066297037+00:00 - compressed size:354836289
+2023-01-30T23:19:16.628061151+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpcds_web_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:19:17.400222077+00:00 - original size:86337856
+2023-01-30T23:19:17.400239216+00:00 - compressed size:118714572
+2023-01-30T23:19:17.929605341+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//msg_bt_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:19:19.485334114+00:00 - original size:266389432
+2023-01-30T23:19:19.485360566+00:00 - compressed size:258064783
+2023-01-30T23:19:20.370594856+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//num_brain_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:19:21.038241104+00:00 - original size:141840000
+2023-01-30T23:19:21.038255958+00:00 - compressed size:66487520
+2023-01-30T23:19:21.396949265+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//num_control_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:19:22.146266970+00:00 - original size:159504744
+2023-01-30T23:19:22.146283793+00:00 - compressed size:72275608
+2023-01-30T23:19:22.565373828+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//rsim_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:19:23.437709338+00:00 - original size:94281728
+2023-01-30T23:19:23.437725304+00:00 - compressed size:147315220
+2023-01-30T23:19:23.996862702+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//astro_mhd_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:19:26.711092396+00:00 - original size:548458560
+2023-01-30T23:19:26.711122542+00:00 - compressed size:359925950
+2023-01-30T23:19:28.330071331+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//astro_pt_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:19:30.909518740+00:00 - original size:671088640
+2023-01-30T23:19:30.909556720+00:00 - compressed size:335544340
+2023-01-30T23:19:32.281794658+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//miranda3d_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:20:07.012805977+00:00 - original size:0
+2023-01-30T23:20:07.012841021+00:00 - compressed size:4026531860
+2023-01-30T23:20:28.625734659+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//turbulence_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:20:29.194408581+00:00 - original size:67108864
+2023-01-30T23:20:29.194424759+00:00 - compressed size:75497492
+2023-01-30T23:20:29.548331256+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//wave_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:20:34.131292623+00:00 - original size:536870912
+2023-01-30T23:20:34.131328329+00:00 - compressed size:486539284
+2023-01-30T23:20:36.826066595+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//citytemp_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:20:36.939225199+00:00 - original size:11625304
+2023-01-30T23:20:36.939241263+00:00 - compressed size:13078487
+2023-01-30T23:20:37.020395645+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//ts_gas_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:20:40.045475357+00:00 - original size:307452800
+2023-01-30T23:20:40.045510353+00:00 - compressed size:432355520
+2023-01-30T23:20:41.894742877+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//phone_gyro_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:20:43.455814689+00:00 - original size:334383168
+2023-01-30T23:20:43.455844123+00:00 - compressed size:172416341
+2023-01-30T23:20:44.323519687+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//wesad_chest_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:20:45.596889689+00:00 - original size:272339200
+2023-01-30T23:20:45.596917361+00:00 - compressed size:144680220
+2023-01-30T23:20:46.386238609+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//jane_street_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:20:53.994363385+00:00 - original size:1810997760
+2023-01-30T23:20:53.994404399+00:00 - compressed size:1131873620
+2023-01-30T23:20:57.664937018+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//nyc_taxi2015_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:21:01.619612466+00:00 - original size:713943216
+2023-01-30T23:21:01.619649772+00:00 - compressed size:580078883
+2023-01-30T23:21:03.806105680+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//spain_gas_price_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:21:07.961850431+00:00 - original size:886619664
+2023-01-30T23:21:07.961885163+00:00 - compressed size:415602988
+2023-01-30T23:21:10.210407506+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//solar_wind_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:21:14.372709846+00:00 - original size:423980536
+2023-01-30T23:21:14.372744210+00:00 - compressed size:675719000
+2023-01-30T23:21:17.262857078+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//acs_wht_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:21:19.323474605+00:00 - original size:225000000
+2023-01-30T23:21:19.323509526+00:00 - compressed size:309375020
+2023-01-30T23:21:20.762188273+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//hdr_night_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:21:26.011770779+00:00 - original size:536870912
+2023-01-30T23:21:26.011809649+00:00 - compressed size:788529172
+2023-01-30T23:21:29.527520254+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//hdr_palermo_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:21:35.303086998+00:00 - original size:843454592
+2023-01-30T23:21:35.303125323+00:00 - compressed size:843454612
+2023-01-30T23:21:38.294962051+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//hst_wfc3_uvis_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:21:39.247762810+00:00 - original size:108924760
+2023-01-30T23:21:39.247780679+00:00 - compressed size:132752072
+2023-01-30T23:21:39.871340324+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//hst_wfc3_ir_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:21:40.095310670+00:00 - original size:24015312
+2023-01-30T23:21:40.095324871+00:00 - compressed size:32270596
+2023-01-30T23:21:40.233284052+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//spitzer_irac_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:21:41.407632413+00:00 - original size:132974476
+2023-01-30T23:21:41.407653964+00:00 - compressed size:162062663
+2023-01-30T23:21:42.230613383+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//g24_78_usb2_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:21:50.978886246+00:00 - original size:1335668264
+2023-01-30T23:21:50.978926628+00:00 - compressed size:1335668284
+2023-01-30T23:21:55.822870982+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//jw_mirimage_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:21:57.391333977+00:00 - original size:169082880
+2023-01-30T23:21:57.391362349+00:00 - compressed size:274759700
+2023-01-30T23:21:58.440305002+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpch_order_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:21:58.978672069+00:00 - original size:120000000
+2023-01-30T23:21:58.978689911+00:00 - compressed size:90000020
+2023-01-30T23:21:59.253077767+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpcxbb_store_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:22:03.403003138+00:00 - original size:789920928
+2023-01-30T23:22:03.403035635+00:00 - compressed size:530728144
+2023-01-30T23:22:05.667423386+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpcxbb_web_f64", "buff-simd64", "100000000", "1.15"]
+2023-01-30T23:22:11.286642129+00:00 - original size:986782680
+2023-01-30T23:22:11.286675873+00:00 - compressed size:678413113
+2023-01-30T23:22:14.046214807+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpch_lineitem_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:22:23.830249142+00:00 - original size:959776816
+2023-01-30T23:22:23.830276286+00:00 - compressed size:1349686168
+2023-01-30T23:22:29.410215109+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpcds_catalog_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:22:30.954649288+00:00 - original size:172115052
+2023-01-30T23:22:30.954677661+00:00 - compressed size:236658217
+2023-01-30T23:22:31.965644577+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpcds_store_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:22:34.353973716+00:00 - original size:264064200
+2023-01-30T23:22:34.354008771+00:00 - compressed size:354836289
+2023-01-30T23:22:35.910231236+00:00 - input args["/home/cc/code/buff/database/target/release/comp_profiler", "/home/cc/data//tpcds_web_f32", "buff-simd32", "100000000", "1.15"]
+2023-01-30T23:22:36.680545993+00:00 - original size:86337856
+2023-01-30T23:22:36.680561108+00:00 - compressed size:118714572
