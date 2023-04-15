@@ -69,6 +69,30 @@ bash scripts/test_bitshuffle.sh
 ```
 
 ### ndzip-CPU
+- compile
+```
+cd /home/cc/code/ndzip
+whichgcc=$(which gcc)
+whichgpp=$(which g++)
+boostdir=/home/cc/software/boost
+whichnvcc=$(which nvcc)
+cmake -B build -DCMAKE_CUDA_ARCHITECTURES=75 \
+	-DCMAKE_BUILD_TYPE=Release \
+	-DZIP_WITH_MT=YES \
+	-DNDZIP_WITH_CUDA=YES \
+	-DCMAKE_CXX_FLAGS="-march=native" \
+	-DCMAKE_C_COMPILER=$whichgcc \
+	-DCMAKE_CXX_COMPILER=$whichgpp \
+	-DCMAKE_CUDA_COMPILER=$whichnvcc \
+	-DBoost_INCLUDE_DIR=$boostdir/include \
+	-DBoost_LIBRARY_DIRS=$boostdir/lib
+cmake --build build -j
+```
+- evaluate
+```
+cd /home/cc/code/ndzip
+bash scripts/batch_ndzip_cpu.sh
+```
 
 ### BUFF
 
@@ -78,53 +102,115 @@ bash scripts/test_bitshuffle.sh
 
 ## GPU-based methods
 ### GFC
+- compile
+```
+cd /home/cc/code/GFC
+nvcc -O3 -arch=sm_60 GFC_22.cu -o GFC
+```
+- evaluate
+```
+cd /home/cc/code/GFC
+bash test_GFC.sh
+```
 
 ### MPC
+- compile
+```
+cd /home/cc/code/MPC
+nvcc -O3 -arch=sm_60 MPC_float_12.cu -o MPC_float
+nvcc -O3 -arch=sm_60 MPC_double_12.cu -o MPC_double
+```
+- evaluate
+```
+cd /home/cc/code/MPC
+bash test_mpc.sh
+```
 
 ### nvCOMP
+- does not need to compile
+- evaluate
+```
+cd /home/cc/code/nvbench
+bash batch_nvcomp.sh
+```
 
 ### ndzip-GPU
+- Already compiled in ndzip-CPU
+- evaluate
+```
+cd /home/cc/code/ndzip
+bash scripts/batch_ndzip_gpu.sh
+```
 
 ### Dzip
+- compile
+```
+python -m venv ~/env4dzip
+source ~/env4dzip/bin/activate
+cd /home/cc/code/Dzip-torch
+bash install.sh
+```
 
 ## Datasets
+### Down the data
+We recommend ```gdown``` to download a large file from Google Drive.
+Use ```pip install gdown``` to install.
+#### Download the entire folder
+```
+gdown https://drive.google.com/drive/folders/1jdnzwvT1hya8XYdEJ7QuqUw3ALbQozc7 --folder
+```
+#### Download individual files
+
+```
+fileid=example_1i0AK1sLjYBnISDU9e8_FbV0OsowExHV3
+gdown https://drive.google.com/uc?id=$fileid
+```
+
 ### HPC
-- msg-bt
-- num-brain
-- num-control
-- rsim
-- astro-mhd
-- astro-pt
-- miranda3d
-- turbulance
-- wave
-- hurricane
+| file-name   | file-id |
+| ----------- | ----------- |
+| msg-bt|	 15S7iTr_Yoo6oVv5TOemah0wP1K7VX5R1 |
+| num-brain|	1D2WEJonO3GWQwAQxSokO6Pn4kffalhCy |
+| num-control|	13Lpx_S0W4K5hBMOvyW61PFUOv9BXGOMN |
+| rsim|	1C6opL2ZyJyU4074uc9T9eJBnyTvhW16- |
+| astro-mhd|1gp2pUEtr8FP3g7hbu4EhDYtTyg2eVoBr|
+| astro-pt|1ZI6h-8OOW2h7DG9L4P9tIGrUo_KBMH2R|
+| miranda3d|	1jTCH1i_1w_zGvfBydT1Ac-kJK-H4DZHS |
+| turbulance|	|
+| wave|	|
+| hurricane|	1h48gO2JNCNWMVaEPsIHPBkNllgtHDzcf	|
 
 ### Time series
-- citytemp
-- ts-gas
-- phone-gyro
-- wesad-chest
-- jane-street
-- nyc-taxi
-- gas-price
-- solar-wind
+| file-name   | file-id |
+| ----------- | ----------- |
+| citytemp: 	 |1S6MN7A0BxbQJ0MWZWF7HPdFn2-O6fLlb	|
+| ts-gas |	|
+| phone-gyro |	18WPrgYKUKg1vOuKatDgAQu7_2iDQ6EnK |
+| wesad-chest |	|
+| jane-street |	19JQgBJaLeHBaCV6G-Tcpqye8BQVWlqFt |
+| nyc-taxi |	1ODXvl_gsohxv4z29aNfL0gk458fiZYYO |
+| gas-price |	1n4ihLBaIbQji2iMjlAzTDL1_ryhG6E5z |
+| solar-wind |	1sVAEV0wLdfrrXFm6uQKvYU0412vKlaQa |
 
 ### Observations
-- acs-wht
-- hdr-night
-- hdr-palermo
-- hst-wfc3-vuis
-- hst-wfc3-ir
-- spitzer-irac
-- g24-78-usb
-- jws-mirimage
+| file-name   | file-id |
+| ----------- | ----------- |
+| acs-wht 			 |	1i0AK1sLjYBnISDU9e8_FbV0OsowExHV3   |
+| hdr-night | 1zgHWgF3xYTeQXHY04P6vewcgzMgsQQrZ |
+| hdr-palermo | 1d624EAKKy9KoZ1g2exRy9v6BaHM18GKH |
+| hst-wfc3-vuis  | 11CSs6GMg6H_IIXGd_Rzrg6AjbC4fNLrB  |
+| hst-wfc3-ir | 1IqngOcGb-Kd8_3qevjwIp3oR88xHTJLM |
+| spitzer-irac |  167QBkioAKm0lDUn9PaVsCG-5mPxpawSI |
+| g24-78-usb	 	 |	12zF9g7oWo9kkIB0Y0QtOWBW0dZt2J_2Q  |
+| jws-mirimage |  1SIB0wg5SmH0L3i8neoIwLHazuykwcNYK |
 
 ### Database transactions
-- tpcH-order
-- tpcxBB-store
-- tpcxBB-web
-- tpcxH-lineitem
-- tpcDS-catalog
-- tpcDS-store
-- tpcDS-web
+| file-name   | file-id |
+| ----------- | ----------- |
+| tpcH-order 			  |  |
+| tpcxBB-store  |  |
+| tpcxBB-web  |  |
+| tpcxH-lineitem  |  |
+| tpcDS-catalog  |  |
+| tpcDS-store  |  |
+| tpcDS-web  |  |
