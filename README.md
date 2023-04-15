@@ -155,9 +155,14 @@ bash install.sh
 ### Down the data
 We recommend ```gdown``` to download a large file from Google Drive.
 Use ```pip install gdown``` to install.
-#### Download the entire folder
+#### Download the folders 
+- HPC, TS and OBS datasets
 ```
 gdown https://drive.google.com/drive/folders/1jdnzwvT1hya8XYdEJ7QuqUw3ALbQozc7 --folder
+```
+- DB (TPC synthetic data) 
+```
+gdown https://drive.google.com/drive/folders/1WKvzMErKfhqAGRkJhqXZScH15kPHUxnG --folder
 ```
 #### Download individual files
 
@@ -184,7 +189,7 @@ gdown https://drive.google.com/uc?id=$fileid
 | file-name   | file-id |
 | ----------- | ----------- |
 | citytemp: 	 |1S6MN7A0BxbQJ0MWZWF7HPdFn2-O6fLlb	|
-| ts-gas |	|
+| ts-gas |	1P2rLx16bVLJZEdnwGYipXk0aHlkOJtQl |
 | phone-gyro |	18WPrgYKUKg1vOuKatDgAQu7_2iDQ6EnK |
 | wesad-chest |	|
 | jane-street |	19JQgBJaLeHBaCV6G-Tcpqye8BQVWlqFt |
@@ -207,10 +212,12 @@ gdown https://drive.google.com/uc?id=$fileid
 ### Database transactions
 | file-name   | file-id |
 | ----------- | ----------- |
-| tpcH-order 			  |  |
-| tpcxBB-store  |  |
-| tpcxBB-web  |  |
-| tpcxH-lineitem  |  |
-| tpcDS-catalog  |  |
-| tpcDS-store  |  |
-| tpcDS-web  |  |
+| tpcH-order  |  1BFbsUJjt9nS1n9wIFAEng07Mpgyozjgz |
+| tpcxBB-store  |  1QIAtpHc-WLVHa5KFj2UgzcGS9tHIv6L1 |
+| tpcxBB-web  |  1TVdj2kirdpIShuFMnfKUWBowMyeiC3_w |
+| tpcxH-lineitem  |  1RNU6Xg7tSei34bS8fAVRTRU_jpVYcmGK |
+| tpcDS-catalog  |  1W_wDxENpUOZ-uIyAmZfhu-2Pr4Z1VP_s |
+| tpcDS-store  |  1L-ED3uP1oXFzoVLYJ17EvEq7ObqYhT7k |
+| tpcDS-web  |  1_4RgPBsOr57wkiM9wkVXBptVTRd4CYl7 |
+
+## Experiment results
