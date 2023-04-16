@@ -119,7 +119,7 @@ make
 cd /home/cc/code/influxdb
 git checkout gorilla
 go clean -testcache
-go test  -test.timeout 0 -run TestCompress_XC2 -v github.com/influxdata/influxdb/v2/tsdb/engine/tsm1 
+go test  -test.timeout 0 -run TestCompress_XC2 -v github.com/influxdata/influxdb/v2/tsdb/engine/tsm1
 ```
 
 ### Chimp
@@ -129,7 +129,7 @@ go test  -test.timeout 0 -run TestCompress_XC2 -v github.com/influxdata/influxdb
 cd /home/cc/code/influxdb
 git checkout chimp128
 go clean -testcache
-go test  -test.timeout 0 -run TestCompress_XC2 -v github.com/influxdata/influxdb/v2/tsdb/engine/tsm1 
+go test  -test.timeout 0 -run TestCompress_XC2 -v github.com/influxdata/influxdb/v2/tsdb/engine/tsm1
 ```
 
 ## GPU-based methods
@@ -187,20 +187,20 @@ bash install.sh
 ### Down the data
 We recommend ```gdown``` to download a large file from Google Drive.
 Use ```pip install gdown``` to install.
-#### Download the folders 
+#### Download the folders
 - HPC, TS and OBS datasets
 ```
 gdown https://drive.google.com/drive/folders/1jdnzwvT1hya8XYdEJ7QuqUw3ALbQozc7 --folder
 ```
-- DB (TPC synthetic data) 
+- DB (TPC synthetic data)
 ```
 gdown https://drive.google.com/drive/folders/1WKvzMErKfhqAGRkJhqXZScH15kPHUxnG --folder
 ```
 #### Download individual files
 
 ```
-fileid=example_1i0AK1sLjYBnISDU9e8_FbV0OsowExHV3
-gdown https://drive.google.com/uc?id=$fileid
+file-id=example_1i0AK1sLjYBnISDU9e8_FbV0OsowExHV3
+gdown https://drive.google.com/uc?id=$file-id
 ```
 
 ### HPC
@@ -213,8 +213,8 @@ gdown https://drive.google.com/uc?id=$fileid
 | astro-mhd|1gp2pUEtr8FP3g7hbu4EhDYtTyg2eVoBr|
 | astro-pt|1ZI6h-8OOW2h7DG9L4P9tIGrUo_KBMH2R|
 | miranda3d|	1jTCH1i_1w_zGvfBydT1Ac-kJK-H4DZHS |
-| turbulance|	|
-| wave|	|
+| turbulance|	11MNFi9pGpU9IDw1QSZrA-y2oY5xPNyzs |
+| wave|	1jokNzOoEHOrXpCw8glhGzA_1lJxedKx2 |
 | hurricane|	1h48gO2JNCNWMVaEPsIHPBkNllgtHDzcf	|
 
 ### Time series
@@ -223,7 +223,7 @@ gdown https://drive.google.com/uc?id=$fileid
 | citytemp: 	 |1S6MN7A0BxbQJ0MWZWF7HPdFn2-O6fLlb	|
 | ts-gas |	1P2rLx16bVLJZEdnwGYipXk0aHlkOJtQl |
 | phone-gyro |	18WPrgYKUKg1vOuKatDgAQu7_2iDQ6EnK |
-| wesad-chest |	|
+| wesad-chest |	1v1Mz4ka_kmwFF5Bcb7QXg8pAYZ43_Ptv |
 | jane-street |	19JQgBJaLeHBaCV6G-Tcpqye8BQVWlqFt |
 | nyc-taxi |	1ODXvl_gsohxv4z29aNfL0gk458fiZYYO |
 | gas-price |	1n4ihLBaIbQji2iMjlAzTDL1_ryhG6E5z |
