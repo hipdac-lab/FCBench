@@ -95,10 +95,42 @@ bash scripts/batch_ndzip_cpu.sh
 ```
 
 ### BUFF
+- compile
+```
+cd /home/cc/code/buff/database
+rustup default nightly
+cargo +nightly build --release  --package buff --bin comp_profiler
+```
+- evaluate
+```
+cd /home/cc/code/buff/
+bash test_buff_p10.sh
+```
 
 ### Gorilla
+- compile
+```
+cd /home/cc/code/influxdb
+rustup default 1.53.0
+make
+```
+- evaluate
+```
+cd /home/cc/code/influxdb
+git checkout gorilla
+go clean -testcache
+go test  -test.timeout 0 -run TestCompress_XC2 -v github.com/influxdata/influxdb/v2/tsdb/engine/tsm1 
+```
 
 ### Chimp
+- Already compiled because both Gorilla and Chimp are parts of influxdb
+- evaluate
+```
+cd /home/cc/code/influxdb
+git checkout chimp128
+go clean -testcache
+go test  -test.timeout 0 -run TestCompress_XC2 -v github.com/influxdata/influxdb/v2/tsdb/engine/tsm1 
+```
 
 ## GPU-based methods
 ### GFC
@@ -221,3 +253,23 @@ gdown https://drive.google.com/uc?id=$fileid
 | tpcDS-web  |  1_4RgPBsOr57wkiM9wkVXBptVTRd4CYl7 |
 
 ## Experiment results
+### Compression ratios
+<img src="https://user-images.githubusercontent.com/130711868/232258352-fbf11c8d-cb80-4a7f-a7c4-a3881eaa0600.png" width="50%">
+<img src="https://user-images.githubusercontent.com/130711868/232258373-fc4b408d-2dda-4895-b49d-89cf6c80538f.png" width="49%">
+
+### Compression throughputs
+<img src="https://user-images.githubusercontent.com/130711868/232258394-d4e0de8c-894d-4bea-a24f-4ef4f1cc3b57.png" width="50%">
+<img src="https://user-images.githubusercontent.com/130711868/232258398-25c13e56-6f33-401b-9f71-b43f05a02c00.png" width="49%">
+
+### Decompression throughputs
+<img src="https://user-images.githubusercontent.com/130711868/232258403-34a78480-1965-4d16-88ea-4c177377a83e.png" width="50%">
+<img src="https://user-images.githubusercontent.com/130711868/232258407-fe89022b-641e-4605-913f-6cc113aea4e0.png" width="49%">
+
+### Difference of throughputs
+<img src="https://user-images.githubusercontent.com/130711868/232258423-317a31ec-eaba-405b-bc8c-f85984306899.png" width="50%">
+
+### Roofline model of CPU-based methods
+<img src="https://user-images.githubusercontent.com/130711868/232258440-62220371-4f97-417a-9b8e-acec994bfd34.png" width="50%">
+
+### Roofline model of GPU-based methods
+<img src="https://user-images.githubusercontent.com/130711868/232258448-3ca8de9b-266c-416a-8ecb-c9871f3ff000.png" width="50%">
