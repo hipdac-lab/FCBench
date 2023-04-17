@@ -1,0 +1,8 @@
+/.idea/
+/build/
+perf.data*
+core.*
+vgcore.*
+callgrind.out.*
+cachegrind.out.*
+
