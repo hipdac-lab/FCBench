@@ -11,6 +11,24 @@ The node compilers are GCC/G++9.4, CUDA 11.3, CMAKE 3.25.0 and python 3.8
 mkdir code data experiments output software
 ```
 
+## Evaluate and Compare
+### Run all compression algorithms and output results
+```
+export MYDATA=path/to/data
+export MYSCRATCH=path/to/code
+cd scripts
+bash eval_all.sh
+```
+### Prepare output results to intermediate results
+```
+bash awk_all.sh
+```
+### read intermediate results and display results
+```
+python fcb_res.py
+```
+
+
 ## CPU-based methods
 ### fpzip
 - compile
@@ -31,7 +49,7 @@ bash scripts/test_fpzip.sh
 - compile
 ```
 cd /home/cc/code/pFPC
-gcc -O3 -pthread -std=c99 pFPC.c -o pfpc
+gcc -O3 -pthread -std=c99 pFPC_block.c -o pfpcb
 ```
 - evaluate
 ```
@@ -43,7 +61,7 @@ bash test_pfpc.sh
 - compile
 ```
 cd /home/cc/code/SPDP
-gcc -O3 SPDP_11.c -o spdp
+gcc -O3 SPDP_block.c -o spdpb
 ```
 - evaluate
 ```
