@@ -33,64 +33,51 @@ awk '{ print $4, $6}' $RESDIR/bitshuffle_zstd.txt > /tmp/shfzstd_res.txt
 ================ #
 test ndzip-CPU   #
 ================ #
-awk '{ print $11, $14 }' $RESDIR/ndzc_comp.txt | sed 's/s\,//g' | sed 's/\,//g' > /tmp/ndzc_res.txt
-awk '{ print $4 }' $RESDIR/ndzc_decomp.txt | sed 's/s\,//g' >> /tmp/ndzc_res.txt
-
+sed 's/size/0 0 0 0 0 0 0 0 0 0 0 0 0 0/g' $RESDIR/ndzc_comp.txt | awk '{ print $11 }' | sed 's/\,//g'  > /tmp/ndzc_res.txt
+sed 's/size/0 0 0 0 0 0 0 0 0 0 0 0 0 0/g' $RESDIR/ndzc_comp.txt | awk '{ print $15 }' | sed 's/\,//g' >> /tmp/ndzc_res.txt
+awk '{ print $5 }' $RESDIR/ndzc_decomp.txt | sed 's/s\,//g' >> /tmp/ndzc_res.txt
 # =========== #
 # test BUFF   #
 # =========== #
-for i in ${nvcompn[*]}; do
-	printf 'fn[%s]=%20s\t (%sD)\n' "$i" "${fn[i]}" "${dm[i]}"
-	$BASEDIR/buff/database/target/release/comp_profiler $DATADIR/${fn[i]} buff-simd64 100000000 1.15 >> $RESDIR/buff_all.txt
-done
+grep 'Performance:' $RESDIR/buff_all.txt | awk '{ print $4, $5, $6 }' > /tmp/buff_res.txt
 
 ============== #
 test gorilla #
 ============== #
-cd $BASEDIR/influxdb
-git checkout gorilla
-go clean -testcache
-go test  -test.timeout 0 -run TestCompress_XC2 -v github.com/influxdata/influxdb/v2/tsdb/engine/tsm1 >> $RESDIR/gorilla_all.txt
+grep 'cr:' $RESDIR/gorilla_all.txt | sed 's/\:/\ /g'  | awk '{ print $5, $7, $9 }' > /tmp/gorilla_res.txt
 
 ============== #
 test chimp #
 ============== #
-RESDIR=$MYSCRATCH/experiments
-cd $BASEDIR/influxdb
-git checkout chimp128
-go clean -testcache
-go test  -test.timeout 0 -run TestCompress_XC2 -v github.com/influxdata/influxdb/v2/tsdb/engine/tsm1 >> $RESDIR/chimp_all.txt
-
+grep 'cr:' $RESDIR/chimp_all.txt | sed 's/\:/\ /g'  | awk '{ print $5, $7, $9 }' > /tmp/chimp_res.txt
 
 # ========== #
 # test GFC   #
 # ========== #
-for i in ${gfcn[*]}; do
-	{ $BASEDIR/GFC/GFC 32 32 ${dm[i]} < $DATADIR/${fn[i]}  > $OUTDIR/${fn[i]}.gfc ; } 2>> $RESDIR/gfc_comp.txt
-	{ $BASEDIR/GFC/GFC < $OUTDIR/${fn[i]}.gfc  > $OUTDIR/${fn[i]}.gfcout ; } 2>> $RESDIR/gfc_decomp.txt
-done
+awk '{ print $2 }' $RESDIR/gfc_comp.txt > /tmp/gfc_res.txt
+awk '{ print $10 }' $RESDIR/gfc_comp.txt >> /tmp/gfc_res.txt
+awk '{ print $10 }' $RESDIR/gfc_decomp.txt >> /tmp/gfc_res.txt
 
 # ========== #
 # test MPC   #
 # ========== #
-for i in "${!fn[@]}"; do
-	p="${mpcn[i]}"
-	printf 'fn[%s]=%20s\t exec=%s\t (%sD)\n' "$i" "${fn[i]}" "${mpcp[$p]}" "${dm[i]}"
-	$BASEDIR/MPC/${mpcp[$p]} $DATADIR/${fn[i]}  ${dm[i]} >> $RESDIR/mpc_comp.txt
-	$BASEDIR/MPC/${mpcp[$p]} $DATADIR/${fn[i]}.mpc       >> $RESDIR/mpc_decomp.txt
-done
+awk '{ print $8 }' $RESDIR/mpc_comp.txt > /tmp/mpc_res.txt
+awk '{ print $11 }' $RESDIR/mpc_comp.txt >> /tmp/mpc_res.txt
+awk '{ print $8 }' $RESDIR/mpc_decomp.txt >> /tmp/mpc_res.txt
 
 # =============================== #
 # test nvcomp:LZ4 and nvcomp:zstd #
 # =============================== #
-for i in "${!fn[@]}"; do
-	printf 'fn[%s]=%20s\t (%sD)\n' "$i" "${fn[i]}" "${dm[i]}"
-	$BASEDIR/nvbench/bin/benchmark_lz4_chunked -f $DATADIR/${fn[i]} >> $RESDIR/nvlz4.txt
-	$BASEDIR/nvbench/bin/benchmark_bitcomp_chunked -f $DATADIR/${fn[i]}  >> $RESDIR/nvbitcomp.txt
-done
+grep 'compressed ratio:' $RESDIR/nvlz4.txt | awk '{ print $5 }' > /tmp/nvlz4_res.txt
+grep 'compression throughput' $RESDIR/nvlz4.txt | sed -n 'p;n' | awk '{ print $4 }' >> /tmp/nvlz4_res.txt
+grep 'compression throughput' $RESDIR/nvlz4.txt | sed -n 'n;p' | awk '{ print $4 }' >> /tmp/nvlz4_res.txt
+grep 'compressed ratio:' $RESDIR/nvbitcomp.txt | awk '{ print $5 }' > /tmp/nvbitcomp_res.txt
+grep 'compression throughput' $RESDIR/nvbitcomp.txt | sed -n 'p;n' | awk '{ print $4 }' >> /tmp/nvbitcomp_res.txt
+grep 'compression throughput' $RESDIR/nvbitcomp.txt | sed -n 'n;p' | awk '{ print $4 }' >> /tmp/nvbitcomp_res.txt
 
 ================ #
 test ndzip-GPU   #
 ================ #
-awk '{ print $11, $14 }' $RESDIR/ndzg_comp.txt | sed 's/s\,//g' | sed 's/\,//g' > /tmp/ndzg_res.txt
-awk '{ print $4 }' $RESDIR/ndzg_decomp.txt | sed 's/s\,//g' >> /tmp/ndzg_res.txt
+sed 's/size/0 0 0 0 0 0 0 0 0 0 0 0 0 0/g' $RESDIR/ndzg_comp.txt | awk '{ print $11 }' | sed 's/\,//g'  > /tmp/ndzg_res.txt
+sed 's/size/0 0 0 0 0 0 0 0 0 0 0 0 0 0/g' $RESDIR/ndzg_comp.txt | awk '{ print $15 }' | sed 's/\,//g' >> /tmp/ndzg_res.txt
+awk '{ print $5 }' $RESDIR/ndzg_decomp.txt | sed 's/s\,//g' >> /tmp/ndzg_res.txt

@@ -292,7 +292,7 @@ static void Compress(int blocks, int warpsperblock, int dimensionality)
 
   // read in trace to cbuf
   int doubles = fread(cbuf, 8, MAX, stdin);
-
+  int outsize=0; // output size (bytes)
   // calculate required padding for last chunk
   int padding = ((doubles + WARPSIZE - 1) & -WARPSIZE) - doubles;
   doubles += padding;
@@ -365,19 +365,21 @@ static void Compress(int blocks, int warpsperblock, int dimensionality)
     fprintf(stderr, "copying of cut to device failed\n");
   CudaTest("cut copy to device failed");
 
-  struct timeval start1, stop1;
+  struct timeval start1, stop1, stop2;
+  struct timeval t0, t1;
+  double elapse=0.0, totelapse=0.0;
   gettimeofday(&start1, NULL);
   CompressionKernel<<<blocks, WARPSIZE*warpsperblock>>>();
   CudaTest("compression kernel launch failed");
   gettimeofday(&stop1, NULL);
   double ctime = stop1.tv_sec + stop1.tv_usec / 1000000.0 - start1.tv_sec - start1.tv_usec / 1000000.0;
-  fprintf(stderr, "comp-time: %.2f ms\n", 1000.0 * ctime);
+  
 
   // transfer offsets back to CPU
   if(cudaSuccess != cudaMemcpy(off, offl, sizeof(int) * blocks * warpsperblock, cudaMemcpyDeviceToHost))
     fprintf(stderr, "copying of off from device failed\n");
   CudaTest("off copy from device failed");
-
+  gettimeofday(&stop2, NULL);  
   // output header
   int num;
   int doublecnt = doubles-padding;
@@ -389,6 +391,7 @@ static void Compress(int blocks, int warpsperblock, int dimensionality)
   assert(1 == num);
   num = fwrite(&doublecnt, 4, 1, stdout);
   assert(1 == num);
+  outsize += 7;
   // output offset table
   for(int i = 0; i < blocks * warpsperblock; i++) {
     int start = 0;
@@ -396,10 +399,13 @@ static void Compress(int blocks, int warpsperblock, int dimensionality)
     off[i] -= ((start+1)/2*17);
     num = fwrite(&off[i], 4, 1, stdout); // chunk's compressed size in bytes
     assert(1 == num);
+    outsize += num * 4;
   }
+  
   
   // output compressed data by chunk
   for(int i = 0; i < blocks * warpsperblock; i++) {
+    gettimeofday(&t0, NULL);
     int offset, start = 0;
     if(i > 0) start = cut[i-1];
     offset = ((start+1)/2*17);
@@ -407,9 +413,19 @@ static void Compress(int blocks, int warpsperblock, int dimensionality)
     if (cudaSuccess != cudaMemcpy(dbuf + offset, dbufl + offset, sizeof(char) * off[i], cudaMemcpyDeviceToHost))
       fprintf(stderr, "copying of dbuf from device failed\n");
     CudaTest("dbuf copy from device failed");
+    gettimeofday(&t1, NULL);
+    elapse = t1.tv_sec + t1.tv_usec / 1000000.0 - t0.tv_sec - t0.tv_usec / 1000000.0;
+    totelapse += elapse;
     num = fwrite(&dbuf[offset], 1, off[i], stdout);
     assert(off[i] == num);
+    outsize += num;
   }
+
+  
+  double totctime = stop2.tv_sec + stop2.tv_usec / 1000000.0 - start1.tv_sec - start1.tv_usec / 1000000.0;
+  totctime += totelapse;
+  fprintf(stderr, "cr: %.3f\t tot-ctime: %.2f ms\t", doubles * sizeof(ull) * 1.0 / outsize, 1000.0 * totctime);
+  fprintf(stderr, "comp-time: %.2f ms\t comp-thr= %.2f\n", 1000.0 * ctime, doubles * sizeof(ull) / (ctime * 1024 * 1024 * 1024));
 
   free(cbuf);
   free(dbuf);
@@ -521,19 +537,21 @@ static void Decompress(int blocks, int warpsperblock, int dimensionality, int do
     fprintf(stderr, "copying of cut to device failed\n");
   CudaTest("cut copy to device failed");
 
-  struct timeval start2, stop2;
+  struct timeval start2, stop2, stop22;
   gettimeofday(&start2, NULL);
   DecompressionKernel<<<blocks, WARPSIZE*warpsperblock>>>();
   CudaTest("decompression kernel launch failed");
   gettimeofday(&stop2, NULL);
   double dtime = stop2.tv_sec + stop2.tv_usec / 1000000.0 - start2.tv_sec - start2.tv_usec / 1000000.0;
-  fprintf(stderr, "decomp-time: %.2f ms\n", 1000.0 * dtime);
 
   // transfer result back to CPU
   if (cudaSuccess != cudaMemcpy(fbuf, fbufl, sizeof(ull) * doubles, cudaMemcpyDeviceToHost))
     fprintf(stderr, "copying of fbuf from device failed\n");
   CudaTest("fbuf copy from device failed");
-
+  gettimeofday(&stop22, NULL);
+  double totdtime = stop22.tv_sec + stop22.tv_usec / 1000000.0 - start2.tv_sec - start2.tv_usec / 1000000.0;    
+  fprintf(stderr, "orig-size= %ld\t tot-dtime: %.2f ms\t", doubles * sizeof(ull), 1000.0 * totdtime);
+  fprintf(stderr, "decomp-time: %.2f ms\t decomp-thr= %.2f\n", 1000.0 * dtime, doubles * sizeof(ull) / (dtime * 1024 * 1024 * 1024));
   // output decompressed data
   int num = fwrite(fbuf, 8, doubles-padding, stdout);
   assert(num == doubles-padding);
