@@ -28,6 +28,14 @@ bash awk_all.sh
 python fcb_res.py
 ```
 
+### Evaluate scalability of multi-thread methods 
+```
+cd path/to/code/ndzip/scripts
+bash batch_ndzip_cpu_scale.sh $number-of-threads
+
+cd path/to/code/pFPC
+bash test_pfpc_scale.sh $number-of-threads
+```
 
 ## CPU-based methods
 ### fpzip

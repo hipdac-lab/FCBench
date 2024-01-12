@@ -53,8 +53,11 @@ typedef unsigned int word_t;
 static byte_t buffer1[BUFFER_SIZE];
 static byte_t buffer2[BUFFER_SIZE * 2 + 9];
 
-static size_t compress(const byte_t level, const size_t length, byte_t* const buf1, byte_t* const buf2)
+static size_t compress(const byte_t level, const size_t length, byte_t* const buf1, byte_t* const buf2, double *elapse)
 {
+  struct timeval t0, t1;
+  gettimeofday(&t0, NULL);
+
   word_t* in = (word_t*)buf1;
   word_t* out = (word_t*)buf2;
   size_t len = length / sizeof(word_t);
@@ -122,12 +125,15 @@ static size_t compress(const byte_t level, const size_t length, byte_t* const bu
     hist = ((hist << 2) ^ val) & predtabsizem1;
     rpos++;
   }
-
+  gettimeofday(&t1, NULL);
+  *elapse = t1.tv_sec + t1.tv_usec / 1000000.0 - t0.tv_sec - t0.tv_usec / 1000000.0;
   return wpos;
 }
 
-static void decompress(const byte_t level, const size_t length, byte_t* const buf2, byte_t* const buf1)
+static void decompress(const byte_t level, const size_t length, byte_t* const buf2, byte_t* const buf1, double *elapse)
 {
+  struct timeval t0, t1;
+  gettimeofday(&t0, NULL);
   unsigned int predtabsize = 1 << (level + 9);
   if (predtabsize > MAX_TABLE_SIZE) predtabsize = MAX_TABLE_SIZE;
   const unsigned int predtabsizem1 = predtabsize - 1;
@@ -192,13 +198,16 @@ static void decompress(const byte_t level, const size_t length, byte_t* const bu
   for (pos = len * sizeof(word_t); pos < usize; pos++) {
     buf1[pos] = buf2[pos];
   }
+  gettimeofday(&t1, NULL);
+  *elapse = t1.tv_sec + t1.tv_usec / 1000000.0 - t0.tv_sec - t0.tv_usec / 1000000.0;
 }
 
 int main(int argc, char *argv[])
 {
   // fprintf(stderr, "SPDP Floating-Point Compressor v1.1\n");
   // fprintf(stderr, "Copyright (c) 2015-2020 Texas State University\n\n");
-  struct timeval stop, start;
+  struct timeval stop, start, start0;
+  double elapse=0.0, totelapse=0.0;
   if ((argc != 1) && (argc != 2)) {
     fprintf(stderr, "compression usage: %s level < uncompressed_file > compressed_file\n", argv[0]);
     fprintf(stderr, "decompression usage: %s < compressed_file > decompressed_file\n", argv[0]);
@@ -209,23 +218,24 @@ int main(int argc, char *argv[])
     byte_t level = atoi(argv[1]);
     if (level < 0) level = 0;
     if (level > 9) level = 9;
-    gettimeofday(&start, NULL);
+    gettimeofday(&start0, NULL);
     fwrite(&level, sizeof(byte_t), 1, stdout);
 
     int length = fread(buffer1, sizeof(byte_t), BUFFER_SIZE, stdin);
     while (length > 0) {
       fwrite(&length, sizeof(int), 1, stdout);
-      int csize = compress(level, length, buffer1, buffer2);
+      int csize = compress(level, length, buffer1, buffer2, &elapse);
+      totelapse += elapse;
       fwrite(&csize, sizeof(int), 1, stdout);
       fwrite(buffer2, sizeof(byte_t), csize, stdout);
       length = fread(buffer1, sizeof(byte_t), BUFFER_SIZE, stdin);
     }
     gettimeofday(&stop, NULL);
-    double ctime = stop.tv_sec + stop.tv_usec / 1000000.0 - start.tv_sec - start.tv_usec / 1000000.0;
-    fprintf(stderr, "comp-time: %.2f ms\n", 1000.0 * ctime);
+    double ctime = stop.tv_sec + stop.tv_usec / 1000000.0 - start0.tv_sec - start0.tv_usec / 1000000.0;
+    fprintf(stderr, "totc-time: %.2f ms\t comp-time: %.2f ms\n", 1000.0 * ctime, 1000.0 * totelapse);
   } else {  // decompression
     byte_t level = 10;
-    gettimeofday(&start, NULL);
+    gettimeofday(&start0, NULL);
     fread(&level, sizeof(byte_t), 1, stdin);
     if ((level < 0) || (level > 9)) {
       fprintf(stderr, "incorrect input file type\n");
@@ -237,12 +247,13 @@ int main(int argc, char *argv[])
       int csize;
       fread(&csize, sizeof(int), 1, stdin);
       fread(buffer2, sizeof(byte_t), csize, stdin);
-      decompress(level, csize, buffer2, buffer1);
+      decompress(level, csize, buffer2, buffer1, &elapse);
+      totelapse += elapse;
       fwrite(buffer1, sizeof(byte_t), length, stdout);
     }
     gettimeofday(&stop, NULL);
-    double dtime = stop.tv_sec + stop.tv_usec / 1000000.0 - start.tv_sec - start.tv_usec / 1000000.0;
-    fprintf(stderr, "decomp-time: %.2f ms\n", 1000.0 * dtime);
+    double dtime = stop.tv_sec + stop.tv_usec / 1000000.0 - start0.tv_sec - start0.tv_usec / 1000000.0;
+    fprintf(stderr, "totd-time: %.2f ms\t decomp-time: %.2f ms\n", 1000.0 * dtime, 1000.0 * totelapse);
   }
 
   return 0;

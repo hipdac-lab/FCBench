@@ -158,8 +158,10 @@ static void *CompressChunks(void *arg)
 }
 
 
-static void Compress(int num, ull *inbuf, unsigned char **inter, int predsizem1, int threads, int chunksize, ull **fcm, ull **dfcm, double *elapse)
+static void Compress(int num, ull *inbuf, unsigned char **inter, int predsizem1, int threads, int chunksize, ull **fcm, ull **dfcm, double *elapse, int *compressed)
 {
+  struct timeval t0, t1;
+  gettimeofday(&t0, NULL);
   register int i, cnt;
   int status;
   pthread_attr_t attr;
@@ -180,8 +182,7 @@ static void Compress(int num, ull *inbuf, unsigned char **inter, int predsizem1,
     g_comp[i].end = num - (i * chunksize);
     if (0 > g_comp[i].end) g_comp[i].end = 0;
   }
-  struct timeval t0, t1;
-  gettimeofday(&t0, NULL);
+  
   // launch parallel threads
   for (i = 0; i < threads; i++) {
     pthread_create(&thread[i], &attr, CompressChunks, (void *)i);
@@ -194,13 +195,16 @@ static void Compress(int num, ull *inbuf, unsigned char **inter, int predsizem1,
 
   // wait for parallel threads to finish
   for (i = 0; i < threads; i++) {
+    gettimeofday(&t0, NULL);
     pthread_join(thread[i], (void **)&status);
     assert(0 == status);
-
+    gettimeofday(&t1, NULL);
     // output compressed data
     cnt = *((int *)inter[i]);  // number of (compressed) bytes
     num = fwrite(inter[i], 1, cnt, stdout);
     assert(num == cnt);
+    *elapse += t1.tv_sec + t1.tv_usec / 1000000.0 - t0.tv_sec - t0.tv_usec / 1000000.0;
+    *compressed = num;
   }
 
   pthread_attr_destroy(&attr);
@@ -298,8 +302,11 @@ static void *DecompressChunks(void *arg)
 }
 
 
-static void Decompress(int num, unsigned char **inter, ull *outbuf, int predsizem1, int threads, int chunksize, ull **fcm, ull **dfcm, double *elapse)
+static void Decompress(int num, unsigned char **inter, ull *outbuf, int predsizem1, int threads, int chunksize, ull **fcm, ull **dfcm, double *elapse, int *decompressed)
 {
+  struct timeval t0, t1;
+  // launch parallel threads
+  gettimeofday(&t0, NULL);
   register int i, cnt;
   int status;
   pthread_attr_t attr;
@@ -319,9 +326,7 @@ static void Decompress(int num, unsigned char **inter, ull *outbuf, int predsize
     g_decomp[i].dfcm = dfcm[i];
     g_decomp[i].end = num - (i * chunksize);
   }
-  struct timeval t0, t1;
-  // launch parallel threads
-  gettimeofday(&t0, NULL);
+  
   for (i = 0; i < threads; i++) {
     pthread_create(&thread[i], &attr, DecompressChunks, (void *)i);
   }
@@ -329,8 +334,12 @@ static void Decompress(int num, unsigned char **inter, ull *outbuf, int predsize
   *elapse = t1.tv_sec + t1.tv_usec / 1000000.0 - t0.tv_sec - t0.tv_usec / 1000000.0;
   // wait for parallel threads to finish
   for (i = 0; i < threads; i++) {
+    gettimeofday(&t0, NULL);
     pthread_join(thread[i], (void **)&status);
     assert(0 == status);
+    gettimeofday(&t1, NULL);
+    *elapse += t1.tv_sec + t1.tv_usec / 1000000.0 - t0.tv_sec - t0.tv_usec / 1000000.0;
+    *decompressed = num;
   }
 
   // output decompressed data
@@ -376,7 +385,7 @@ int main(int argc, char *argv[])
   assert(8 == sizeof(ull));
   val = 1;
   assert(1 == *((char *)&val));
-
+  int insize=0, outsize=0, compressed=0, decompressed=0;
   if (4 == argc) {  // compress
     // parse input
     predsizelg2 = atoi(argv[1]);
@@ -422,16 +431,18 @@ int main(int argc, char *argv[])
     num = fread(input, 8, BUFSIZE >> 3, stdin);
     
     while (num > 0) {
-      Compress(num, input, inter, predsizem1, threads, chunksize, fcm, dfcm, &elapse);
+      insize += num;
+      Compress(num, input, inter, predsizem1, threads, chunksize, fcm, dfcm, &elapse, &compressed);
       totelapse += elapse;
+      outsize += compressed;
       num = fread(input, 8, BUFSIZE >> 3, stdin);
     }
     gettimeofday(&stop, NULL);
     double ctime = stop.tv_sec + stop.tv_usec / 1000000.0 - start0.tv_sec - start0.tv_usec / 1000000.0;
-    // fprintf(stderr, "insize: %d \t", insize);
-    fprintf(stderr, "totc-time: %.2f ms\t comp-time: %.2f ms\n", 1000.0 * ctime, 1000.0 * totelapse);
-    // fprintf(stderr, "comp-throughput: %.3f GB/s\n", 0.000000001 * sizeof(int) * insize / ctime);
-    // printf("comp-ratio: %.3f\n\n", 1.0 * insize / outsize);
+    fprintf(stderr, "insize: %d \t", insize);
+    fprintf(stderr, "totc-time: %.2f ms\t comp-time: %.2f ms\t", 1000.0 * ctime, 1000.0 * totelapse);
+    fprintf(stderr, "comp-throughput: %.3f GB/s\t", 0.000000001 * sizeof(int) * insize / totelapse);
+    fprintf(stderr, "comp-ratio: %.3f\n", 1.0 * insize / outsize);
   } else if (1 == argc) {  /* decompress */
     // read in header
     predsizelg2 = 0;
@@ -477,13 +488,16 @@ int main(int argc, char *argv[])
         cnt = fread(&(inter[i][4]), 1, in, stdin);
         assert(cnt == in);
       }
-      Decompress(num, inter, output, predsizem1, threads, chunksize, fcm, dfcm, &elapse);
+      Decompress(num, inter, output, predsizem1, threads, chunksize, fcm, dfcm, &elapse, &decompressed);
       totelapse += elapse;
+      outsize += decompressed;
       cnt = fread(&num, 4, 1, stdin);
     }
     gettimeofday(&stop, NULL);
     double dtime = stop.tv_sec + stop.tv_usec / 1000000.0 - start0.tv_sec - start0.tv_usec / 1000000.0;
-    fprintf(stderr, "totd-time: %.2f\tdecomp-time: %.2f ms\n", 1000.0 * dtime, 1000.0 * totelapse);
+    fprintf(stderr, "outsize: %d \t", outsize);
+    fprintf(stderr, "totd-time: %.2f\tdecomp-time: %.2f ms\t", 1000.0 * dtime, 1000.0 * totelapse);
+    fprintf(stderr, "decomp-throughput: %.3f GB/s\n", 0.000000001 * sizeof(int) * outsize / totelapse);
   } else {
     fprintf(stderr, "usage: %s [predsizelg2 threads chunksize]\n", argv[0]);
   }
