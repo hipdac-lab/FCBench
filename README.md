@@ -299,3 +299,22 @@ gdown https://drive.google.com/uc?id=$file-id
 
 ### Roofline model of GPU-based methods
 <img src="https://user-images.githubusercontent.com/130711868/232258448-3ca8de9b-266c-416a-8ecb-c9871f3ff000.png" width="50%">
+
+## Citation
+Please cite our VLDB'24 paper:
+- Xinyu Chen, Jiannan Tian, Ian Beaver, Cynthia Freeman, Yan Yan, Jianguo Wang, Dingwen Tao. "FCBench: Cross-Domain Benchmarking of Lossless Compression for Floating-point Data." In Proceedings of the VLDB Endowment 17, no. 7 (2024).
+
+Bibtex:
+```text
+@article{chen2024fcbench,
+  title={FCBench: Cross-Domain Benchmarking of Lossless Compression for Floating-point Data},
+  author={Chen, Xinyu and Tian, Jiannan and Beaver, Ian and Freeman, Cynthia and Yan, Yan and Wang, Jianguo and Tao, Dingwen},
+  journal={Proceedings of the VLDB Endowment},
+  volume={17},
+  number={7},
+  pages={},
+  year={2021},
+  publisher={VLDB Endowment}
+}
+``` 
+
