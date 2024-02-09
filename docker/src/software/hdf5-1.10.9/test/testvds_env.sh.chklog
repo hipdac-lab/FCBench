@@ -1,0 +1,62 @@
+============================
+testvds_env.sh  Test Log
+============================
+Testing basic virtual dataset I/O via H5Pset_vds_prefix(): all selection with ENV prefix
+Testing virtual dataset with file version bounds: (earliest, latest):
+Config: same source file
+Testing basic virtual dataset I/O via H5Pset_vds_prefix(): all selection with ENV prefix PASSED
+Config: closed source dataset, same source file
+Testing basic virtual dataset I/O via H5Pset_vds_prefix(): all selection with ENV prefix PASSED
+Config: different source file
+Testing basic virtual dataset I/O via H5Pset_vds_prefix(): all selection with ENV prefix PASSED
+Config: closed source dataset, different source file
+Testing basic virtual dataset I/O via H5Pset_vds_prefix(): all selection with ENV prefix PASSED
+Config: same source file, reopen virtual file
+Testing basic virtual dataset I/O via H5Pset_vds_prefix(): all selection with ENV prefix PASSED
+Config: closed source dataset, same source file, reopen virtual file
+Testing basic virtual dataset I/O via H5Pset_vds_prefix(): all selection with ENV prefix PASSED
+Config: different source file, reopen virtual file
+Testing basic virtual dataset I/O via H5Pset_vds_prefix(): all selection with ENV prefix PASSED
+Config: closed source dataset, different source file, reopen virtual file
+Testing basic virtual dataset I/O via H5Pset_vds_prefix(): all selection with ENV prefix PASSED
+Testing virtual dataset with file version bounds: (v18, latest):
+Config: same source file
+Testing basic virtual dataset I/O via H5Pset_vds_prefix(): all selection with ENV prefix PASSED
+Config: closed source dataset, same source file
+Testing basic virtual dataset I/O via H5Pset_vds_prefix(): all selection with ENV prefix PASSED
+Config: different source file
+Testing basic virtual dataset I/O via H5Pset_vds_prefix(): all selection with ENV prefix PASSED
+Config: closed source dataset, different source file
+Testing basic virtual dataset I/O via H5Pset_vds_prefix(): all selection with ENV prefix PASSED
+Config: same source file, reopen virtual file
+Testing basic virtual dataset I/O via H5Pset_vds_prefix(): all selection with ENV prefix PASSED
+Config: closed source dataset, same source file, reopen virtual file
+Testing basic virtual dataset I/O via H5Pset_vds_prefix(): all selection with ENV prefix PASSED
+Config: different source file, reopen virtual file
+Testing basic virtual dataset I/O via H5Pset_vds_prefix(): all selection with ENV prefix PASSED
+Config: closed source dataset, different source file, reopen virtual file
+Testing basic virtual dataset I/O via H5Pset_vds_prefix(): all selection with ENV prefix PASSED
+Testing virtual dataset with file version bounds: (latest, latest):
+Config: same source file
+Testing basic virtual dataset I/O via H5Pset_vds_prefix(): all selection with ENV prefix PASSED
+Config: closed source dataset, same source file
+Testing basic virtual dataset I/O via H5Pset_vds_prefix(): all selection with ENV prefix PASSED
+Config: different source file
+Testing basic virtual dataset I/O via H5Pset_vds_prefix(): all selection with ENV prefix PASSED
+Config: closed source dataset, different source file
+Testing basic virtual dataset I/O via H5Pset_vds_prefix(): all selection with ENV prefix PASSED
+Config: same source file, reopen virtual file
+Testing basic virtual dataset I/O via H5Pset_vds_prefix(): all selection with ENV prefix PASSED
+Config: closed source dataset, same source file, reopen virtual file
+Testing basic virtual dataset I/O via H5Pset_vds_prefix(): all selection with ENV prefix PASSED
+Config: different source file, reopen virtual file
+Testing basic virtual dataset I/O via H5Pset_vds_prefix(): all selection with ENV prefix PASSED
+Config: closed source dataset, different source file, reopen virtual file
+Testing basic virtual dataset I/O via H5Pset_vds_prefix(): all selection with ENV prefix PASSED
+All virtual dataset tests passed.
+Test prefix for HDF5_VDS_PREFIX PASSED
+0.03user 0.02system 0:00.06elapsed 109%CPU (0avgtext+0avgdata 7660maxresident)k
+0inputs+688outputs (0major+2901minor)pagefaults 0swaps
+
+Finished testing testvds_env.sh 
+============================

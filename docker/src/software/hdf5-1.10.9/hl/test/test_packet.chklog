@@ -1,0 +1,32 @@
+============================
+Test log for test_packet 
+============================
+Testing packet table
+Testing H5PTcreate_fl and H5PTclose                                    PASSED
+Testing H5PTopen                                                       PASSED
+Testing H5PTappend                                                     PASSED
+Testing H5PTread_packets                                               PASSED
+Testing H5PTget_next                                                   PASSED
+Testing large packet table                                             PASSED
+Testing reading/writing non-native packet table                        PASSED
+Testing opaque data                                                    PASSED
+Testing packet table compression                                       PASSED
+Testing error conditions                                               PASSED
+Testing packet table with various variable-length datatypes
+Testing         with vlen of atomic                                    PASSED
+Testing         with vlen of compound datatypes                        PASSED
+Testing         with compound datatype containing vlen datatype        PASSED
+Testing         with vlen datatype of vlen datatype                    PASSED
+Testing H5PTis_varlen                                                  PASSED
+Testing adding attributes to packet tables                             PASSED
+Testing accessor functions                                             PASSED
+Testing packet table with various variable-length datatypes - H5PTcreate_fl
+Testing         with vlen of atomic                                    PASSED
+Testing         with vlen of compound datatypes                        PASSED
+Testing         with compound datatype containing vlen datatype        PASSED
+Testing         with vlen datatype of vlen datatype                    PASSED
+0.08user 0.02system 0:00.09elapsed 107%CPU (0avgtext+0avgdata 9988maxresident)k
+0inputs+904outputs (0major+9638minor)pagefaults 0swaps
+
+Finished testing test_packet 
+============================

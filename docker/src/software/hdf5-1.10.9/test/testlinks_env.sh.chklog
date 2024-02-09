@@ -1,0 +1,14 @@
+============================
+testlinks_env.sh  Test Log
+============================
+Testing external link with HDF5_EXT_PREFIX
+env HDF5_EXT_PREFIX=.:tmp_links_env  /home/cc/software/hdf5-1.10.9/test/links_env
+Testing external links via environment variable                        PASSED
+Testing external links via environment variable (w/new group format)   PASSED
+All external Link (HDF5_EXT_PREFIX) tests passed.
+Test for HDF5_EXT_PREFIX PASSED
+0.03user 0.02system 0:00.05elapsed 118%CPU (0avgtext+0avgdata 7296maxresident)k
+0inputs+40outputs (0major+2904minor)pagefaults 0swaps
+
+Finished testing testlinks_env.sh 
+============================

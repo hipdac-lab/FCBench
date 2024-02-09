@@ -1,0 +1,19 @@
+============================
+testflushrefresh.sh  Test Log
+============================
+Testing individual object flush behavior:
+Testing to ensure H5Gflush correctly flushes single groups             PASSED
+Testing to ensure H5Dflush correctly flushes single datasets           PASSED
+Testing to ensure H5Tflush correctly flushes single datatypes          PASSED
+Testing to ensure H5Oflush correctly flushes single objects            PASSED
+Testing individual object refresh behavior:
+Testing to ensure that H5Drefresh correctly refreshes single datasets  PASSED
+Testing to ensure that H5Grefresh correctly refreshes single groups    PASSED
+Testing to ensure that H5Trefresh correctly refreshes single datatypes PASSED
+Testing to ensure that H5Orefresh correctly refreshes single objects   PASSED
+flush/refresh objects tests passed.
+5.81user 7.76system 0:06.36elapsed 213%CPU (0avgtext+0avgdata 7224maxresident)k
+144inputs+2360outputs (3major+365919minor)pagefaults 0swaps
+
+Finished testing testflushrefresh.sh 
+============================

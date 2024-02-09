@@ -1,0 +1,182 @@
+============================
+Test log for ohdr 
+============================
+Using file format version: (earliest, v18)
+Testing object header continuation block                               PASSED
+Testing object header creation                                         PASSED
+Testing message creation                                               PASSED
+Testing message modification                                           PASSED
+Testing object header overflow in memory                               PASSED
+Testing close & re-open object header                                  PASSED
+Testing object header overflow on disk                                 PASSED
+Testing message deletion                                               PASSED
+Testing constant message handling                                      PASSED
+Testing object header closing                                          PASSED
+Accessing objects with unknown header messages: H5O_BOGUS_VALID_ID
+Testing object with unknown header message and no flags set            PASSED
+Testing object with unknown header message & 'shareable' flag set      PASSED
+Testing object in r/o file with unknown header message & 'fail if unknown and open for write' flag set PASSED
+Testing object in r/o file with unknown header message & 'fail if unknown always' flag set PASSED
+Testing object with unknown header message & 'mark if unknown' flag set PASSED
+Testing object in r/w file with unknown header message & 'fail if unknown and open for write' flag set PASSED
+Testing object in r/w file with unknown header message & 'fail if unknown always' flag set PASSED
+Accessing objects with unknown header messages: H5O_BOGUS_INVALID_ID
+Testing object with unknown header message and no flags set            PASSED
+Testing object with unknown header message & 'shareable' flag set      PASSED
+Testing object in r/o file with unknown header message & 'fail if unknown and open for write' flag set PASSED
+Testing object in r/o file with unknown header message & 'fail if unknown always' flag set PASSED
+Testing object with unknown header message & 'mark if unknown' flag set PASSED
+Testing object in r/w file with unknown header message & 'fail if unknown and open for write' flag set PASSED
+Testing object in r/w file with unknown header message & 'fail if unknown always' flag set PASSED
+Testing object header creation in cache                                PASSED
+Testing adding attributes to datasets created with H5Pset_dset_no_attrs_hint() PASSED
+Testing minimized dset object headers size comparisons                 PASSED
+Testing minimized dset object headers size comparisons (compact)       PASSED
+Testing minimized dset object headers with filter message              PASSED
+Testing minimized dset object headers with modification times          PASSED
+Testing minimized dset object headers with fill values and different libver support PASSED
+Using file format version: (earliest, latest)
+Testing object header continuation block                               PASSED
+Testing object header creation                                         PASSED
+Testing message creation                                               PASSED
+Testing message modification                                           PASSED
+Testing object header overflow in memory                               PASSED
+Testing close & re-open object header                                  PASSED
+Testing object header overflow on disk                                 PASSED
+Testing message deletion                                               PASSED
+Testing constant message handling                                      PASSED
+Testing object header closing                                          PASSED
+Accessing objects with unknown header messages: H5O_BOGUS_VALID_ID
+Testing object with unknown header message and no flags set            PASSED
+Testing object with unknown header message & 'shareable' flag set      PASSED
+Testing object in r/o file with unknown header message & 'fail if unknown and open for write' flag set PASSED
+Testing object in r/o file with unknown header message & 'fail if unknown always' flag set PASSED
+Testing object with unknown header message & 'mark if unknown' flag set PASSED
+Testing object in r/w file with unknown header message & 'fail if unknown and open for write' flag set PASSED
+Testing object in r/w file with unknown header message & 'fail if unknown always' flag set PASSED
+Accessing objects with unknown header messages: H5O_BOGUS_INVALID_ID
+Testing object with unknown header message and no flags set            PASSED
+Testing object with unknown header message & 'shareable' flag set      PASSED
+Testing object in r/o file with unknown header message & 'fail if unknown and open for write' flag set PASSED
+Testing object in r/o file with unknown header message & 'fail if unknown always' flag set PASSED
+Testing object with unknown header message & 'mark if unknown' flag set PASSED
+Testing object in r/w file with unknown header message & 'fail if unknown and open for write' flag set PASSED
+Testing object in r/w file with unknown header message & 'fail if unknown always' flag set PASSED
+Testing object header creation in cache                                PASSED
+Testing adding attributes to datasets created with H5Pset_dset_no_attrs_hint() PASSED
+Testing minimized dset object headers size comparisons                 PASSED
+Testing minimized dset object headers size comparisons (compact)       PASSED
+Testing minimized dset object headers with filter message              PASSED
+Testing minimized dset object headers with modification times          PASSED
+Testing minimized dset object headers with fill values and different libver support PASSED
+Using file format version: (v18, v18)
+Testing object header continuation block                               PASSED
+Testing object header creation                                         PASSED
+Testing message creation                                               PASSED
+Testing message modification                                           PASSED
+Testing object header overflow in memory                               PASSED
+Testing close & re-open object header                                  PASSED
+Testing object header overflow on disk                                 PASSED
+Testing message deletion                                               PASSED
+Testing constant message handling                                      PASSED
+Testing object header closing                                          PASSED
+Accessing objects with unknown header messages: H5O_BOGUS_VALID_ID
+Testing object with unknown header message and no flags set            PASSED
+Testing object with unknown header message & 'shareable' flag set      PASSED
+Testing object in r/o file with unknown header message & 'fail if unknown and open for write' flag set PASSED
+Testing object in r/o file with unknown header message & 'fail if unknown always' flag set PASSED
+Testing object with unknown header message & 'mark if unknown' flag set PASSED
+Testing object in r/w file with unknown header message & 'fail if unknown and open for write' flag set PASSED
+Testing object in r/w file with unknown header message & 'fail if unknown always' flag set PASSED
+Accessing objects with unknown header messages: H5O_BOGUS_INVALID_ID
+Testing object with unknown header message and no flags set            PASSED
+Testing object with unknown header message & 'shareable' flag set      PASSED
+Testing object in r/o file with unknown header message & 'fail if unknown and open for write' flag set PASSED
+Testing object in r/o file with unknown header message & 'fail if unknown always' flag set PASSED
+Testing object with unknown header message & 'mark if unknown' flag set PASSED
+Testing object in r/w file with unknown header message & 'fail if unknown and open for write' flag set PASSED
+Testing object in r/w file with unknown header message & 'fail if unknown always' flag set PASSED
+Testing object header creation in cache                                PASSED
+Testing adding attributes to datasets created with H5Pset_dset_no_attrs_hint() PASSED
+Testing minimized dset object headers size comparisons                 PASSED
+Testing minimized dset object headers size comparisons (compact)       PASSED
+Testing minimized dset object headers with filter message              PASSED
+Testing minimized dset object headers with modification times          PASSED
+Testing minimized dset object headers with fill values and different libver support PASSED
+Using file format version: (v18, latest)
+Testing object header continuation block                               PASSED
+Testing object header creation                                         PASSED
+Testing message creation                                               PASSED
+Testing message modification                                           PASSED
+Testing object header overflow in memory                               PASSED
+Testing close & re-open object header                                  PASSED
+Testing object header overflow on disk                                 PASSED
+Testing message deletion                                               PASSED
+Testing constant message handling                                      PASSED
+Testing object header closing                                          PASSED
+Accessing objects with unknown header messages: H5O_BOGUS_VALID_ID
+Testing object with unknown header message and no flags set            PASSED
+Testing object with unknown header message & 'shareable' flag set      PASSED
+Testing object in r/o file with unknown header message & 'fail if unknown and open for write' flag set PASSED
+Testing object in r/o file with unknown header message & 'fail if unknown always' flag set PASSED
+Testing object with unknown header message & 'mark if unknown' flag set PASSED
+Testing object in r/w file with unknown header message & 'fail if unknown and open for write' flag set PASSED
+Testing object in r/w file with unknown header message & 'fail if unknown always' flag set PASSED
+Accessing objects with unknown header messages: H5O_BOGUS_INVALID_ID
+Testing object with unknown header message and no flags set            PASSED
+Testing object with unknown header message & 'shareable' flag set      PASSED
+Testing object in r/o file with unknown header message & 'fail if unknown and open for write' flag set PASSED
+Testing object in r/o file with unknown header message & 'fail if unknown always' flag set PASSED
+Testing object with unknown header message & 'mark if unknown' flag set PASSED
+Testing object in r/w file with unknown header message & 'fail if unknown and open for write' flag set PASSED
+Testing object in r/w file with unknown header message & 'fail if unknown always' flag set PASSED
+Testing object header creation in cache                                PASSED
+Testing adding attributes to datasets created with H5Pset_dset_no_attrs_hint() PASSED
+Testing minimized dset object headers size comparisons                 PASSED
+Testing minimized dset object headers size comparisons (compact)       PASSED
+Testing minimized dset object headers with filter message              PASSED
+Testing minimized dset object headers with modification times          PASSED
+Testing minimized dset object headers with fill values and different libver support PASSED
+Using file format version: (latest, latest)
+Testing object header continuation block                               PASSED
+Testing object header creation                                         PASSED
+Testing message creation                                               PASSED
+Testing message modification                                           PASSED
+Testing object header overflow in memory                               PASSED
+Testing close & re-open object header                                  PASSED
+Testing object header overflow on disk                                 PASSED
+Testing message deletion                                               PASSED
+Testing constant message handling                                      PASSED
+Testing object header closing                                          PASSED
+Accessing objects with unknown header messages: H5O_BOGUS_VALID_ID
+Testing object with unknown header message and no flags set            PASSED
+Testing object with unknown header message & 'shareable' flag set      PASSED
+Testing object in r/o file with unknown header message & 'fail if unknown and open for write' flag set PASSED
+Testing object in r/o file with unknown header message & 'fail if unknown always' flag set PASSED
+Testing object with unknown header message & 'mark if unknown' flag set PASSED
+Testing object in r/w file with unknown header message & 'fail if unknown and open for write' flag set PASSED
+Testing object in r/w file with unknown header message & 'fail if unknown always' flag set PASSED
+Accessing objects with unknown header messages: H5O_BOGUS_INVALID_ID
+Testing object with unknown header message and no flags set            PASSED
+Testing object with unknown header message & 'shareable' flag set      PASSED
+Testing object in r/o file with unknown header message & 'fail if unknown and open for write' flag set PASSED
+Testing object in r/o file with unknown header message & 'fail if unknown always' flag set PASSED
+Testing object with unknown header message & 'mark if unknown' flag set PASSED
+Testing object in r/w file with unknown header message & 'fail if unknown and open for write' flag set PASSED
+Testing object in r/w file with unknown header message & 'fail if unknown always' flag set PASSED
+Testing object header creation in cache                                PASSED
+Testing adding attributes to datasets created with H5Pset_dset_no_attrs_hint() PASSED
+Testing minimized dset object headers size comparisons                 PASSED
+Testing minimized dset object headers size comparisons (compact)       PASSED
+Testing minimized dset object headers with filter message              PASSED
+Testing minimized dset object headers with modification times          PASSED
+Testing minimized dset object headers with fill values and different libver support PASSED
+Testing Fix for CVE-2020-10810                                         PASSED
+Testing exercise the coding for the re-read of the object header for SWMR access: latest-format PASSED
+Testing exercise the coding for the re-read of the object header for SWMR access: non-latest-format PASSED
+All object header tests passed.
+0.05user 0.02system 0:00.08elapsed 108%CPU (0avgtext+0avgdata 8404maxresident)k
+0inputs+1808outputs (0major+2691minor)pagefaults 0swaps
+
+Finished testing ohdr 
+============================

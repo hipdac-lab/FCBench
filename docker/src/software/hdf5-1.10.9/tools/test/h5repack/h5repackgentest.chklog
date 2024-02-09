@@ -1,0 +1,8 @@
+============================
+Test log for h5repackgentest 
+============================
+0.01user 0.03system 0:00.04elapsed 116%CPU (0avgtext+0avgdata 6828maxresident)k
+0inputs+152outputs (0major+2406minor)pagefaults 0swaps
+
+Finished testing h5repackgentest 
+============================

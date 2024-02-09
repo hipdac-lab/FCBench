@@ -1,0 +1,15 @@
+============================
+Test log for test_file_image 
+============================
+Testing get file images                                                PASSED
+Testing open file images and check image copies                        PASSED
+Testing read file images                                               PASSED
+Testing write and extend file images                                   PASSED
+Testing read extended file images                                      PASSED
+Testing close file images                                              PASSED
+File image tests passed.
+0.02user 0.03system 0:00.05elapsed 112%CPU (0avgtext+0avgdata 11312maxresident)k
+0inputs+80outputs (0major+3503minor)pagefaults 0swaps
+
+Finished testing test_file_image 
+============================

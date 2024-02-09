@@ -1,0 +1,14 @@
+============================
+Test log for timer 
+============================
+Testing platform-independent timer functionality.
+Testing Time string formats                                            PASSED
+Testing system/user times                                              PASSED
+Testing elapsed times                                                  PASSED
+Testing timer functionality                                            PASSED
+All platform-independent timer tests passed.
+0.01user 0.03system 0:00.03elapsed 122%CPU (0avgtext+0avgdata 5252maxresident)k
+0inputs+0outputs (0major+2008minor)pagefaults 0swaps
+
+Finished testing timer 
+============================

@@ -1,0 +1,22 @@
+============================
+Test log for stab 
+============================
+Testing miscellaneous group tests                                      PASSED
+Testing long names                                                     PASSED
+Testing large directories                                              PASSED
+Testing miscellaneous group tests (w/new group format)                 PASSED
+Testing long names (w/new group format)                                PASSED
+Testing large directories (w/new group format)                         PASSED
+Testing group lifecycle                                                PASSED
+Testing long link names in compact groups                              PASSED
+Testing reading old groups                                             PASSED
+Testing group without compact form                                     PASSED
+Testing setting root group creation properties                         PASSED
+Testing old API routines                                               PASSED
+Testing corrupt symbol table message                                   PASSED
+All symbol table tests passed.
+0.13user 0.03system 0:00.17elapsed 99%CPU (0avgtext+0avgdata 18720maxresident)k
+0inputs+10392outputs (0major+5638minor)pagefaults 0swaps
+
+Finished testing stab 
+============================

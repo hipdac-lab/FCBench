@@ -1,0 +1,8 @@
+============================
+Test log for h5fc_gentest 
+============================
+0.04user 0.02system 0:00.05elapsed 108%CPU (0avgtext+0avgdata 7288maxresident)k
+0inputs+664outputs (0major+2386minor)pagefaults 0swaps
+
+Finished testing h5fc_gentest 
+============================

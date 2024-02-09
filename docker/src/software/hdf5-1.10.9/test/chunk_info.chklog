@@ -1,0 +1,16 @@
+============================
+Test log for chunk_info 
+============================
+Testing getting chunk information in file with version prior to 1.10   PASSED
+Testing getting chunk information in file with versions 1.10          
+Testing    Single Chunk index                                          PASSED
+Testing    Implicit index                                              PASSED
+Testing    Fixed Array index                                           PASSED
+Testing    Extensible Array index                                      PASSED
+Testing    Version 2 B-trees index                                     PASSED
+All chunk query tests passed.
+0.02user 0.02system 0:00.04elapsed 118%CPU (0avgtext+0avgdata 6876maxresident)k
+0inputs+72outputs (0major+2362minor)pagefaults 0swaps
+
+Finished testing chunk_info 
+============================

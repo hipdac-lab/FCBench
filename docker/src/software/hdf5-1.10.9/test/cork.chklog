@@ -1,0 +1,29 @@
+============================
+Test log for cork 
+============================
+Testing cork status for datasets with old format                       PASSED
+Testing H5Odisable_mdc_flushes/H5Oenable_mdc_flushes/H5Oare_mdc_flushes_disabled (new library format) PASSED
+Testing H5Odisable_mdc_flushes/H5Oenable_mdc_flushes/H5Oare_mdc_flushes_disabled (old library format) PASSED
+Testing H5Odisable_mdc_flushes/H5Oenable_mdc_flushes/H5Oare_mdc_flushes_disabled on datasets (new library format) PASSED
+Testing H5Odisable_mdc_flushes/H5Oenable_mdc_flushes/H5Oare_mdc_flushes_disabled on datasets (old library format) PASSED
+Testing cork status for dataset objects with attributes                PASSED
+Testing cork status for chunked datasets with different indexing types (non-SWMR & latest) PASSED
+Testing cork status for chunked datasets with different indexing types (non-SWMR & non-latest) PASSED
+Testing cork status for groups                                         PASSED
+Testing cork status for named datatypes                                PASSED
+Testing cork status for multiple opens                                 PASSED
+Testing H5Odisable_mdc_flushes/H5Oenable_mdc_flushes/H5Oare_mdc_flushes_disabled (new library format) (SWMR) PASSED
+Testing H5Odisable_mdc_flushes/H5Oenable_mdc_flushes/H5Oare_mdc_flushes_disabled (old library format) (SWMR) PASSED
+Testing H5Odisable_mdc_flushes/H5Oenable_mdc_flushes/H5Oare_mdc_flushes_disabled on datasets (new library format) (SWMR) PASSED
+Testing H5Odisable_mdc_flushes/H5Oenable_mdc_flushes/H5Oare_mdc_flushes_disabled on datasets (old library format) (SWMR) PASSED
+Testing cork status for dataset objects with attributes (SWMR)         PASSED
+Testing cork status for chunked datasets with different indexing types (SWMR & latest) PASSED
+Testing cork status for chunked datasets with different indexing types (SWMR & non-latest) PASSED
+Testing cork status for groups (SWMR)                                  PASSED
+Testing cork status for named datatypes (SWMR)                         PASSED
+Testing cork status for multiple opens (SWMR)                          PASSED
+0.06user 0.05system 0:00.11elapsed 106%CPU (0avgtext+0avgdata 13224maxresident)k
+0inputs+1672outputs (0major+3836minor)pagefaults 0swaps
+
+Finished testing cork 
+============================

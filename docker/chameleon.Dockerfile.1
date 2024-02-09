@@ -1,0 +1,153 @@
+FROM nvidia/cuda:12.2.2-devel-ubuntu20.04
+
+## set up dependencies
+RUN apt-get update  --fix-missing
+# Set the timezone info correctly
+RUN apt-get install -y --no-install-recommends locales
+RUN locale-gen en_US.UTF-8
+
+ENV LANG=en_US.UTF-8
+ENV LC_ALL=en_US.UTF-8
+ENV DEBIAN_FRONTEND=noninteractive
+
+# Install any operating system and build dependencies
+# This is the main section you may need to change in this file
+RUN apt-get update
+RUN apt-get install -y --no-install-recommends --no-install-suggests \
+        build-essential \
+        software-properties-common \
+        autoconf \
+        automake \
+        clang \
+        libclang-dev \
+        libtool \
+        pkg-config \
+        ca-certificates \
+        libssl-dev \
+        curl \
+        unzip \
+        python3-dev \
+        python3.8-venv \
+        python3-pip \
+        ninja-build \
+        swig \
+        libblas-dev \
+        liblapack-dev \
+        jq \
+        libomp5 \
+        libomp-dev \
+        wget \
+        git && \
+    apt-get clean
+
+# For compatibility with some scripts
+RUN ln -s /usr/bin/python3.8 /usr/bin/python
+
+# create dorectories
+RUN mkdir /opt/code /opt/data /opt/experiments /opt/output /opt/scripts /opt/software
+COPY software /opt/software
+COPY code /opt/code
+COPY scripts /opt/scripts
+
+# install cmake
+ENV PATH=/opt/software/cmake-3.25.1-linux-x86_64/bin:${PATH}
+
+# install boost
+ARG BOOST_VERSION=1.76.0
+RUN cd /tmp && \
+    BOOST_VERSION_MOD=$(echo $BOOST_VERSION | tr . _) && \
+    wget https://boostorg.jfrog.io/artifactory/main/release/${BOOST_VERSION}/source/boost_${BOOST_VERSION_MOD}.tar.bz2 && \
+    tar --bzip2 -xf boost_${BOOST_VERSION_MOD}.tar.bz2 && \
+    cd boost_${BOOST_VERSION_MOD} && \
+    ./bootstrap.sh --prefix=/usr/local && \
+    ./b2 install && \
+    rm -rf /tmp/*
+
+# install golang
+RUN cd /opt/software
+RUN wget https://go.dev/dl/go1.18.linux-amd64.tar.gz
+RUN rm -rf /usr/local/go 
+RUN tar -xzf go1.18.linux-amd64.tar.gz -C /usr/local
+ENV PATH=${PATH}:/usr/local/go/bin
+
+# install hdf5
+RUN cd /opt/software/hdf5-1.10.9 && ./configure --prefix=/usr/local/hdf5 && make -j && make install
+RUN cp /usr/local/hdf5/include/*.h /usr/include/
+RUN cp /usr/local/hdf5/lib/* /usr/lib/
+
+# install zstd and lz4
+RUN apt-get install -y zstd
+RUN apt-get install -y lz4
+RUN apt-get install -y zlib1g-dev
+RUN apt install libzstd-dev
+
+# install rustc 
+RUN cd /opt/software
+RUN curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | bash -s -- -y
+ENV PATH=/root/.cargo/bin:${PATH}
+RUN rustup install 1.53.0
+RUN rustup toolchain install nightly
+# later choose rustup default nightly or 1.53.0
+
+# compile bitshuffle
+RUN pip install --no-cache-dir --upgrade cython
+RUN pip install --no-cache-dir -r /opt/code/bitshuffle/requirements.txt
+RUN cd /opt/code/bitshuffle && python setup.py install --zstd
+
+# compile buff
+RUN rustup default nightly
+RUN cd /opt/code/buff/database && \
+    cargo +nightly -C /opt/code/buff/database build -Z unstable-options \
+    --release  --package buff --bin comp_profiler
+
+# compile influxdb
+RUN rustup default 1.53.0
+RUN cd /opt/code/influxdb && make
+
+# compile fpzip
+RUN rm -rf /opt/code/fpzip/build
+RUN mkdir -p /opt/code/fpzip/build
+RUN cd /opt/code/fpzip/build && cmake .. && cmake --build . --config Release
+
+# compile ndzip
+ARG whichgcc=/usr/bin/gcc
+ARG whichgpp=/usr/bin/g++ 
+ARG whichnvcc=/usr/local/cuda/bin/nvcc
+RUN cd /opt/code/ndzip && \
+    cmake -B build -DCMAKE_CUDA_ARCHITECTURES=75 -DCMAKE_BUILD_TYPE=Release -DZIP_WITH_MT=YES \
+    -DNDZIP_WITH_CUDA=YES -DCMAKE_CXX_FLAGS="-march=native" -DCMAKE_C_COMPILER=$whichgcc \
+    -DCMAKE_CXX_COMPILER=$whichgpp -DCMAKE_CUDA_COMPILER=$whichnvcc \
+    -DBoost_INCLUDE_DIR=/usr/local/include -DBoost_LIBRARY_DIRS=/usr/local/lib 
+RUN cmake --build /opt/code/ndzip/build -j
+
+# compile pFPC
+RUN cd /opt/code/pFPC && \
+    gcc -O3 -pthread -std=c99 pFPC_block.c -o pfpc
+
+# compile SPDP
+RUN cd /opt/code/SPDP && \
+    gcc -O3 SPDP_block.c -o spdp
+
+# compile GFC
+RUN cd /opt/code/GFC && \
+    nvcc -O3 -arch=sm_60 GFC_22.cu -o GFC
+
+# compile MPC
+RUN cd /opt/code/MPC && \
+    nvcc -O3 -arch=sm_60 MPC_float_12.cu -o MPC_float && \
+    nvcc -O3 -arch=sm_60 MPC_double_12.cu -o MPC_double
+
+# install for display results
+RUN pip install --no-cache-dir pandas
+
+# clean tmp files
+RUN rm -r /root/.cache /root/.rustup
+
+# Set environment variables
+ENV WORKDIR=/opt
+ENV DATADIR=${WORKDIR}/data
+ENV BASEDIR=${WORKDIR}/code
+ENV RESDIR=${WORKDIR}/experiments
+ENV OUTDIR=${WORKDIR}/output
+
+WORKDIR ${WORKDIR}

@@ -1,0 +1,24 @@
+============================
+Test log for accum 
+============================
+Testing the metadata accumulator
+Testing simple write/read to/from metadata accumulator                 PASSED
+Testing simple write/read to/from before metadata accumulator          PASSED
+Testing simple write/read to/from after metadata accumulator           PASSED
+Testing overlapping write to metadata accumulator                      PASSED
+Testing overlapping write to partially clean metadata accumulator      PASSED
+Testing overlapping write to accumulator larger then accum_size        PASSED
+Testing non-overlapping write to accumulator larger then accum_size    PASSED
+Testing accumulator adjustments after append/prepend of data           PASSED
+Testing reading data from both accumulator and disk                    PASSED
+Testing simple freeing metadata accumulator                            PASSED
+Testing large metadata I/O operations                                  PASSED
+Testing random writes to accumulator                                   PASSED
+Testing SWMR write of large metadata: with latest format               PASSED
+Testing SWMR write of large metadata: with non-latest-format           PASSED
+All metadata accumulator tests passed.
+0.12user 0.11system 0:00.21elapsed 111%CPU (0avgtext+0avgdata 27728maxresident)k
+0inputs+36896outputs (0major+21479minor)pagefaults 0swaps
+
+Finished testing accum 
+============================

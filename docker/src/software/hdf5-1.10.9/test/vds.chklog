@@ -1,0 +1,17 @@
+============================
+Test log for vds 
+============================
+  Testing virtual dataset API functions                                PASSED
+  Testing virtual dataset API functions with copied plists             PASSED
+  Testing virtual dataset API functions with encoded and decoded plists PASSED
+  Testing virtual dataset create                                       PASSED
+  Testing virtual dataset create with reopened dataset                 PASSED
+  Testing virtual dataset create with reopened file                    PASSED
+  Testing Virtual dataset I/O                                          PASSED
+  Testing H5Dget_access_plist() returns dapl w/ correct values         PASSED
+All virtual dataset tests passed.
+0.51user 0.15system 0:00.67elapsed 99%CPU (0avgtext+0avgdata 8556maxresident)k
+0inputs+16944outputs (0major+15571minor)pagefaults 0swaps
+
+Finished testing vds 
+============================

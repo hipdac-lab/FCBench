@@ -1,0 +1,23 @@
+============================
+Test log for cache_api 
+============================
+===================================
+Cache API tests
+        express_test = 3
+===================================
+Testing MDC/FAPL related API calls                                     PASSED
+Testing MDC/FILE related API calls                                     PASSED
+Testing MDC API smoke check                                            -SKIP-
+     Long tests disabled.
+Testing MDC/FILE related API input errors                              PASSED
+Testing MDC/FAPL related API calls for paged aggregation strategy      PASSED
+Testing MDC/FILE related API calls for paged aggregation strategy      PASSED
+Testing MDC API smoke check for paged aggregation strategy             -SKIP-
+     Long tests disabled.
+Testing MDC/FILE related API input errors for paged aggregation strategy PASSED
+Testing MDC/FAPL related API input errors                              PASSED
+0.02user 0.01system 0:00.04elapsed 120%CPU (0avgtext+0avgdata 6852maxresident)k
+0inputs+128outputs (0major+2438minor)pagefaults 0swaps
+
+Finished testing cache_api 
+============================

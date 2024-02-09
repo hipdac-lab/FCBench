@@ -1,0 +1,23 @@
+============================
+Test log for vfd 
+============================
+Testing basic Virtual File Driver functionality.
+Testing SEC2 file driver                                               PASSED
+Testing CORE file driver                                               PASSED
+Testing DIRECT I/O file driver                                         -SKIP-
+Testing FAMILY file driver                                             PASSED
+Testing FAMILY file driver backward compatibility                      PASSED
+Testing Family member FAPL                                             PASSED
+Testing MULTI file driver                                              PASSED
+Testing MULTI file driver backward compatibility                       PASSED
+Testing LOG file driver                                                PASSED
+Testing STDIO file driver                                              PASSED
+Testing WINDOWS file driver                                            -SKIP-
+Testing Read-only S3 file driver                                       -SKIP-
+Testing SPLITTER file driver                                           PASSED
+All Virtual File Driver tests passed.
+0.04user 0.03system 0:00.06elapsed 113%CPU (0avgtext+0avgdata 7132maxresident)k
+0inputs+1456outputs (0major+2525minor)pagefaults 0swaps
+
+Finished testing vfd 
+============================

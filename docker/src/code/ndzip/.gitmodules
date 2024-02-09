@@ -1,0 +1,12 @@
+[submodule "contrib/fpzip"]
+	path = contrib/fpzip
+	url = https://github.com/LLNL/fpzip
+[submodule "contrib/cudpp"]
+	path = contrib/cudpp
+	url = https://github.com/fknorr/cudpp
+[submodule "contrib/nvcomp"]
+	path = contrib/nvcomp
+	url = https://github.com/NVIDIA/nvcomp
+[submodule "contrib/zfp"]
+	path = contrib/zfp
+	url = https://github.com/LLNL/zfp

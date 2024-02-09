@@ -1,0 +1,13 @@
+============================
+testabort_fail.sh  Test Log
+============================
+Testing file not closed assertion/abort failure
+Test PASSED
+Testing infinite loop closing library/abort failure
+Test PASSED
+All tests for abort failure passed.
+0.06user 0.03system 0:00.08elapsed 121%CPU (0avgtext+0avgdata 6336maxresident)k
+0inputs+24outputs (0major+4872minor)pagefaults 0swaps
+
+Finished testing testabort_fail.sh 
+============================

@@ -1,0 +1,24 @@
+============================
+Test log for test_ld 
+============================
+Testing H5LDget_dset_dims                                              PASSED
+Testing H5LDget_dset_dims with H5Dset_extent                           PASSED
+Testing H5LDget_dset_type_size                                         PASSED
+Testing H5LDget_dset_elmts on invalid conditions                       PASSED
+Testing H5LDget_dset_elmts: one-dimensional dataset                    PASSED
+Testing H5LDget_dset_elmts: one-dimensional dataset                    PASSED
+Testing H5LDget_dset_elmts: one-dimensional dataset                    PASSED
+Testing H5LDget_dset_elmts: one-dimensional dataset                    PASSED
+Testing H5LDget_dset_elmts: one-dimensional dataset                    PASSED
+Testing H5LDget_dset_elmts: one-dimensional dataset                    PASSED
+Testing H5LDget_dset_elmts: one-dimensional dataset                    PASSED
+Testing H5LDget_dset_elmts: two-dimensional dataset                    PASSED
+Testing H5LDget_dset_elmts: two-dimensional dataset                    PASSED
+Testing H5LDget_dset_elmts: two-dimensional dataset                    PASSED
+Testing H5LDget_dset_elmts: two-dimensional dataset                    PASSED
+All tests for H5LD high level routines passed.
+0.03user 0.02system 0:00.05elapsed 111%CPU (0avgtext+0avgdata 7104maxresident)k
+0inputs+1056outputs (0major+2333minor)pagefaults 0swaps
+
+Finished testing test_ld 
+============================

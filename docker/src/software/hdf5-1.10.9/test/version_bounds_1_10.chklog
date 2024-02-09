@@ -1,0 +1,28 @@
+============================
+Test log for version_bounds_1_10 
+============================
+Testing reference and selection version bounds.
+Test file: bounds_ref_earliest_latest.h5
+Testing reference version bounds                                       PASSED
+Test file: bounds_ref_latest_latest.h5
+Testing reference version bounds                                       PASSED
+Test file: bounds_ref_v112_v112.h5
+Testing reference version bounds                                       PASSED
+Test file: bounds_ref_v110_v110.h5
+Testing reference version bounds                                       PASSED
+Test file: bounds_ref_v18_v18.h5
+Testing reference version bounds                                       PASSED
+Test file: bounds_sel_earliest_latest.h5
+Testing selection version bounds                                       PASSED
+Test file: bounds_sel_latest_latest.h5
+Testing selection version bounds                                       PASSED
+Test file: bounds_sel_v112_v112.h5
+Testing selection version bounds                                       PASSED
+Test file: bounds_sel_v110_v110.h5
+Testing selection version bounds                                       PASSED
+All reference and selection version bounds tests passed.
+0.01user 0.03system 0:00.04elapsed 119%CPU (0avgtext+0avgdata 6384maxresident)k
+0inputs+0outputs (0major+2301minor)pagefaults 0swaps
+
+Finished testing version_bounds_1_10 
+============================

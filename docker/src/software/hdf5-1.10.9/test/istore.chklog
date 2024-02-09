@@ -1,0 +1,24 @@
+============================
+Test log for istore 
+============================
+Test sizes:  SMALL MEDIUM LARGE
+Testing istore create                                                  PASSED
+Testing istore extend: 10                                              PASSED
+Testing istore extend: 10x10                                           PASSED
+Testing istore extend: 10x10x10                                        PASSED
+Testing istore extend: 10000                                           PASSED
+Testing istore extend: 2500x10                                         PASSED
+Testing istore extend: 10x400x10                                       PASSED
+Testing istore sparse: 5                                               PASSED
+Testing istore sparse: 3x4                                             PASSED
+Testing istore sparse: 2x3x4                                           PASSED
+Testing istore sparse: 30                                              PASSED
+Testing istore sparse: 7x3                                             PASSED
+Testing istore sparse: 4x2x3                                           PASSED
+Testing istore sparse: 50x50x50                                        PASSED
+All i-store tests passed.
+0.13user 0.90system 0:01.03elapsed 100%CPU (0avgtext+0avgdata 13656maxresident)k
+0inputs+2105032outputs (0major+4001minor)pagefaults 0swaps
+
+Finished testing istore 
+============================

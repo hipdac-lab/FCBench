@@ -1,0 +1,5 @@
+# Order matters
+setuptools
+Cython
+numpy
+# h5py>=2.4.0

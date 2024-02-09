@@ -1,0 +1,25 @@
+Open took: (0.000035 s)
+Stat took: (0.000004 s)
+         0-      2047 (      2048 bytes) (H5FD_MEM_DEFAULT) Allocated
+         0-        95 (        96 bytes) (H5FD_MEM_DEFAULT) Written (fresh) (0.000016s @ 9217.587822)
+       800-      2047 (      1248 bytes) (H5FD_MEM_DEFAULT) Freed
+Truncate: To       2048 (0.000011s @ 9217.587898)
+         0-       799 (       800 bytes) (H5FD_MEM_DEFAULT) Written (fresh) (0.000005s @ 9217.587916)
+         0-        95 (        96 bytes) (H5FD_MEM_DEFAULT) Written (fresh) (0.000004s @ 9217.587934)
+Close took: (0.000005 s)
+Total number of read operations: 0
+Total number of write operations: 3
+Total number of seek operations: 0
+Total number of truncate operations: 1
+Total time in read operations: 0.000000 s
+Total time in write operations: 0.000025 s
+Total time in seek operations: 0.000000 s
+Total time in truncate operations: 0.000011 s
+Dumping write I/O information:
+	Addr          0-        95 (        96 bytes) written to   3 times
+	Addr         96-       799 (       704 bytes) written to   1 times
+	Addr        800-      2047 (      1248 bytes) written to   0 times
+Dumping read I/O information:
+	Addr          0-      2047 (      2048 bytes) read from   0 times
+Dumping I/O flavor information:
+	Addr          0-      2047 (      2048 bytes) flavor is H5FD_MEM_DEFAULT

@@ -1,0 +1,11 @@
+============================
+Test log for test_h5do_compat 
+============================
+Testing H5DOwrite_chunk wrapper                                        PASSED
+Testing H5DOread_chunk wrapper                                         PASSED
+All direct chunk read/write wrapper tests passed.
+0.02user 0.02system 0:00.03elapsed 118%CPU (0avgtext+0avgdata 6068maxresident)k
+0inputs+8outputs (0major+2146minor)pagefaults 0swaps
+
+Finished testing test_h5do_compat 
+============================

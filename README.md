@@ -6,39 +6,53 @@ We benchmarked eight CPU-based and five GPU-based lossless compression methods o
 The experiments are carried out on a Chameleon Cloud compute node with 2 Intel(R) Xeon(R) Gold 6126 CPUs,
 2.60GHz, 187 GB RAM. The compute node also has 1 Nvidia Quadro RTX 6000GPU with 24 GB GPU Memory.
 The node compilers are GCC/G++9.4, CUDA 11.3, CMAKE 3.25.0 and python 3.8
-- setup directories
+
+## Method 1: Use Docker Image (Recommended)
+To ease the benchmarking, we provide a docker image with the essential environment.
+### Step 1: Pull the docker image
+Assuming [docker](https://docs.docker.com/get-docker/) has been installed, please run the following command to pull our prepared docker image (https://hub.docker.com/r/xinyu125/fcbench) from DockerHub:
+```
+docker pull xinyu125/fcbench
+```
+The image comes with the compiled executables for this benchmark study. 
+
+### Step 2: Evaluation
+
+#### Setup data folder and download the datasets into it.
+```
+mkdir data
+```
+
+#### Launch the docker image:
+```
+sudo docker run --rm --gpus all -v $(pwd)/data:/opt/data -it xinyu125/fcbench:0.1 /bin/bash
+```
+
+#### Evaluate the methods:
+```
+cd /opt/scripts
+bash eval_all.sh
+```
+The whole evaluation will take about 3~4 hours to run all the methods. You can also evaluate each method individually. The executables are already compiled. Thus you can directly use the test_XXX.sh in each corresponding directory. More detailed description of using such scripts will be listed in the Method 2 (Build from source). 
+
+#### Extract the results:
+```
+cd /opt/scripts
+bash awk_all.sh
+```
+
+#### Display the results. The "work" parameter are "cr", "ct" and "dt" for compression ratio, conpression throughput and decompression throughput respectively.
+```
+cd /opt/scripts
+python3 fcb_res.py --work=cr
+```
+BUFF results are not displayed because of bit-packing errors on some datasets. We are investigating the issue and will fix soon.
+## Method 2: Build From Source
 ```
 mkdir code data experiments output software
 ```
-
-## Evaluate and Compare
-### Run all compression algorithms and output results
-```
-export MYDATA=path/to/data
-export MYSCRATCH=path/to/code
-cd scripts
-bash eval_all.sh
-```
-### Prepare output results to intermediate results
-```
-bash awk_all.sh
-```
-### read intermediate results and display results
-```
-python fcb_res.py
-```
-
-### Evaluate scalability of multi-thread methods 
-```
-cd path/to/code/ndzip/scripts
-bash batch_ndzip_cpu_scale.sh $number-of-threads
-
-cd path/to/code/pFPC
-bash test_pfpc_scale.sh $number-of-threads
-```
-
-## CPU-based methods
-### fpzip
+### CPU-based methods
+#### fpzip
 - compile
 ```
 cd /home/cc/code/fpzip
@@ -53,7 +67,7 @@ cd /home/cc/code/fpzip
 bash scripts/test_fpzip.sh
 ```
 
-### pFPC
+#### pFPC
 - compile
 ```
 cd /home/cc/code/pFPC
@@ -65,7 +79,7 @@ cd /home/cc/code/pFPC
 bash test_pfpc.sh
 ```
 
-### SPDP
+#### SPDP
 - compile
 ```
 cd /home/cc/code/SPDP
@@ -77,7 +91,7 @@ cd /home/cc/code/SPDP
 bash test_spdp.sh
 ```
 
-### Bitshuffle
+#### Bitshuffle
 - compile
 ```
 cd /home/cc/code/bitshuffle
@@ -94,7 +108,7 @@ cd /home/cc/code/bitshuffle
 bash scripts/test_bitshuffle.sh
 ```
 
-### ndzip-CPU
+#### ndzip-CPU
 - compile
 ```
 cd /home/cc/code/ndzip
@@ -120,7 +134,7 @@ cd /home/cc/code/ndzip
 bash scripts/batch_ndzip_cpu.sh
 ```
 
-### BUFF
+#### BUFF
 - compile
 ```
 cd /home/cc/code/buff/database
@@ -133,7 +147,7 @@ cd /home/cc/code/buff/
 bash test_buff_p10.sh
 ```
 
-### Gorilla
+#### Gorilla
 - compile
 ```
 cd /home/cc/code/influxdb
@@ -148,7 +162,7 @@ go clean -testcache
 go test  -test.timeout 0 -run TestCompress_XC2 -v github.com/influxdata/influxdb/v2/tsdb/engine/tsm1
 ```
 
-### Chimp
+#### Chimp
 - Already compiled because both Gorilla and Chimp are parts of influxdb
 - evaluate
 ```
@@ -158,8 +172,8 @@ go clean -testcache
 go test  -test.timeout 0 -run TestCompress_XC2 -v github.com/influxdata/influxdb/v2/tsdb/engine/tsm1
 ```
 
-## GPU-based methods
-### GFC
+### GPU-based methods
+#### GFC
 - compile
 ```
 cd /home/cc/code/GFC
@@ -171,7 +185,7 @@ cd /home/cc/code/GFC
 bash test_GFC.sh
 ```
 
-### MPC
+#### MPC
 - compile
 ```
 cd /home/cc/code/MPC
@@ -184,7 +198,7 @@ cd /home/cc/code/MPC
 bash test_mpc.sh
 ```
 
-### nvCOMP
+#### nvCOMP
 - does not need to compile
 - evaluate
 ```
@@ -192,7 +206,7 @@ cd /home/cc/code/nvbench
 bash batch_nvcomp.sh
 ```
 
-### ndzip-GPU
+#### ndzip-GPU
 - Already compiled in ndzip-CPU
 - evaluate
 ```
@@ -200,13 +214,38 @@ cd /home/cc/code/ndzip
 bash scripts/batch_ndzip_gpu.sh
 ```
 
-### Dzip
+#### Dzip
 - compile
 ```
 python -m venv ~/env4dzip
 source ~/env4dzip/bin/activate
 cd /home/cc/code/Dzip-torch
 bash install.sh
+```
+
+### Run all compression algorithms and output results
+```
+export MYDATA=path/to/data
+export MYSCRATCH=path/to/code
+cd scripts
+bash eval_all.sh
+```
+### Prepare output results to intermediate results
+```
+bash awk_all.sh
+```
+### read intermediate results and display results
+```
+python fcb_res.py
+```
+
+### Evaluate scalability of multi-thread methods 
+```
+cd path/to/code/ndzip/scripts
+bash batch_ndzip_cpu_scale.sh $number-of-threads
+
+cd path/to/code/pFPC
+bash test_pfpc_scale.sh $number-of-threads
 ```
 
 ## Datasets
@@ -278,21 +317,19 @@ gdown https://drive.google.com/uc?id=$file-id
 | tpcDS-store  |  1L-ED3uP1oXFzoVLYJ17EvEq7ObqYhT7k |
 | tpcDS-web  |  1_4RgPBsOr57wkiM9wkVXBptVTRd4CYl7 |
 
+
 ## Experiment results
 ### Compression ratios
 <img src="https://user-images.githubusercontent.com/130711868/232258352-fbf11c8d-cb80-4a7f-a7c4-a3881eaa0600.png" width="50%">
-<img src="https://user-images.githubusercontent.com/130711868/232258373-fc4b408d-2dda-4895-b49d-89cf6c80538f.png" width="49%">
 
 ### Compression throughputs
-<img src="https://user-images.githubusercontent.com/130711868/232258394-d4e0de8c-894d-4bea-a24f-4ef4f1cc3b57.png" width="50%">
-<img src="https://user-images.githubusercontent.com/130711868/232258398-25c13e56-6f33-401b-9f71-b43f05a02c00.png" width="49%">
+<img src="https://github.com/papersub2023/FCBench/assets/130711868/3bd24797-5a3d-46ed-a4f6-254bd1cc706e" width="50%">
 
 ### Decompression throughputs
-<img src="https://user-images.githubusercontent.com/130711868/232258403-34a78480-1965-4d16-88ea-4c177377a83e.png" width="50%">
-<img src="https://user-images.githubusercontent.com/130711868/232258407-fe89022b-641e-4605-913f-6cc113aea4e0.png" width="49%">
+<img src="https://github.com/papersub2023/FCBench/assets/130711868/855b098c-247e-4338-b914-baf001583e6b" width="50%">
 
-### Difference of throughputs
-<img src="https://user-images.githubusercontent.com/130711868/232258423-317a31ec-eaba-405b-bc8c-f85984306899.png" width="50%">
+### Compress Ratio CD-diagram
+<img src="https://github.com/papersub2023/FCBench/assets/130711868/af2dfc83-88d2-49d7-b665-2783b1b0f46e" width="500" height="150">
 
 ### Roofline model of CPU-based methods
 <img src="https://user-images.githubusercontent.com/130711868/232258440-62220371-4f97-417a-9b8e-acec994bfd34.png" width="50%">

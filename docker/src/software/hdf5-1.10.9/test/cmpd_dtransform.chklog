@@ -1,0 +1,8 @@
+============================
+Test log for cmpd_dtransform 
+============================
+0.01user 0.02system 0:00.03elapsed 121%CPU (0avgtext+0avgdata 7464maxresident)k
+0inputs+8outputs (0major+2410minor)pagefaults 0swaps
+
+Finished testing cmpd_dtransform 
+============================

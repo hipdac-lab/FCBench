@@ -1,0 +1,13 @@
+============================
+Test log for efc 
+============================
+Testing the external file cache
+Testing single EFC                                                     PASSED
+Testing graph of EFCs without cycles                                   PASSED
+Testing graph of EFCs with cycles                                      PASSED
+All external file cache tests passed.
+0.06user 0.02system 0:00.07elapsed 110%CPU (0avgtext+0avgdata 9040maxresident)k
+0inputs+2392outputs (0major+4558minor)pagefaults 0swaps
+
+Finished testing efc 
+============================

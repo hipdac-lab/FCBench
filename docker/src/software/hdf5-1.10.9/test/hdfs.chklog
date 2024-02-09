@@ -1,0 +1,28 @@
+============================
+Test log for hdfs 
+============================
+Testing hdfs VFD functionality.
+Testing HDFS fapl configuration validation                             -SKIP-
+    HDFS VFD is not enabled
+Testing HDFS fapl                                                      -SKIP-
+    HDFS VFD is not enabled
+Testing HDFS VFD-level open                                            -SKIP-
+    HDFS VFD is not enabled
+Testing HDFS eof/eoa gets and sets                                     -SKIP-
+    HDFS VFD is not enabled
+Testing HDFS VFD read-eoa temporal coupling library limitation         -SKIP-
+    HDFS VFD is not enabled
+Testing HDFS VFD read/range-gets                                       -SKIP-
+    HDFS VFD is not enabled
+Testing HDFS VFD always-fail and no-op routines                        -SKIP-
+    HDFS VFD is not enabled
+Testing HDFS cmp (comparison)                                          -SKIP-
+    TODO: Distinct valid fapls to open the same file.
+Testing HDFS file access through HD5F library (H5F API)                -SKIP-
+    HDFS VFD is not enabled
+All hdfs tests passed.
+0.01user 0.03system 0:00.03elapsed 125%CPU (0avgtext+0avgdata 5336maxresident)k
+0inputs+0outputs (0major+1999minor)pagefaults 0swaps
+
+Finished testing hdfs 
+============================

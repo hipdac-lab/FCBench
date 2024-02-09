@@ -1,0 +1,399 @@
+    1  cd experiments/
+    2  ls
+    3  cat fpzip_all.txt 
+    4  ls
+    5  cat pfpc_comp.txt
+    6  cat pfpc_decomp.txt 
+    7  ls
+    8  cat spdp_comp.txt
+    9  cat spdp_decomp.txt
+   10  kmik
+   11  ls -l
+   12  cat ndzip_comp_cpu.txt
+   13  ls
+   14  cat ndzip_decomp_cpu.txt
+   15  cd ~/code/influxdb/
+   16  cd tsdb/
+   17  ls
+   18  cd engine/tsm1/
+   19  ls -l
+   20  top
+   21  cd ../../../
+   22  ls -a
+   23  ls -a ~/FCBench/influxdb/
+   24  ls ~/FCBench/influxdb/.git
+   25  ls ~/FCBench/influxdb/.github/
+   26  ls -a
+   27  ls ~/experiments/
+   28  cd ~/experiments/
+   29  ls
+   30  vi gorilla_result.txt
+   31  cd ~/code/influxdb/
+   32  ls
+   33  exit
+   34  ls
+   35  mkdir code data software
+   36  cd software
+   37  sudo apt update
+   38  python -V
+   39  cd /home/cc/software
+   40  curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+   41  source ~/.bashrc
+   42  rustup install 1.53.0
+   43  wget https://go.dev/dl/go1.18.linux-amd64.tar.gz
+   44  sudo rm -rf /usr/local/go 
+   45  sudo tar -xzf go1.18.linux-amd64.tar.gz -C /usr/local
+   46  export PATH=$PATH:/usr/local/go/bin
+   47  go version
+   48  gcc --version
+   49  wget https://boostorg.jfrog.io/artifactory/main/release/1.66.0/source/boost_1_66_0.tar.gz
+   50  tar -xzf boost_1_66_0.tar.gz
+   51  cd boost_1_66_0/
+   52  sudo ./bootstrap.sh --prefix=/usr/local
+   53  sudo ./b2 install
+   54  cd ../
+   55  ls
+   56  python -V
+   57  python -m venv env4shuffle
+   58  source env4shuffle/bin/activate
+   59  pip list
+   60  pip install numpy
+   61  pip list
+   62  deactivate
+   63  cmake --version
+   64  cd /home/cc/software
+   65  wget https://github.com/Kitware/CMake/releases/download/v3.25.1/cmake-3.25.1-linux-x86_64.tar.gz
+   66  tar -xzf cmake-3.25.1-linux-x86_64.tar.gz
+   67  echo 'export PATH=/home/cc/software/cmake-3.25.1-linux-x86_64/bin:$PATH' >> ~/.bashrc
+   68  source ~/.bashrc
+   69  rm cmake-3.25.1-linux-x86_64.tar.gz
+   70  cmake --version
+   71  cd /home/cc/software
+   72  wget https://support.hdfgroup.org/ftp/HDF5/releases/hdf5-1.10/hdf5-1.10.9/src/hdf5-1.10.9.tar.gz
+   73  tar xzf hdf5-1.10.9.tar.gz
+   74  cd hdf5-1.10.9/
+   75  ./configure --prefix=/usr/local/hdf5
+   76  make -j
+   77  make check
+   78  sudo make install
+   79  sudo cp /usr/local/hdf5/include/*.h /usr/include/
+   80  sudo cp /usr/local/hdf5/lib/* /usr/lib/
+   81  ls /usr/local/hdf5/
+   82  ls /usr/local/hdf5/bin/
+   83  cd ../
+   84  sudo apt-get install -y zstd
+   85  sudo snap install lz4
+   86  sudo apt-get install -y zlib1g-dev
+   87  rustup toolchain install nightly
+   88  rustup default nightly
+   89  cd ../
+   90  ls
+   91  git clone https://github.com/hipdac-lab/FCBench.git
+   92  ls
+   93  cd FCBench/
+   94  ls
+   95  cd code/
+   96  ls
+   97  ls ../scripts/
+   98  ls
+   99  cd ../
+  100  ls
+  101  ls scripts/
+  102  cd scripts/
+  103  ls
+  104  cat eval_all.sh 
+  105  ls
+  106  cd ../
+  107  ls
+  108  cd ../
+  109  ls
+  110  ls code
+  111  rm -r code
+  112  ls
+  113  mv FCBench/code .
+  114  ls
+  115  ls FCBench/
+  116  ls data/
+  117  cd data/
+  118  ls
+  119  cd ../code/
+  120  ls
+  121  ls ~/
+  122  cd GFC/
+  123  ls
+  124  head test_GFC.sh
+  125  DATADIR=/home/cc/data
+  126  OUTDIR=/home/cc/output
+  127  RESDIR=/home/cc/experiments
+  128  ./GFC 32 32 1 < $DATADIR/msg_bt_f64           > $OUTDIR/msg_bt_f64.gfc
+  129  ls ~/
+  130  mkdir output
+  131  ls
+  132  rm -r output
+  133  cd ~/
+  134  mkdir /home/cc/output 
+  135  mkdir /home/cc/experiments
+  136  cd code/GFC/
+  137  ./GFC 32 32 1 < $DATADIR/msg_bt_f64           > $OUTDIR/msg_bt_f64.gfc
+  138  cd ../
+  139  ls
+  140  cd pFPC/
+  141  ls
+  142  ./pfpc < $OUTDIR/spain_gas_price_f64.pfpc  > $DATADIR/spain_gas_price_f64.pfpcout
+  143  ls
+  144  cat test_pfpc.sh
+  145  ./pfpc 20 8 2048 < $DATADIR/msg_bt_f64          > $OUTDIR/msg_bt_f64.pfpc
+  146  cd ../
+  147  ls
+  148  cd pFPC/
+  149  cd ../
+  150  ls
+  151  cd /home/cc/code/fpzip
+  152  mkdir build
+  153  ls build/
+  154  ls
+  155  cd build
+  156  cmake ..
+  157  cmake --build . --config Release
+  158  ls
+  159  cd /home/cc/code/fpzip
+  160  bash scripts/test_fpzip.sh
+  161  ls
+  162  cd scripts/
+  163  ls
+  164  cat test_fpzip.sh 
+  165  ls ~/experiments/
+  166  ls ~/experiments/fpzip_all.txt 
+  167  cat ~/experiments/fpzip_all.txt 
+  168  ls ../build/
+  169  ls ../build/bin/
+  170  ls
+  171  rm ~/experiments/fpzip_all.txt 
+  172  ls
+  173  bash test_fpzip.sh 
+  174  cd ../../
+  175  cd pFPC/
+  176  ls
+  177  ls -l
+  178  gcc -O3 -pthread -std=c99 pFPC.c -o pfpc
+  179  bash test_pfpc.sh
+  180  cd ../
+  181  ls
+  182  cd /home/cc/code/SPDP
+  183  gcc -O3 SPDP_block.c -o spdpb
+  184  bash test_spdp.sh
+  185  cd /home/cc/code/bitshuffle
+  186  source /home/cc/env4shuffle/bin/activate
+  187  pip install setuptools==62.3.3
+  188  pip install Cython
+  189  pip install numpy
+  190  pip list
+  191  python setup.py install --zstd
+  192  ls /usr/local/
+  193  ls /usr/local/bin/
+  194  whereis zstd
+  195  ls /usr/include/
+  196  ls /usr/local/
+  197  ls /usr/local/share/
+  198  ls /usr/
+  199  ls /usr/share/
+  200  sudo apt install libzstd-dev
+  201  ls /usr/include/
+  202  python setup.py install --zstd
+  203  cd /home/cc/code/bitshuffle
+  204  ls
+  205  ls scripts/
+  206  cat scripts/test_bitshuffle.sh
+  207  ls -l
+  208  bash scripts/test_bitshuffle.sh
+  209  ls /usr/local/lib/
+  210  ls /usr/lib
+  211  ls /usr/
+  212  ls /usr/lib64/
+  213  ls /usr/local/
+  214  ls /usr/local/lib/
+  215  ls
+  216  ls zstd/
+  217  ls zstd/zlibWrapper/
+  218  ls
+  219  ls zstd/
+  220  ls zstd/contrib/
+  221  ls
+  222  ls src/
+  223  cat ~/.bashrc
+  224  ls /usr/local/include/
+  225  ls /usr/local/
+  226  whereis zstd
+  227  ls /usr/include/
+  228  cat /usr/include/zstd.h 
+  229  grep 'ZSTD_decompress' /usr/include/zstd.h 
+  230  cd ../
+  231  cd /home/cc/code/ndzip
+  232  whichgcc=$(which gcc)
+  233  whichgpp=$(which g++)
+  234  ls ~/software/boost_1_66_0
+  235  ls /usr/local/
+  236  ls /usr/local/lib/
+  237  whichnvcc=$(which nvcc)
+  238  ls /usr/local/include/
+  239  ls /usr/local/include/boost/
+  240  ls /usr/local/lib/
+  241  cmake -B build -DCMAKE_CUDA_ARCHITECTURES=75 -DCMAKE_BUILD_TYPE=Release -DZIP_WITH_MT=YES -DNDZIP_WITH_CUDA=YES -DCMAKE_CXX_FLAGS="-march=native" -DCMAKE_C_COMPILER=$whichgcc -DCMAKE_CXX_COMPILER=$whichgpp -DCMAKE_CUDA_COMPILER=$whichnvcc -DBoost_INCLUDE_DIR=/usr/local/boost/include -DBoost_LIBRARY_DIRS=/usr/local/lib
+  242  cmake -B build -DCMAKE_CUDA_ARCHITECTURES=75 -DCMAKE_BUILD_TYPE=Release -DZIP_WITH_MT=YES -DNDZIP_WITH_CUDA=YES -DCMAKE_CXX_FLAGS="-march=native" -DCMAKE_C_COMPILER=$whichgcc -DCMAKE_CXX_COMPILER=$whichgpp -DCMAKE_CUDA_COMPILER=$whichnvcc -DBoost_INCLUDE_DIR=/usr/local/include -DBoost_LIBRARY_DIRS=/usr/local/lib
+  243  ls
+  244  cmake --build build -j
+  245  cd /home/cc/code/ndzip
+  246  ls
+  247  ls scripts/
+  248  cd scripts/
+  249  ls
+  250  bash batch_ndzip_cpu.sh
+  251  cd /home/cc/code/buff/database
+  252  rustup default nightly
+  253  cargo +nightly build --release  --package buff --bin comp_profiler
+  254  rustc --version --verbose
+  255  cargo add proc-macro2
+  256  cargo +nightly build --release  --package buff --bin comp_profiler
+  257  rustc --explain E0310
+  258  cd ~/
+  259  ls
+  260  ls -a
+  261  ls .cargo/
+  262  ls .cargo/registry/
+  263  ls
+  264  cd code/
+  265  ls
+  266  cd b
+  267  cd buff/
+  268  ls
+  269  cd database/
+  270  ls
+  271  vi Cargo.toml 
+  272  cargo +nightly build --release  --package buff --bin comp_profiler
+  273  cat Cargo.toml 
+  274  cargo +nightly run --release  --package buff --bin comp_profiler ./data/randomwalkdatasample1k-1k buff-simd 10000 1.1509
+  275  rustup show
+  276  cd /home/cc/code/influxdb
+  277  rustup default 1.53.0
+  278  make
+  279  cd /home/cc/code/influxdb
+  280  git checkout gorilla
+  281  ls
+  282  git status
+  283  cd ../
+  284  ls
+  285  cd ../
+  286  ls
+  287  cd FCBench/
+  288  git clone https://github.com/panagiotisl/influxdb.git
+  289  cd influxdb/
+  290  ls
+  291  rustup default 1.53.0
+  292  make
+  293  git checkout gorilla
+  294  go clean -testcache
+  295  ls
+  296  cd tsdb/
+  297  ls
+  298  cd engine/
+  299  ls
+  300  cd tsm1/
+  301  ls
+  302  ls -l
+  303  pwd
+  304  ls -l compress_test.go 
+  305  cd ../../../
+  306  go test  -test.timeout 0 -run TestCompress_XC2 -v github.com/influxdata/influxdb/v2/tsdb/engine/tsm1
+  307  ls -la
+  308  exit
+  309  ls
+  310  cd code/
+  311  ls
+  312  cd /home/cc/code/GFC
+  313  nvcc -O3 -arch=sm_60 GFC_22.cu -o GFC
+  314  bash test_GFC.sh
+  315  cd /home/cc/code/MPC
+  316  nvcc -O3 -arch=sm_60 MPC_float_12.cu -o MPC_float
+  317  nvcc -O3 -arch=sm_60 MPC_double_12.cu -o MPC_double
+  318  bash test_mpc.sh
+  319  cd /home/cc/code/nvbench
+  320  bash batch_nvcomp.sh
+  321  ls /usr/
+  322  ls /usr/local/
+  323  nvidia-smi 
+  324  ls
+  325  cd ~/
+  326  cd software/
+  327  ls
+  328  wget https://developer.download.nvidia.com/compute/nvcomp/3.0.5/local_installers/nvcomp_3.0.5_x86_64_12.x.tgz 
+  329  ls
+  330  tar -xvzf nvcomp_3.0.5_x86_64_12.x.tgz
+  331  ls
+  332  mkdir nvcomp305
+  333  mv CHANGELOG.md LICENSE NOTICE README.md bin doc include lib nvcomp305/
+  334  ls
+  335  cd nvcomp305/
+  336  ls
+  337  ls bin/
+  338  ls ~/code/nvbench/
+  339  ls ~/code/nvbench/bin/
+  340  cd ../
+  341  mv nvcomp305/ ~/code/
+  342  ls
+  343  cd ~/code/
+  344  ls
+  345  cd nvcomp305/
+  346  ls ../nvbench/
+  347  cp ../nvbench/batch_nvcomp.sh .
+  348  bash batch_nvcomp.sh
+  349  ls -l
+  350  cat README.md 
+  351  ls
+  352  vi batch_nvcomp.sh
+  353  ls
+  354  bash batch_nvcomp.sh
+  355  cd /home/cc/code/ndzip
+  356  bash scripts/batch_ndzip_gpu.sh
+  357  ls
+  358  cd ../
+  359  ls
+  360  ls nvbench/
+  361  cp nvbench/batch_nvcomp_roofline.sh nvcomp305/
+  362  cp nvbench/run_10x.sh nvcomp305/
+  363  ls
+  364  mv nvbench nvb
+  365  mv nvcomp305/ nvbench
+  366  ls
+  367  exit
+  368  ls
+  369  cd experiments/
+  370  ls
+  371  head gfc_comp.txt
+  372  head gfc_decomp.txt
+  373  ls
+  374  head mpc_comp.txt
+  375  ls -l
+  376  cat nvlz4.txt
+  377  ls -l
+  378  head nvlz4.txt
+  379  tail nvlz4.txt
+  380  tail nvbitcomp.txt 
+  381  ls -l
+  382  head ndzip_comp_gpu.txt
+  383  head ndzip_decomp_gpu.txt
+  384  exit
+  385  ls
+  386  cd code/
+  387  ls
+  388  cd influxdb/
+  389  ls
+  390  ls ~/FCBench/
+  391  ls ~/FCBench/influxdb/
+  392  ls -a
+  393  cd ../
+  394  ls
+  395  ls ../FCBench/
+  396  ls
+  397  cd bitshuffle/
+  398  ls
+  399  history > ../cham-setup-202401.txt

@@ -1,0 +1,101 @@
+============================
+Test log for test_lite 
+============================
+Testing H5LTmake_dataset                                               PASSED
+Testing H5LTread_dataset                                               PASSED
+Testing H5LTmake_dataset_char                                          PASSED
+Testing H5LTmake_dataset_short                                         PASSED
+Testing H5LTmake_dataset_int                                           PASSED
+Testing H5LTmake_dataset_long                                          PASSED
+Testing H5LTmake_dataset_float                                         PASSED
+Testing H5LTmake_dataset_double                                        PASSED
+Testing H5LTmake_dataset_string                                        PASSED
+Testing H5LTset_attribute_string                                       PASSED
+Testing H5LTget_attribute_string                                       PASSED
+Testing H5LTset_attribute_char                                         PASSED
+Testing H5LTget_attribute_char                                         PASSED
+Testing H5LTset_attribute_short                                        PASSED
+Testing H5LTget_attribute_short                                        PASSED
+Testing H5LTset_attribute_int                                          PASSED
+Testing H5LTget_attribute_int                                          PASSED
+Testing H5LTset_attribute_long                                         PASSED
+Testing H5LTget_attribute_long                                         PASSED
+Testing H5LTset_attribute_uchar                                        PASSED
+Testing H5LTget_attribute_uchar                                        PASSED
+Testing H5LTset_attribute_ushort                                       PASSED
+Testing H5LTget_attribute_ushort                                       PASSED
+Testing H5LTset_attribute_uint                                         PASSED
+Testing H5LTget_attribute_uint                                         PASSED
+Testing H5LTset_attribute_ulong                                        PASSED
+Testing H5LTget_attribute_ulong                                        PASSED
+Testing H5LTset_attribute_float                                        PASSED
+Testing H5LTget_attribute_float                                        PASSED
+Testing H5LTset_attribute_double                                       PASSED
+Testing H5LTget_attribute_double                                       PASSED
+Testing H5LTget_attribute_ndims                                        PASSED
+Testing H5LTget_attribute_info                                         PASSED
+Testing H5LTset_attribute_string                                       PASSED
+Testing H5LTget_attribute_string                                       PASSED
+Testing H5LTset_attribute_char                                         PASSED
+Testing H5LTget_attribute_char                                         PASSED
+Testing H5LTset_attribute_short                                        PASSED
+Testing H5LTget_attribute_short                                        PASSED
+Testing H5LTset_attribute_int                                          PASSED
+Testing H5LTget_attribute_int                                          PASSED
+Testing H5LTset_attribute_long                                         PASSED
+Testing H5LTget_attribute_long                                         PASSED
+Testing H5LTset_attribute_uchar                                        PASSED
+Testing H5LTget_attribute_uchar                                        PASSED
+Testing H5LTset_attribute_ushort                                       PASSED
+Testing H5LTget_attribute_ushort                                       PASSED
+Testing H5LTset_attribute_uint                                         PASSED
+Testing H5LTget_attribute_uint                                         PASSED
+Testing H5LTset_attribute_ulong                                        PASSED
+Testing H5LTget_attribute_ulong                                        PASSED
+Testing H5LTset_attribute_float                                        PASSED
+Testing H5LTget_attribute_float                                        PASSED
+Testing H5LTset_attribute_double                                       PASSED
+Testing H5LTget_attribute_double                                       PASSED
+Testing H5LTget_attribute_ndims                                        PASSED
+Testing H5LTget_attribute_info                                         PASSED
+Testing H5LTset_attribute_string                                       PASSED
+Testing H5LTget_attribute_string                                       PASSED
+Testing H5LTset_attribute_char                                         PASSED
+Testing H5LTget_attribute_char                                         PASSED
+Testing H5LTset_attribute_short                                        PASSED
+Testing H5LTget_attribute_short                                        PASSED
+Testing H5LTset_attribute_int                                          PASSED
+Testing H5LTget_attribute_int                                          PASSED
+Testing H5LTset_attribute_long                                         PASSED
+Testing H5LTget_attribute_long                                         PASSED
+Testing H5LTset_attribute_uchar                                        PASSED
+Testing H5LTget_attribute_uchar                                        PASSED
+Testing H5LTset_attribute_ushort                                       PASSED
+Testing H5LTget_attribute_ushort                                       PASSED
+Testing H5LTset_attribute_uint                                         PASSED
+Testing H5LTget_attribute_uint                                         PASSED
+Testing H5LTset_attribute_ulong                                        PASSED
+Testing H5LTget_attribute_ulong                                        PASSED
+Testing H5LTset_attribute_float                                        PASSED
+Testing H5LTget_attribute_float                                        PASSED
+Testing H5LTset_attribute_double                                       PASSED
+Testing H5LTget_attribute_double                                       PASSED
+Testing H5LTget_attribute_ndims                                        PASSED
+Testing H5LTget_attribute_info                                         PASSED
+Testing H5LTpath_valid                                                 PASSED
+Testing H5LTtext_to_dtype                                             Testing 
+        text for integer types                                PASSED
+Testing         text for floating-point types                          PASSED
+Testing         text for string types                                  PASSED
+Testing         text for opaque types                                  PASSED
+Testing         text for enum types                                    PASSED
+Testing         text for variable types                                PASSED
+Testing         text for array types                                   PASSED
+Testing         text for compound types                                PASSED
+Testing         text for compound type of bug fix                      PASSED
+Testing         text for complicated compound types                    PASSED
+0.04user 0.01system 0:00.05elapsed 110%CPU (0avgtext+0avgdata 7588maxresident)k
+0inputs+64outputs (0major+2575minor)pagefaults 0swaps
+
+Finished testing test_lite 
+============================

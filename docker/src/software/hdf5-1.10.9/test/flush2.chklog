@@ -1,0 +1,16 @@
+============================
+Test log for flush2 
+============================
+Testing H5Fflush (part2 with flush)                                    PASSED
+Testing H5Fflush (part2 with flush + SWMR)                             PASSED
+Testing H5Fflush (part2 without flush)                                 PASSED
+Testing H5Fflush (part2 without flush + SWMR)                          PASSED
+Testing H5Fflush (part2 with flush and later addition and another flush) PASSED
+Testing H5Fflush (part2 with flush and later addition and another flush + SWMR) PASSED
+Testing H5Fflush (part2 with flush and later addition)                 PASSED
+Testing H5Fflush (part2 with flush and later addition + SWMR)          PASSED
+0.02user 0.02system 0:00.04elapsed 114%CPU (0avgtext+0avgdata 7204maxresident)k
+0inputs+0outputs (0major+2594minor)pagefaults 0swaps
+
+Finished testing flush2 
+============================

@@ -1,0 +1,17 @@
+============================
+h5repack_plugin.sh  Test Log
+============================
+plugin_version_test h5repack_layout.h5 -v -f UD=260,0,4,9,1,10,9
+Testing ../../src/h5repack/h5repack -v -f UD=260,0,4,9,1,10,9          PASSED
+ PASSED
+Verifying h5dump output -pH out-plugin_version_test.h5repack_layout.h5 PASSED
+plugin_test h5repack_layout.h5 -v -f UD=257,0,1,9
+Testing ../../src/h5repack/h5repack -v -f UD=257,0,1,9                 PASSED
+ PASSED
+Verifying h5dump output -pH out-plugin_test.h5repack_layout.h5         PASSED
+All Plugin API tests passed.
+0.26user 0.30system 0:00.44elapsed 127%CPU (0avgtext+0avgdata 7740maxresident)k
+0inputs+1984outputs (0major+26732minor)pagefaults 0swaps
+
+Finished testing h5repack_plugin.sh 
+============================

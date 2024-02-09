@@ -1,0 +1,8 @@
+============================
+Test log for UC_4_printf_gen 
+============================
+0.02user 0.01system 0:00.04elapsed 114%CPU (0avgtext+0avgdata 7020maxresident)k
+0inputs+64outputs (0major+2463minor)pagefaults 0swaps
+
+Finished testing UC_4_printf_gen 
+============================

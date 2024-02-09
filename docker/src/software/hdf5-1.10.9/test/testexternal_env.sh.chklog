@@ -1,0 +1,16 @@
+============================
+testexternal_env.sh  Test Log
+============================
+Testing external file with HDF5_EXTFILE_PREFIX
+Testing with the default file format:
+Testing prefix in HDF5_EXTFILE_PREFIX                                  PASSED
+
+Testing with the latest file format:
+Testing prefix in HDF5_EXTFILE_PREFIX                                  PASSED
+All external storage tests passed.
+Test prefix for HDF5_EXTFILE_PREFIX PASSED
+0.03user 0.02system 0:00.04elapsed 116%CPU (0avgtext+0avgdata 6388maxresident)k
+0inputs+128outputs (0major+2674minor)pagefaults 0swaps
+
+Finished testing testexternal_env.sh 
+============================

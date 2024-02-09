@@ -1,0 +1,68 @@
+============================
+Test log for direct_chunk 
+============================
+Testing basic functionality of H5Dwrite_chunk                          PASSED
+Testing overwriting existing data with H5Dwrite_chunk                  PASSED
+Testing skipping compression filter for H5Dwrite_chunk/H5Dread_chunk   PASSED
+Testing skipping compression filters but keep two other filters        PASSED
+Testing data conversion for H5Dwrite_chunk/H5Dread_chunk               PASSED
+Testing invalid parameters for H5Dwrite_chunk/H5Dread_chunk            PASSED
+Testing basic functionality of H5Dread_chunk (chunk cache disabled)    PASSED
+Testing basic functionality of H5Dread_chunk (flush chunk cache)       PASSED
+Testing basic functionality of H5Dread_chunk (does not flush chunk cache) PASSED
+Testing basic functionality of H5Dread_chunk on unfiltered datasets    PASSED
+Testing H5Dread_chunk with unallocated chunks                          PASSED
+Configuration: <empty>:
+Testing Single chunk I/O                                               PASSED
+Configuration: latest format:
+Testing Single chunk I/O                                               PASSED
+Configuration: reopen dataset:
+Testing Single chunk I/O                                               PASSED
+Configuration: latest format, reopen dataset:
+Testing Single chunk I/O                                               PASSED
+Configuration: reopen file:
+Testing Single chunk I/O                                               PASSED
+Configuration: latest format, reopen file:
+Testing Single chunk I/O                                               PASSED
+Configuration: direct write:
+Testing Single chunk I/O                                               PASSED
+Configuration: latest format, direct write:
+Testing Single chunk I/O                                               PASSED
+Configuration: reopen dataset, direct write:
+Testing Single chunk I/O                                               PASSED
+Configuration: latest format, reopen dataset, direct write:
+Testing Single chunk I/O                                               PASSED
+Configuration: reopen file, direct write:
+Testing Single chunk I/O                                               PASSED
+Configuration: latest format, reopen file, direct write:
+Testing Single chunk I/O                                               PASSED
+Configuration: direct read:
+Testing Single chunk I/O                                               PASSED
+Configuration: latest format, direct read:
+Testing Single chunk I/O                                               PASSED
+Configuration: reopen dataset, direct read:
+Testing Single chunk I/O                                               PASSED
+Configuration: latest format, reopen dataset, direct read:
+Testing Single chunk I/O                                               PASSED
+Configuration: reopen file, direct read:
+Testing Single chunk I/O                                               PASSED
+Configuration: latest format, reopen file, direct read:
+Testing Single chunk I/O                                               PASSED
+Configuration: direct write, direct read:
+Testing Single chunk I/O                                               PASSED
+Configuration: latest format, direct write, direct read:
+Testing Single chunk I/O                                               PASSED
+Configuration: reopen dataset, direct write, direct read:
+Testing Single chunk I/O                                               PASSED
+Configuration: latest format, reopen dataset, direct write, direct read:
+Testing Single chunk I/O                                               PASSED
+Configuration: reopen file, direct write, direct read:
+Testing Single chunk I/O                                               PASSED
+Configuration: latest format, reopen file, direct write, direct read:
+Testing Single chunk I/O                                               PASSED
+All direct chunk read/write tests passed.
+0.03user 0.03system 0:00.05elapsed 113%CPU (0avgtext+0avgdata 8600maxresident)k
+0inputs+360outputs (0major+2908minor)pagefaults 0swaps
+
+Finished testing direct_chunk 
+============================

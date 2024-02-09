@@ -1,0 +1,19 @@
+============================
+h52giftest.sh  Test Log
+============================
+**validate the gif2h5 tool processes input correctly...
+Testing ./gif2h5 image1.gif image1.h5                                  PASSED
+
+**validate the h52gif tool processes input correctly...
+Testing ./h52gif h52giftst.h5 image1.gif -i image                      PASSED
+
+**verify that the h52gif tool handles error conditions correctly...
+Testing ./h52gif h52giftst.h5 image.gif -i nosuch_image                PASSED
+Testing ./h52gif h52giftst.h5 image24.gif -i image24bitpixel           PASSED
+
+All gif2h5 and h52gif tests passed.
+0.12user 0.09system 0:00.17elapsed 124%CPU (0avgtext+0avgdata 6232maxresident)k
+0inputs+192outputs (0major+10468minor)pagefaults 0swaps
+
+Finished testing h52giftest.sh 
+============================

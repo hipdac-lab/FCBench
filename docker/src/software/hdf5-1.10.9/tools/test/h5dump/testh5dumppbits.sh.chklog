@@ -1,0 +1,62 @@
+============================
+testh5dumppbits.sh  Test Log
+============================
+Testing ../../src/h5dump/h5dump --enable-error-stack                   PASSED
+Testing ../../src/h5dump/h5dump --enable-error-stack -d /DS08BITS -M 0 PASSED
+Testing ../../src/h5dump/h5dump --enable-error-stack -d /DU08BITS -M 0 PASSED
+Testing ../../src/h5dump/h5dump --enable-error-stack -d /DS16BITS -M 0 PASSED
+Testing ../../src/h5dump/h5dump --enable-error-stack -d /DU16BITS -M 0 PASSED
+Testing ../../src/h5dump/h5dump --enable-error-stack -d /DS32BITS -M 0 PASSED
+Testing ../../src/h5dump/h5dump --enable-error-stack -d /DU32BITS -M 0 PASSED
+Testing ../../src/h5dump/h5dump --enable-error-stack -d /DS64BITS -M 0 PASSED
+Testing ../../src/h5dump/h5dump --enable-error-stack -d /DU64BITS -M 0 PASSED
+Testing ../../src/h5dump/h5dump --enable-error-stack -d /DS64BITS -M 0 PASSED
+Testing ../../src/h5dump/h5dump --enable-error-stack -d /DU64BITS -M 0 PASSED
+Testing ../../src/h5dump/h5dump --enable-error-stack -d /DS64BITS -M 1 PASSED
+Testing ../../src/h5dump/h5dump --enable-error-stack -d /DU64BITS -M 1 PASSED
+Testing ../../src/h5dump/h5dump --enable-error-stack -d /DS08BITS -M 0 PASSED
+Testing ../../src/h5dump/h5dump --enable-error-stack -d /DU08BITS -M 0 PASSED
+Testing ../../src/h5dump/h5dump --enable-error-stack -d /DS16BITS -M 0 PASSED
+Testing ../../src/h5dump/h5dump --enable-error-stack -d /DU16BITS -M 0 PASSED
+Testing ../../src/h5dump/h5dump --enable-error-stack -d /DS32BITS -M 0 PASSED
+Testing ../../src/h5dump/h5dump --enable-error-stack -d /DU32BITS -M 0 PASSED
+Testing ../../src/h5dump/h5dump --enable-error-stack -d /DS64BITS -M 0 PASSED
+Testing ../../src/h5dump/h5dump --enable-error-stack -d /DU64BITS -M 0 PASSED
+Testing ../../src/h5dump/h5dump --enable-error-stack -d /DS08BITS -M 0 PASSED
+Testing ../../src/h5dump/h5dump --enable-error-stack -d /DU08BITS -M 0 PASSED
+Testing ../../src/h5dump/h5dump --enable-error-stack -d /DS16BITS -M 0 PASSED
+Testing ../../src/h5dump/h5dump --enable-error-stack -d /DU16BITS -M 0 PASSED
+Testing ../../src/h5dump/h5dump --enable-error-stack -d /DS32BITS -M 0 PASSED
+Testing ../../src/h5dump/h5dump --enable-error-stack -d /DU32BITS -M 0 PASSED
+Testing ../../src/h5dump/h5dump --enable-error-stack -d /DS64BITS -M 0 PASSED
+Testing ../../src/h5dump/h5dump --enable-error-stack -d /DU64BITS -M 0 PASSED
+Testing ../../src/h5dump/h5dump --enable-error-stack -d /DS08BITS -M 0 PASSED
+Testing ../../src/h5dump/h5dump --enable-error-stack -d /DU08BITS -M 0 PASSED
+Testing ../../src/h5dump/h5dump --enable-error-stack -d /DS16BITS -M 0 PASSED
+Testing ../../src/h5dump/h5dump --enable-error-stack -d /DU16BITS -M 0 PASSED
+Testing ../../src/h5dump/h5dump --enable-error-stack -d /DS32BITS -M 0 PASSED
+Testing ../../src/h5dump/h5dump --enable-error-stack -d /DU32BITS -M 0 PASSED
+Testing ../../src/h5dump/h5dump --enable-error-stack -d /DS64BITS -M 0 PASSED
+Testing ../../src/h5dump/h5dump --enable-error-stack -d /DU64BITS -M 0 PASSED
+Testing ../../src/h5dump/h5dump --enable-error-stack -d /DS08BITS -M 0 PASSED
+Testing ../../src/h5dump/h5dump --enable-error-stack -d /DS08BITS -M 0 PASSED
+Testing ../../src/h5dump/h5dump --enable-error-stack -d /dset1 -M 0,1, PASSED
+Testing ../../src/h5dump/h5dump --enable-error-stack -d /Dataset1 -M 0 PASSED
+Testing ../../src/h5dump/h5dump --enable-error-stack -d /DS08BITS -M 0 PASSED
+Testing ../../src/h5dump/h5dump --enable-error-stack -d /DS08BITS -M 6 PASSED
+Testing ../../src/h5dump/h5dump --enable-error-stack -d /DS08BITS -M 8 PASSED
+Testing ../../src/h5dump/h5dump --enable-error-stack -d /DS16BITS -M 1 PASSED
+Testing ../../src/h5dump/h5dump --enable-error-stack -d /DS32BITS -M 3 PASSED
+Testing ../../src/h5dump/h5dump --enable-error-stack -d /DS08BITS -M - PASSED
+Testing ../../src/h5dump/h5dump --enable-error-stack -d /DS08BITS -M 4 PASSED
+Testing ../../src/h5dump/h5dump --enable-error-stack -d /DS08BITS -M 3 PASSED
+Testing ../../src/h5dump/h5dump --enable-error-stack -d /DS08BITS -M 2 PASSED
+Testing ../../src/h5dump/h5dump --enable-error-stack -d /DS16BITS -M 1 PASSED
+Testing ../../src/h5dump/h5dump --enable-error-stack -d /DS32BITS -M 2 PASSED
+Testing ../../src/h5dump/h5dump --enable-error-stack -d /DS08BITS -M 0 PASSED
+All h5dump tests passed.
+4.07user 4.97system 0:07.44elapsed 121%CPU (0avgtext+0avgdata 8448maxresident)k
+0inputs+5616outputs (0major+423926minor)pagefaults 0swaps
+
+Finished testing testh5dumppbits.sh 
+============================

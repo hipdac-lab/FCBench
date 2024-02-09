@@ -1,0 +1,10 @@
+============================
+Test log for chunk_cache 
+============================
+1. Partial chunks: total read time is 0.047307; number of bytes being read from file is 400000
+2. Hash value: total read time is 0.017158; number of bytes being read from file is 720000
+0.09user 0.02system 0:00.10elapsed 105%CPU (0avgtext+0avgdata 8120maxresident)k
+0inputs+2208outputs (0major+2937minor)pagefaults 0swaps
+
+Finished testing chunk_cache 
+============================

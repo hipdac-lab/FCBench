@@ -1,0 +1,10 @@
+============================
+h5diff_plugin.sh  Test Log
+============================
+Testing ../../src/h5diff/h5diff -v tudfilter.h5 tudfilter2.h5          PASSED
+All Plugin API tests passed.
+0.18user 0.19system 0:00.29elapsed 127%CPU (0avgtext+0avgdata 6916maxresident)k
+0inputs+160outputs (0major+17398minor)pagefaults 0swaps
+
+Finished testing h5diff_plugin.sh 
+============================
